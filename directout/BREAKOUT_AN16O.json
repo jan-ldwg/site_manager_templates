@@ -1,0 +1,118 @@
+{
+  "deviceTypeName": "BREAKOUT.AN16O",
+  "manufacturerId": "directout",
+  "climateLoad": 0,
+  "orderNumber": "DOBOB0891",
+  "portTypes": [
+    {
+      "portTypeName": "ANALOG OUT 01..08",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "portTypeName": "ANALOG OUT 09..16",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "portTypeName": "1",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "2",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "3",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "4",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "5",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+
+    {
+      "portTypeName": "6",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "7",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "8",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "9",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "10",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "11",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "12",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "13",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "14",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "15",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "portTypeName": "16",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

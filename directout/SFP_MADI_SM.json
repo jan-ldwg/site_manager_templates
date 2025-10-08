@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "SFP MADI - LC, single-mode",
+  "moduleTypeId": "directout_SFP_MADI_SM",
+  "moduleFormFactor": "SFP",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "portTypeName": "",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    }
+  ]
+}

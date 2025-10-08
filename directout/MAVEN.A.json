@@ -1,0 +1,89 @@
+{
+  "deviceTypeName": "MAVEN.A",
+  "manufacturerId": "directout",
+  "climateLoad": 55,
+  "portTypes": [
+    {
+      "portTypeName": "WCK IN",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "portTypeName": "WCK OUT",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "portTypeName": "MGMT",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "portTypeName": "USB",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_2"]
+    },
+    {
+      "portTypeName": "USB",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "USBC_f",
+      "compatibleSignalTypes": ["USB_2"]
+    },
+    {
+      "portTypeName": "PHONES 1",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "portTypeName": "PHONES 2",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "portTypeName": "GPIO",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB9p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "moduleSlotTypeName": "MADI 1",
+      "compatibleModuleSlotFormFactors": ["SFP"],
+      "compatibleModuleTypes": [
+        "directout_SFP_MADI_MM",
+        "directout_SFP_MADI_SM"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "moduleSlotTypeName": "MADI 2",
+      "compatibleModuleSlotFormFactors": ["SFP"],
+      "compatibleModuleTypes": [
+        "directout_SFP_MADI_MM",
+        "directout_SFP_MADI_SM"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "moduleSlotTypeName": "SLOT A",
+      "compatibleModuleSlotFormFactors": ["directout_A_Slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "moduleSlotTypeName": "SLOT C1",
+      "compatibleModuleSlotFormFactors": ["directout_C_Slot"]
+    },
+    {
+      "moduleSlotTypeName": "SLOT C2",
+      "compatibleModuleSlotFormFactors": ["directout_C_Slot"]
+    }
+  ]
+}

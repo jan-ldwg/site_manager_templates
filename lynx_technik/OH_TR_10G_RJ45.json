@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "OH-TR-10G-RJ45",
+  "moduleTypeId": "lynx_technik_OH_TR_10G_RJ45",
+  "moduleFormFactor": "SFP+",
+  "manufacturerId": "lynx_technik",
+  "portTypes": [
+    {
+      "portTypeName": "",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T", "10GBASE_T"]
+    }
+  ]
+}

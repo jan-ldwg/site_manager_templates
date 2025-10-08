@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "USB.IO",
+  "moduleTypeId": "directout_USB_IO",
+  "moduleFormFactor": "directout_A_Slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "portTypeName": "USB",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "USBC_f",
+      "compatibleSignalTypes": ["USB_2"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "MIC8.HD.I",
+  "moduleTypeId": "directout_MIC8_HD_I",
+  "moduleFormFactor": "directout_C_Slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "portTypeName": "MIC/LINE INPUT",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    }
+  ]
+}

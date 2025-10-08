@@ -9,6 +9,5 @@
       "portTypeConnector": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
     }
-  ],
-  "moduleSlotTypes": []
+  ]
 }

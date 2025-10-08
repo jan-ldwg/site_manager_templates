@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "AN8.O",
+  "moduleTypeId": "directout_AN8_O",
+  "moduleFormFactor": "directout_C_Slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "portTypeName": "LINE OUTPUT",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    }
+  ]
+}

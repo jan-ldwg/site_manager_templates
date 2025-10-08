@@ -1,0 +1,14 @@
+{
+  "moduleTypeName": "AES4.SRC.IO",
+  "moduleTypeId": "directout_AES4_SRC_IO",
+  "moduleFormFactor": "directout_C_Slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "portTypeName": "AES3 INPUT(SRC)/OUTPUT",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    }
+  ]
+}
