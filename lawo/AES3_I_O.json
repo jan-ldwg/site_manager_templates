@@ -1,0 +1,15 @@
+{
+  "moduleTypeName": "AES3 I/O",
+  "moduleTypeId": "lawo_AES3_I_O",
+  "orderNumber": "710/41",
+  "moduleFormFactor": "lawo_powercore_io",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "portTypeName": "AES3 I/O",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    }
+  ]
+}

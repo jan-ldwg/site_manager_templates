@@ -1,0 +1,15 @@
+{
+  "moduleTypeName": "981/60-61",
+  "moduleTypeId": "lawo_981_60-61",
+  "orderNumber": "981/60-61",
+  "moduleFormFactor": "SFP",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "portTypeName": "",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    }
+  ]
+}

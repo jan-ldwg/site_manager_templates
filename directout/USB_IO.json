@@ -6,7 +6,7 @@
   "portTypes": [
     {
       "portTypeName": "USB",
-      "portTypeDirection": "OUT",
+      "portTypeDirection": "IN",
       "portTypeConnector": "USBC_f",
       "compatibleSignalTypes": ["USB_2"]
     }

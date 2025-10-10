@@ -1,0 +1,21 @@
+{
+  "moduleTypeName": "981/60-82",
+  "moduleTypeId": "lawo_981_60-82",
+  "orderNumber": "981/60-82",
+  "moduleFormFactor": "SFP",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "portTypeName": "",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "portTypeName": "",
+      "portTypeDirection": "OUT",
+      "portTypeConnector": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

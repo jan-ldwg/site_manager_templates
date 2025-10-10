@@ -1,0 +1,15 @@
+{
+  "moduleTypeName": "GPIO",
+  "moduleTypeId": "lawo_GPIO",
+  "orderNumber": "710/80",
+  "moduleFormFactor": "lawo_powercore_io",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "portTypeName": "GPIO",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "DSUB37p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "moduleTypeName": "981/60-81",
+  "moduleTypeId": "lawo_981_60-81",
+  "orderNumber": "981/60-81",
+  "moduleFormFactor": "SFP",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "portTypeName": "",
+      "portTypeDirection": "IN",
+      "portTypeConnector": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    }
+  ]
+}
