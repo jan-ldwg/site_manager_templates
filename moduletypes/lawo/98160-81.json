@@ -2,10 +2,10 @@
   "version": "1.0",
   "id": "lawo-98160-81",
   "name": "981/60-81",
+  "manufacturerId": "lawo",
   "orderCode": null,
   "orderNumber": "981/60-81",
   "moduleFormFactorId": "sfp",
-  "manufacturerId": "lawo",
   "portTypes": [
     {
       "name": "",

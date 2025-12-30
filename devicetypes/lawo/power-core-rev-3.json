@@ -152,7 +152,7 @@
       "name": "Slot 6",
       "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
       "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": ["lawo_gpio"]
+      "incompatibleModuleTypes": ["lawo-gpio"]
     },
 
     {
