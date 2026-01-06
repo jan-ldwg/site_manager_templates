@@ -5,6 +5,11 @@
     "nameShort": "Blackmagic"
   },
   {
+    "id": "dhd",
+    "name": "DHD audio GmbH",
+    "nameShort": "DHD"
+  },
+  {
     "id": "directout",
     "name": "DirectOut GmbH",
     "nameShort": "DirectOut"
