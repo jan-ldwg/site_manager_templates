@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "fs-c6am-sc",
   "name": "C6AM-SC",
   "orderCode": "C6AM-SC",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Rear",
-      "direction": "REAR",
+      "direction": "BACK",
       "connectorId": "RJ45_f",
       "compatibleSignalTypes": []
     }
