@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "neumann-tlm-107",
+  "name": "TLM 107",
+  "manufacturerId": "neumann",
+  "orderCode": null,
+  "orderNumber": "008666",
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+    }
+  ]
+}
