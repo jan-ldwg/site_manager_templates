@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "neumann-tlm-170-r",
+  "name": "TLM 170 R",
+  "manufacturerId": "neumann",
+  "orderCode": null,
+  "orderNumber": "007165",
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+    }
+  ]
+}
