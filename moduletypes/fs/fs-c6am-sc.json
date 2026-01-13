@@ -15,7 +15,7 @@
     },
     {
       "name": "Rear",
-      "direction": "BACK",
+      "direction": "REAR",
       "connectorId": "RJ45_f",
       "compatibleSignalTypes": []
     }
