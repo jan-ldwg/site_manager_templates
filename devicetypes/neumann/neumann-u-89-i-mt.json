@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "neumann-u-89-i-mt",
+  "name": "U 89 i mt",
+  "manufacturerId": "neumann",
+  "orderCode": null,
+  "orderNumber": "006450",
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+    }
+  ]
+}
