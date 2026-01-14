@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "neumann-u-87-ai",
+  "name": "U 87 Ai",
+  "manufacturerId": "neumann",
+  "orderCode": null,
+  "orderNumber": "007022",
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+    }
+  ]
+}
