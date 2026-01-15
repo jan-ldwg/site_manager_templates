@@ -10,7 +10,7 @@
       "id": {
         "description": "Id of the manufacturer of the device type",
         "type": "string",
-        "patter": "^(?!.*--)[a-z](?:[a-z-]{0,14}[a-z])$",
+        "pattern": "^(?!.*--)[a-z](?:[a-z-]{0,14}[a-z])$",
         "maxLength": 16
       },
       "name": {

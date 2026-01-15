@@ -10,7 +10,7 @@
       "id": {
         "description": "Id of the moduleformfactor",
         "type": "string",
-        "patter": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
       },
       "name": {
         "description": "Name of the moduleformfactor",

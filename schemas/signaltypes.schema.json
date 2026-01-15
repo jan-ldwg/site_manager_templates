@@ -10,7 +10,7 @@
       "id": {
         "description": "Id of the signaltype",
         "type": "string",
-        "patter": "^(?!.*--)(?:[a-z](?:[a-z-]{0,14}[a-z])?_)?[A-Z0-9]+(?:_[A-Z0-9]+)*$"
+        "pattern": "^(?!.*--)(?:[a-z](?:[a-z-]{0,14}[a-z])?_)?[A-Z0-9]+(?:_[A-Z0-9]+)*$"
       },
       "name": {
         "description": "Name of the signaltype",

@@ -10,7 +10,7 @@
       "id": {
         "description": "Id of the connector",
         "type": "string",
-        "patter": "^[A-Za-z0-9](?:[A-Za-z0-9]|[_.](?=[A-Za-z0-9]))*_(?:f|m|h)$"
+        "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9]|[_.](?=[A-Za-z0-9]))*_(?:f|m|h)$"
       },
       "name": {
         "description": "Name of the connector",
