@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "moduleformfactors",
+  "description": "JSON document describing a list of moduleformfactors",
+  "type": "array",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "Id of the moduleformfactor",
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "description": "Name of the moduleformfactor",
+        "type": "string"
+      },
+      "description": {
+        "description": "Description of the moduleformfactor",
+        "type": "string"
+      }
+    },
+    "required": ["id", "name", "description"],
+    "additionalProperties": false
+  }
+}

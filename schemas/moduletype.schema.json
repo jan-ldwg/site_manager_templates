@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "moduletypes",
+  "title": "moduletype",
   "description": "JSON document describing a new module type",
   "type": "object",
   "properties": {
