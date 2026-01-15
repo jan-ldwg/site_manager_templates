@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "devicetypes",
+  "title": "devicetype",
   "description": "JSON document describing a new device type",
   "type": "object",
   "properties": {
