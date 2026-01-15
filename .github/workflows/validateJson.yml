@@ -23,7 +23,7 @@ jobs:
           ajv validate \
             -s schemas/manufacturers.schema.json \
             -d manufacturers/manufacturers.json \
-            --spec=draf2020 \
+            --spec=draft2020 \
             --all-errors
 
       - name: Validate connectors
@@ -31,7 +31,7 @@ jobs:
           ajv validate \
             -s schemas/connectors.schema.json \
             -d connectors/connectors.json \
-            --spec=draf2020 \
+            --spec=draft2020 \
             --all-errors
 
       - name: Validate signaltypes
@@ -39,7 +39,7 @@ jobs:
           ajv validate \
             -s schemas/signaltypes.schema.json \
             -d signaltypes/signaltypes.json \
-            --spec=draf2020 \
+            --spec=draft2020 \
             --all-errors
 
       - name: Validate moduleformfactors
@@ -47,7 +47,7 @@ jobs:
           ajv validate \
             -s schemas/moduleformfactors.schema.json \
             -d moduleformfactors/moduleformfactors.json \
-            --spec=draf2020 \
+            --spec=draft2020 \
             --all-errors
 
       - name: Validate device types
