@@ -217,17 +217,17 @@
   {
     "id": "AUDIO_BAL_ANA",
     "name": "Balanced Analog Audio",
-    "description": ""
+    "description": "Balanced mono audio signal with line level"
   },
   {
     "id": "AUDIO_MIC",
     "name": "Balanced Microphone",
-    "description": ""
+    "description": "Balanced mono audio signal with microphone level"
   },
   {
     "id": "AUDIO_MIC_48V",
     "name": "Balanced Microphone w/ +48V",
-    "description": ""
+    "description": "Balanced mono audio signal with microphone level and 48V phantom power"
   },
   {
     "id": "PHONES_ANA",
