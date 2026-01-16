@@ -18,7 +18,7 @@
         "SDI_12G_CU"]
     },
     {
-      name": "SDI OUT",
+      "name": "SDI OUT",
       "direction": "OUT",
       "connectorId": "BNC_f",
       "compatibleSignalTypes": [
@@ -28,7 +28,7 @@
         "SDI_12G_CU"]
     },
     {
-       name": "HDMI IN",
+       "name": "HDMI IN",
       "direction": "IN",
       "connectorId": "HDMI_A",
       "compatibleSignalTypes": [
@@ -38,7 +38,7 @@
         "HDMI_13","HDMI_13A","HDMI_14","HDMI_14A","HDMI_14B","HDMI_20","HDMI_20A","HDMI_20B","HDMI_21","HDMI_21A","HDMI_21B","HDMI_22"]
     },
     {
-      name": "HDMI OUT",
+      "name": "HDMI OUT",
       "direction": "OUT",
       "connectorId": "HDMI_A",
       "compatibleSignalTypes": [
