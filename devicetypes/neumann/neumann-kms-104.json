@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "neumann-kms-104",
+  "name": "KMS 104",
+  "manufacturerId": "neumann",
+  "orderCode": null,
+  "orderNumber": "008548",
+  "climateLoad": 1,
+  "portTypes": [
+    {
+      "name": "Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+    }
+  ]
+}
