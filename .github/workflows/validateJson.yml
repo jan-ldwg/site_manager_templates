@@ -42,6 +42,14 @@ jobs:
             --spec=draft2020 \
             --all-errors
 
+      - name: Validate cabletypes
+        run: |
+          ajv validate \
+            -s schemas/cabletypes.schema.json \
+            -d cabletypes/cabletypes.json \
+            --spec=draft2020 \
+            --all-errors
+
       - name: Validate moduleformfactors
         run: |
           ajv validate \
