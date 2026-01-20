@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cabletypes",
+  "description": "JSON document describing a list of cabletypes",
+  "type": "array",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "Id of the cabletype",
+        "type": "string"
+      },
+      "name": {
+        "description": "Name of the cabletype",
+        "type": "string"
+      },
+      "description": {
+        "description": "Description of the cabletype",
+        "type": "string"
+      }
+    },
+    "required": ["id", "name", "description"],
+    "additionalProperties": false
+  }
+}
