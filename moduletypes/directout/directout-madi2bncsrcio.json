@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "directout-madi2bncsrcio",
+  "name": "MADI2.BNC.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DOMIO0023",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "MADI 1 IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "MADI 1 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "MADI 2 IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "MADI 2 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

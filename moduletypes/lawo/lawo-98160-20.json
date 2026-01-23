@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "lawo-98160-20",
+  "name": "981/60-20",
+  "orderCode": null,
+  "orderNumber": "981/60-20",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["1000BASE_LX"]
+    }
+  ]
+}

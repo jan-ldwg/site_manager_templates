@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "id": "directout-dantesrcio-mkii",
+  "name": "DANTE.SRC.IO MKII",
+  "orderCode": null,
+  "orderNumber": "DONETD022",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "PRI (1)",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "SEC (2)",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "PRI/SEC (3)",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-network-mm",
+        "directout-sfp-network-rj45"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

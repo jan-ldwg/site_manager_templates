@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "id": "directout-mavena",
+  "name": "MAVEN.A",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOMVA0002",
+  "climateLoad": 55,
+  "portTypes": [
+    {
+      "name": "MGMT",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "WCK IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "WCK OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "USB",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "GPIO",
+      "direction": "INOUT",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "PHONES 1",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "PHONES 2",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "MADI 1",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 2",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT A",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT C1",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT C2",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

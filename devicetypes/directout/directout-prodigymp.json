@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "id": "directout-prodigymp",
+  "name": "PRODIGY.MP",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOPRDG006",
+  "climateLoad": 110,
+  "portTypes": [
+    {
+      "name": "MANAGEMENT PORT 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "MANAGEMENT PORT 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "WCK 1 IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "WCK 1 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "WCK 2/VIDEO IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK", "BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "WCK 2 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "MIDI IN",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "MIDI OUT",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "GPIO",
+      "direction": "INOUT",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "PHONES 1",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "PHONES 2",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "MANAGEMENT PORT 3",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-network-mm",
+        "directout-sfp-network-rj45"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 1",
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 2",
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "AUDIO NETWORK 1",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": ["directout-madi4io", "directout-madi4srcio"]
+    },
+    {
+      "name": "AUDIO NETWORK 2",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": ["directout-madi4io", "directout-madi4srcio"]
+    },
+    {
+      "name": "SLOT 1",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 2",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 3",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 4",
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

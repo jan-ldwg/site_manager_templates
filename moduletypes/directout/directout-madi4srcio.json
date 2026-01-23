@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "id": "directout-madi4srcio",
+  "name": "MADI4.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DOMIO0043",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "moduleSlotTypes": [
+    {
+      "name": "MADI 1",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 2",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 3",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 4",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

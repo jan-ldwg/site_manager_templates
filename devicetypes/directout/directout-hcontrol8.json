@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "id": "directout-hcontrol8",
+  "name": "HCONTROL.8",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOCTRL001",
+  "climateLoad": 36,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "USB TO HOST",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

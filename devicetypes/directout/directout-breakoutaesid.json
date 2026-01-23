@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "id": "directout-breakoutaesid",
+  "name": "BREAKOUT.AESid",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOBOB0988",
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "AES INPUT/OUTPUT 01..08",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES INPUT/OUTPUT 09..16",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES INPUT/OUTPUT 17..24",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES INPUT/OUTPUT 25..32",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES INPUT 01/02",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 03/04",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 05/06",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 07/08",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 09/10",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 11/12",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 13/14",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 15/16",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 17/18",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 19/20",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 21/22",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 23/24",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 25/26",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 27/28",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 29/30",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES INPUT 31/32",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 01/02",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 03/04",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 05/06",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 07/08",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 09/10",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 11/12",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 13/14",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 15/16",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 17/18",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 19/20",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 21/22",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 23/24",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 25/26",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 27/28",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 29/30",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    },
+    {
+      "name": "AES OUTPUT 31/32",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["AES3ID"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

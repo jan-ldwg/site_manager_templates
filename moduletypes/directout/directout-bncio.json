@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "directout-bncio",
+  "name": "BNC.IO",
+  "orderCode": null,
+  "orderNumber": "DOMIO0005",
+  "moduleFormFactorId": "directout-b-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

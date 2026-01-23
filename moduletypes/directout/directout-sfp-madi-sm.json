@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-sfp-madi-sm",
+  "name": "SFP MADI sm",
+  "orderCode": null,
+  "orderNumber": "DOICT0137",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "BIDI",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    }
+  ]
+}

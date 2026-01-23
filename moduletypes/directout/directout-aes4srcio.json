@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-aes4srcio",
+  "name": "AES4.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DOAIO0007",
+  "moduleFormFactorId": "directout-c-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "AES3 INPUT (SRC)/OUTPUT",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    }
+  ]
+}

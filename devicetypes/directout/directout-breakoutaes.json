@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "id": "directout-breakoutaes",
+  "name": "BREAKOUT.AES",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOBOB0987",
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "AES IN/OUT 01..08",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES IN/OUT 09..16",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "1/2",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "3/4",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "5/6",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "7/8",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "1/2",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "3/4",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "5/6",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "7/8",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+
+    {
+      "name": "9/10",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "11/12",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "13/14",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "15/16",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "9/10",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "11/12",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "13/14",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "15/16",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

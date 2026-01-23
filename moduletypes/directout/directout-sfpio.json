@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "id": "directout-sfpio",
+  "name": "SFP.IO",
+  "orderCode": null,
+  "orderNumber": "DOMIO0017",
+  "moduleFormFactorId": "directout-b-slot",
+  "manufacturerId": "directout",
+  "moduleSlotTypes": [
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

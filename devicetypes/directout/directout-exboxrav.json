@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "id": "directout-exboxrav",
+  "name": "EXBOX.RAV",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOEXB2020",
+  "climateLoad": 9,
+  "portTypes": [
+    {
+      "name": "01 (PoE)",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "02",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "03",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "04",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "MADI BNC IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "MADI BNC OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "MADI SC IN",
+      "direction": "IN",
+      "connectorId": "SC_SPLX_PC_MM_f",
+      "compatibleSignalTypes": ["MADI_MM_1310"]
+    },
+    {
+      "name": "MADI SC OUT",
+      "direction": "OUT",
+      "connectorId": "SC_SPLX_PC_MM_f",
+      "compatibleSignalTypes": ["MADI_MM_1310"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "MADI SFP I/O",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
