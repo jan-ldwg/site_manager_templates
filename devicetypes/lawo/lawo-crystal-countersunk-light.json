@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "id": "lawo-crystal-countersunk-light",
+  "name": "crystal Countersunk Light",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "715/30-20",
+  "climateLoad": 40,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "CAN A",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_1M"]
+    },
+    {
+      "name": "CAN B",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_500K"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [
+        "lawo-crystal-fader-module-light",
+        "lawo-crystal-main-module-light"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

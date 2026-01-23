@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "id": "lawo-crystal-tabletopp-dark",
+  "name": "crystal Tabletop Dark",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "715/30-30",
+  "climateLoad": 40,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "CAN A",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_1M"]
+    },
+    {
+      "name": "CAN B",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_500K"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [
+        "lawo-crystal-fader-module-dark",
+        "lawo-crystal-main-module-dark"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

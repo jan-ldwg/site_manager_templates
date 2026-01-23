@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "id": "lawo-crystal-countersunk-vx-dark",
+  "name": "crystal Countersunk with VX Dark",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "715/31-40",
+  "climateLoad": 50,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "CAN A",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_1M"]
+    },
+    {
+      "name": "CAN B",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["CAN_500K"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [
+        "lawo-crystal-fader-module-dark",
+        "lawo-crystal-main-module-dark"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lawo-vx-module-dark"],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

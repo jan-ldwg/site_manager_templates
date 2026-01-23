@@ -145,6 +145,16 @@
     "description": ""
   },
   {
+    "id": "CAN_1M",
+    "name": "CAN 1Mb/s",
+    "description": ""
+  },
+  {
+    "id": "CAN_500K",
+    "name": "CAN 500 kb/s",
+    "description": ""
+  },
+  {
     "id": "SDI_SD_CU",
     "name": "SD-SDI",
     "description": "SMPTE 259M"

@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "lawo-vx-module-light",
+  "name": "Virtual Extension Light",
+  "orderCode": null,
+  "orderNumber": "711/30",
+  "moduleFormFactorId": "",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "name": "Display Port",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP_10", "DP_11"]
+    },
+    {
+      "name": "USB",
+      "direction": "IN",
+      "connectorId": "USB2.0B_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ]
+}
