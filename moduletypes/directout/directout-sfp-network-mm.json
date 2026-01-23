@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-doict0135",
+  "name": "SFP Network mm",
+  "orderCode": null,
+  "orderNumber": "DOICT0135",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["1000BASE_SX"]
+    }
+  ]
+}

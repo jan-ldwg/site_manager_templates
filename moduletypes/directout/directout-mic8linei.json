@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-mic8linei",
+  "name": "MIC8.LINE.I",
+  "orderCode": null,
+  "orderNumber": "DOAIO0005",
+  "moduleFormFactorId": "directout-c-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "MIC/LINE INPUT",
+      "direction": "IN",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    }
+  ]
+}

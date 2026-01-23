@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-doict0132",
+  "name": "SFP Network RJ45",
+  "orderCode": null,
+  "orderNumber": "DOICT0132",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    }
+  ]
+}

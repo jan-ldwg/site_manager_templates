@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "directout-sfp-madi-bnc",
+  "name": "SFP MADI BNC",
+  "orderCode": null,
+  "orderNumber": "DOSET0111",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

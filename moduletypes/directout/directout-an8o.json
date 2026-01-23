@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-an8o",
+  "name": "AN8.O",
+  "orderCode": null,
+  "orderNumber": "DOAIO0023",
+  "moduleFormFactorId": "directout-c-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "LINE OUTPUT",
+      "direction": "OUT",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    }
+  ]
+}

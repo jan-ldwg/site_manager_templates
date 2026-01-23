@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "id": "directout-prodigymx",
+  "name": "PRODIGY.MX",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOPRDG010",
+  "climateLoad": 110,
+  "portTypes": [
+    {
+      "name": "MANAGEMENT PORT 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "MANAGEMENT PORT 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "WCK/VIDEO IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK", "BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "WCK OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "WCK OUT 1..6",
+      "direction": "OUT",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "GPIO",
+      "direction": "INOUT",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "PHONES 1",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "PHONES 2",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "MANAGEMENT PORT 3",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-network-mm",
+        "directout-sfp-network-rj45"
+      ],
+      "incompatibleModuleTypes": []
+    },
+
+    {
+      "name": "MADI 1",
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 2",
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 1",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 2",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 3",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 4",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 5",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 6",
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

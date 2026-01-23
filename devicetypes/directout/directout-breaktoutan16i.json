@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "id": "directout-breakoutan16i",
+  "name": "BREAKOUT.AN16I",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "orderNumber": "DOBOB0990",
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "ANALOG IN 01..08",
+      "direction": "IN",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "ANALOG IN 09..16",
+      "direction": "IN",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "1",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "2",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "3",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "4",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "5",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "6",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "7",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "8",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "9",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "10",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "11",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "12",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "13",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "14",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "15",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    },
+    {
+      "name": "16",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

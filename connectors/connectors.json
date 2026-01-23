@@ -84,6 +84,20 @@
     "compatibleConnectors": ["DSUB15p_HD_f"]
   },
   {
+    "id": "DIN5p_f",
+    "name": "DIN 5p 180° female",
+    "gender": "FEMALE",
+    "icon": "DIN5p_f",
+    "compatibleConnectors": ["DIN5p_m"]
+  },
+  {
+    "id": "DIN5p_m",
+    "name": "DIN 5p 180° male",
+    "gender": "MALE",
+    "icon": "DIN5p_m",
+    "compatibleConnectors": ["DIN5p_f"]
+  },
+  {
     "id": "ETHERCON_f",
     "name": "ETHERCON female",
     "gender": "FEMALE",
@@ -96,6 +110,62 @@
     "gender": "MALE",
     "icon": "ETHERCON_m",
     "compatibleConnectors": ["ETHERCON_f"]
+  },
+  {
+    "id": "SC_SPLX_PC_SM_f",
+    "name": "SC Simplex, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "SCSPLX_f",
+    "compatibleConnectors": ["SC_SPLX_PC_SM_m"]
+  },
+  {
+    "id": "SC_SPLX_PC_SM_m",
+    "name": "SC Simplex, PC, SM male",
+    "gender": "MALE",
+    "icon": "SCSPLX_m",
+    "compatibleConnectors": ["SC_SPLX_PC_SM_f"]
+  },
+  {
+    "id": "SC_SPLX_PC_MM_f",
+    "name": "SC Simplex, PC, MM female",
+    "gender": "FEMALE",
+    "icon": "SCSPLX_f",
+    "compatibleConnectors": ["SC_SPLX_PC_MM_m"]
+  },
+  {
+    "id": "SC_SPLX_PC_MM_m",
+    "name": "SC Simplex, PC, MM male",
+    "gender": "MALE",
+    "icon": "SCSPLX_m",
+    "compatibleConnectors": ["SC_SPLX_PC_MM_f"]
+  },
+  {
+    "id": "SC_DPLX_PC_SM_f",
+    "name": "SC Duplex, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "SCDPLX_f",
+    "compatibleConnectors": ["SC_DPLX_PC_SM_m"]
+  },
+  {
+    "id": "SC_DPLX_PC_SM_m",
+    "name": "SC Duplex, PC, SM male",
+    "gender": "MALE",
+    "icon": "SCDPLX_m",
+    "compatibleConnectors": ["SC_DPLX_PC_SM_f"]
+  },
+  {
+    "id": "SC_DPLX_PC_MM_f",
+    "name": "SC Duplex, PC, MM female",
+    "gender": "FEMALE",
+    "icon": "SCDPLX_f",
+    "compatibleConnectors": ["SC_DPLX_PC_MM_m"]
+  },
+  {
+    "id": "SC_DPLX_PC_MM_m",
+    "name": "SC Duplex, PC, MM male",
+    "gender": "MALE",
+    "icon": "SCDPLX_m",
+    "compatibleConnectors": ["SC_DPLX_PC_MM_f"]
   },
   {
     "id": "LC_SPLX_PC_SM_f",

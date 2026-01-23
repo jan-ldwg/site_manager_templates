@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "directout-usbio",
+  "name": "USB.IO",
+  "orderCode": null,
+  "orderNumber": "DOUSBIO01",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "USB",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_2", "USB_32_GEN1X1"]
+    }
+  ]
+}

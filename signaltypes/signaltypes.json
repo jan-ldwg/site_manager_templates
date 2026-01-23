@@ -15,6 +15,21 @@
     "description": "IEEE 802.3ab-1999"
   },
   {
+    "id": "1000BASE_SX",
+    "name": "1000BASE-SX",
+    "description": "IEEE 802.3z-1998"
+  },
+  {
+    "id": "1000BASE_LX",
+    "name": "1000BASE-LX",
+    "description": "IEEE 802.3z-1998"
+  },
+  {
+    "id": "1000BASE_ZX",
+    "name": "1000BASE-ZX",
+    "description": ""
+  },
+  {
     "id": "10GBASE_T",
     "name": "10GBASE-T",
     "description": "IEEE 802.3an-2006"
@@ -464,6 +479,11 @@
     "id": "GPIO",
     "name": "GPIO",
     "description": ""
+  },
+  {
+    "id": "MIDI",
+    "name": "MIDI",
+    "description": "MIDI 1.0"
   },
   {
     "id": "genelec_GLM",

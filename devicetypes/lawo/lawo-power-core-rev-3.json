@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "lawo-power-core-rev-3",
   "name": "Power Core Rev.3",
   "manufacturerId": "lawo",
@@ -42,37 +42,73 @@
     {
       "name": "dwc0",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "dwc1",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "ra0",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "ra1",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "ra2",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "ra3",
       "compatibleModuleSlotFormFactors": ["sfp"],
-      "compatibleModuleTypes": ["lawo-98160-61"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
       "incompatibleModuleTypes": []
     },
     {

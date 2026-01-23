@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "directout-milanemilansrcio",
+  "name": "MILAN.MILAN.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DONETAA01",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "PORT 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "PORT 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "PORT 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "PORT 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "directout-danteravrcio",
+  "name": "DANTE.RAV.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DONETDR01",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "PRI (1)",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "SEC (2)",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "PORT 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "PORT 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ]
+}
