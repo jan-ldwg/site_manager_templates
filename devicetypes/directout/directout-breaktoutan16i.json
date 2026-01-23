@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "directout-breakoutan16i",
   "name": "BREAKOUT.AN16I",
   "manufacturerId": "directout",
@@ -9,13 +9,13 @@
   "portTypes": [
     {
       "name": "ANALOG IN 01..08",
-      "direction": "IN",
+      "direction": "OUT",
       "connectorId": "DSUB25p_f",
       "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "ANALOG IN 09..16",
-      "direction": "IN",
+      "direction": "OUT",
       "connectorId": "DSUB25p_f",
       "compatibleSignalTypes": ["AES59_ANA"]
     },
