@@ -47,49 +47,49 @@
       "name": "MIC/LINE IN 1-8",
       "direction": "IN",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AUDIO_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "MIC/LINE IN 9-16",
       "direction": "IN",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AUDIO_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "MIC/LINE IN 17-24",
       "direction": "IN",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AUDIO_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "MIC/LINE IN 25-32",
       "direction": "IN",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AUDIO_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "LINE OUT 1-8",
       "direction": "OUT",
       "connectorId": "DSUB37p_m",
-      "compatibleSignalTypes": ["AUDIO_ANA"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "LINE OUT 9-16",
       "direction": "OUT",
       "connectorId": "DSUB37p_m",
-      "compatibleSignalTypes": ["AUDIO_ANA"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "LINE OUT 17-24",
       "direction": "OUT",
       "connectorId": "DSUB37p_m",
-      "compatibleSignalTypes": ["AUDIO_ANA"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "LINE OUT 25-32",
       "direction": "OUT",
       "connectorId": "DSUB37p_m",
-      "compatibleSignalTypes": ["AUDIO_ANA"]
+      "compatibleSignalTypes": ["AES59_ANA"]
     },
     {
       "name": "AES3 1-4",
