@@ -4,7 +4,7 @@
   "name": "Virtual Extension Dark",
   "orderCode": null,
   "orderNumber": "711/30-D",
-  "moduleFormFactorId": "",
+  "moduleFormFactorId": null,
   "manufacturerId": "lawo",
   "portTypes": [
     {
