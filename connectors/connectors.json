@@ -84,6 +84,20 @@
     "compatibleConnectors": ["DSUB15p_HD_f"]
   },
   {
+    "id": "DSUB15p_MICRO_f",
+    "name": "Micro D-Sub 15p female",
+    "gender": "FEMALE",
+    "icon": "DSUB15p_MICRO_f",
+    "compatibleConnectors": ["DSUB15p_MICRO_m"]
+  },
+  {
+    "id": "DSUB15p_MICRO_m",
+    "name": "Micro D-Sub 15p male",
+    "gender": "MALE",
+    "icon": "DSUB15p_MICRO_m",
+    "compatibleConnectors": ["DSUB15p_MICRO_f"]
+  },
+  {
     "id": "DIN5p_f",
     "name": "DIN 5p 180° female",
     "gender": "FEMALE",

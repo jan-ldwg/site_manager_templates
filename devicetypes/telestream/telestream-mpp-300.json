@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "id": "telestream-mpp-300",
+  "name": "PRISM MPP-300",
+  "manufacturerId": "telestream",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 160,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "REF IN",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "REF OUT",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC", "PPS"]
+    },
+    {
+      "name": "SDI IN 1 EYE",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 1",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 2",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 2",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 3",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 3",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI IN 4",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "SDI OUT 4",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "AUX OUT",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_CU",
+        "SDI_HD_CU",
+        "SDI_3G_CU",
+        "SDI_12G_CU"
+      ]
+    },
+    {
+      "name": "DP1",
+      "direction": "OUT",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "DP2",
+      "direction": "OUT",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "USB (Rear)",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB (Rear)",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "ANALOG AUDIO OUT 1-8",
+      "direction": "OUT",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "GPIO",
+      "direction": "IN",
+      "connectorId": "DSUB15p_MICRO_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "Line Out",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "Headphones",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "10/25GE 1",
+      "compatibleModuleSlotFormFactors": ["sfp28", "sfpplus"],
+      "compatibleModuleTypes": [
+        "telestream-mp-sfp-10gelr",
+        "telestream-mp-sfp-10gesr",
+        "telestream-mp-sfp-25gelr",
+        "telestream-mp-sfp-25gesr"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "10/25GE 2",
+      "compatibleModuleSlotFormFactors": ["sfp28", "sfpplus"],
+      "compatibleModuleTypes": [
+        "telestream-mp-sfp-10gelr",
+        "telestream-mp-sfp-10gesr",
+        "telestream-mp-sfp-25gelr",
+        "telestream-mp-sfp-25gesr"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

@@ -45,6 +45,31 @@
     "description": "IEEE 802.3an-2006"
   },
   {
+    "id": "10GBASE_SR",
+    "name": "10GBASE-SR",
+    "description": "IEEE 802.3ae-2002"
+  },
+  {
+    "id": "10GBASE_LR",
+    "name": "10GBASE-LR",
+    "description": "IEEE 802.3ae-2002"
+  },
+  {
+    "id": "25GBASE_SR",
+    "name": "25GBASE-SR",
+    "description": "IEEE 802.3by-2016"
+  },
+  {
+    "id": "25GBASE_LR",
+    "name": "25GBASE-LR",
+    "description": "IEEE 802.3cc-2017"
+  },
+  {
+    "id": "25GBASE_ER",
+    "name": "25GBASE-eR",
+    "description": "IEEE 802.3cc-2017"
+  },
+  {
     "id": "100GBASE_SR4",
     "name": "100GBASE-SR4",
     "description": "IEEE 802.3bm-2015"
@@ -255,6 +280,11 @@
     "description": ""
   },
   {
+    "id": "PPS",
+    "name": "Pulse per second",
+    "description": ""
+  },
+  {
     "id": "AUDIO_UNBAL_ANA",
     "name": "Unbalanced Analog Audio",
     "description": ""
@@ -270,9 +300,19 @@
     "description": "As found on consumer devices like PCs, smartphones"
   },
   {
+    "id": "SPDIF",
+    "name": "S/PDIF",
+    "description": "Sony/Philips Digital Interface"
+  },
+  {
     "id": "TOSLINK",
     "name": "TOSLINK",
     "description": ""
+  },
+  {
+    "id": "ADAT_LIGHTPIPE",
+    "name": "ADAT Lightpipe",
+    "description": "ADAT Lightpipe for 8ch digital audio"
   },
   {
     "id": "AUDIO_BAL_ANA",

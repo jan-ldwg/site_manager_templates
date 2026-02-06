@@ -10,6 +10,11 @@
     "nameShort": "Blackmagic"
   },
   {
+    "id": "bricasti",
+    "name": "Bricasti Design Ltd.",
+    "nameShort": "Bricasti"
+  },
+  {
     "id": "cisco",
     "name": "Cisco Systems, Inc.",
     "nameShort": "Cisco"
@@ -103,6 +108,11 @@
     "id": "stagetec",
     "name": "STAGETEC GmbH",
     "nameShort": "Stagetec"
+  },
+  {
+    "id": "telestream",
+    "name": "Telestream 2 LLC",
+    "nameShort": "Telestream"
   },
   {
     "id": "waves",

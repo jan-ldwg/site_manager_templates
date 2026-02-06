@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "id": "lawo-mc2-56-mkiii-32-16c-16",
+  "name": "mc²56 MK III 32+16C+16",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "977/53",
+  "climateLoad": 445,
+  "portTypes": [
+    {
+      "name": "MGMT A",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "MGMT B",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "ETH Extension",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "ETH Extension",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "ETH A",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB RTW",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "HP 1",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "HP 2",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "",
+      "direction": "FRONT",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "RAVENNA/AES67 Primary",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "RAVENNA/AES67 Secondary",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "GPIO",
+      "direction": "INOUT",
+      "connectorId": "DSUB37p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "MIC IN 1-8",
+      "direction": "IN",
+      "connectorId": "DSUB37p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "MIC IN 9-16",
+      "direction": "IN",
+      "connectorId": "DSUB37p_f",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "LINE OUT 1-8",
+      "direction": "OUT",
+      "connectorId": "DSUB37p_m",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "LINE OUT 9-16",
+      "direction": "OUT",
+      "connectorId": "DSUB37p_m",
+      "compatibleSignalTypes": ["AES59_ANA"]
+    },
+    {
+      "name": "AES3 IN/OUT 1-4",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "AES3 IN/OUT 5-8",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "TB",
+      "direction": "REAR",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "MIC IN 16",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_MIC", "AUDIO_MIC_48V"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "RAVENNA/AES67 Primary",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "RAVENNA/AES67 Secondary",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-98160-80",
+        "lawo-98160-81",
+        "lawo-98160-82"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
