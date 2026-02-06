@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "telestream-mp-sfp-10gelr",
+  "name": "MP-SFP 10GELR",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfpplus",
+  "manufacturerId": "telestream",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["10GBASE_LR"]
+    }
+  ]
+}

@@ -110,6 +110,11 @@
     "nameShort": "Stagetec"
   },
   {
+    "id": "telestream",
+    "name": "Telestream 2 LLC",
+    "nameShort": "Telestream"
+  },
+  {
     "id": "waves",
     "name": "Waves Audio Ltd.",
     "nameShort": "Waves"
