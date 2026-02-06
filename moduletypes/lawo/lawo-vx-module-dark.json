@@ -11,7 +11,7 @@
       "name": "Display Port",
       "direction": "IN",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11"]
+      "compatibleSignalTypes": ["DP"]
     },
     {
       "name": "USB",

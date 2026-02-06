@@ -75,9 +75,29 @@
     "nameShort": "Neumann"
   },
   {
+    "id": "postium",
+    "name": "Postium Korea  Co., Ltd.",
+    "nameShort": "Postium"
+  },
+  {
+    "id": "psi",
+    "name": "PSI Audio",
+    "nameShort": "PSI"
+  },
+  {
     "id": "riedel",
     "name": "Riedel Communications GmbH",
     "nameShort": "Riedel"
+  },
+  {
+    "id": "sennheiser",
+    "name": "Sennheiser electronic SE & Co. KG",
+    "nameShort": "Sennheiser"
+  },
+  {
+    "id": "sharp",
+    "name": "Sharp Corporation",
+    "nameShort": "Sharp"
   },
   {
     "id": "stagetec",
@@ -85,9 +105,9 @@
     "nameShort": "Stagetec"
   },
   {
-    "id": "sennheiser",
-    "name": "Sennheiser electronic SE & Co. KG",
-    "nameShort": "Sennheiser"
+    "id": "waves",
+    "name": "Waves Audio Ltd.",
+    "nameShort": "Waves"
   },
   {
     "id": "yamaha",

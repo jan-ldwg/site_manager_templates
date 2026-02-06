@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "blackmagic-micro-converter-bidi-sdihdmi-12g",
   "name": "Micro Converter BiDirectional SDI/HDMI 12G",
   "manufacturerId": "blackmagic",
@@ -16,7 +16,8 @@
         "SDI_HD_CU",
         "SDI_3G_CU",
         "SDI_6G_CU",
-        "SDI_12G_CU"]
+        "SDI_12G_CU"
+      ]
     },
     {
       "name": "SDI OUT",
@@ -27,53 +28,26 @@
         "SDI_HD_CU",
         "SDI_3G_CU",
         "SDI_6G_CU",
-        "SDI_12G_CU"]
+        "SDI_12G_CU"
+      ]
     },
     {
-       "name": "HDMI IN",
+      "name": "HDMI IN",
       "direction": "IN",
       "connectorId": "HDMI_A_f",
-      "compatibleSignalTypes": [
-        "HDMI_11",
-        "HDMI_12",
-        "HDMI_12A",
-        "HDMI_13",
-        "HDMI_13A",
-        "HDMI_14",
-        "HDMI_14A",
-        "HDMI_14B",
-        "HDMI_20",
-        "HDMI_20A",
-        "HDMI_20B"
-      ]
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
     },
     {
       "name": "HDMI OUT",
       "direction": "OUT",
       "connectorId": "HDMI_A_f",
-      "compatibleSignalTypes": [
-        "HDMI_11",
-        "HDMI_12",
-        "HDMI_12A",
-        "HDMI_13",
-        "HDMI_13A",
-        "HDMI_14",
-        "HDMI_14A",
-        "HDMI_14B",
-        "HDMI_20",
-        "HDMI_20A",
-        "HDMI_20B"
-      ]
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
     },
     {
       "name": "USB POWER",
       "direction": "IN",
       "connectorId": "USBC_f",
-      "compatibleSignalTypes": [
-        "USB_1",
-        "USB_11",
-        "USB_2"
-      ]
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
     }
   ]
 }

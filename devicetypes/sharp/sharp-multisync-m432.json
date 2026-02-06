@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "id": "sharp-multisync-m432",
+  "name": "MultiSync M432",
+  "manufacturerId": "sharp",
+  "orderCode": null,
+  "orderNumber": "PN-M432",
+  "climateLoad": 75,
+  "portTypes": [
+    {
+      "name": "LAN 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "LAN 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "HDMI IN1 (ARC)",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "HDMI IN2",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "HDMI OUT",
+      "direction": "OUT",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "DisplayPort IN",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "DisplayPort OUT",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "RS-232C",
+      "direction": "IN",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["RS_232"]
+    },
+    {
+      "name": "USBC1",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "DP",
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1"
+      ]
+    },
+    {
+      "name": "USB-C2",
+      "direction": "OUT",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB-A",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "SERVICE",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "REMOTE IN",
+      "direction": "IN",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "AUDIO OUT",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Option Board",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

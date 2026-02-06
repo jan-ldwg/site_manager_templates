@@ -1,12 +1,18 @@
 {
-  "version": "1.1",
-  "id": "dell-p2225h",
-  "name": "P2225H",
+  "version": "1.0",
+  "id": "dell-p2424ht",
+  "name": "P2424HT",
   "manufacturerId": "dell",
   "orderCode": null,
-  "orderNumber": "P2225H",
-  "climateLoad": 60,
+  "orderNumber": "P2424HT",
+  "climateLoad": 190,
   "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
     {
       "name": "DP",
       "direction": "IN",
@@ -20,40 +26,46 @@
       "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
     },
     {
-      "name": "VGA",
+      "name": "DP 90W",
       "direction": "IN",
-      "connectorId": "DSUB15p_HD_f",
-      "compatibleSignalTypes": ["VGA", "DVI_I", "DVI_A"]
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "DP",
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1"
+      ]
     },
     {
-      "name": "USB",
-      "direction": "IN",
-      "connectorId": "USB3.0B_f",
-      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
-    },
-    {
-      "name": "USB 5",
+      "name": "USB SS5",
       "direction": "OUT",
       "connectorId": "USB3.0A_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
     },
     {
-      "name": "USB 5",
+      "name": "USB SS5",
       "direction": "OUT",
       "connectorId": "USB3.0A_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
     },
     {
-      "name": "USB 5",
+      "name": "USB (Side)",
       "direction": "OUT",
       "connectorId": "USB3.0A_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
     },
     {
-      "name": "USB 5",
+      "name": "USB (Side)",
       "direction": "OUT",
       "connectorId": "USBC_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "Line Out",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
     }
   ]
 }

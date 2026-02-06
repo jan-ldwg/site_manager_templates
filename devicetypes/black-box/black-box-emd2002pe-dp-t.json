@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "black-box-emd2002pe-dp-t",
   "name": "EMD2002PE-DP-T",
   "manufacturerId": "black-box",
@@ -17,13 +17,13 @@
       "name": "DP1",
       "direction": "IN",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP"]
     },
     {
       "name": "DP2",
       "direction": "IN",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP"]
     },
     {
       "name": "USB",

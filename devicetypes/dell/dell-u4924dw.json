@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "id": "dell-u4924dw",
+  "name": "U4924DW",
+  "manufacturerId": "dell",
+  "orderCode": null,
+  "orderNumber": "U4924DW",
+  "climateLoad": 45,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": [
+        "10BASE_T",
+        "100BASE_TX",
+        "1000BASE_T",
+        "2_5GBASE_T"
+      ]
+    },
+    {
+      "name": "HDMI 1",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "HDMI 2",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "DP",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "DP 90W",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "DP",
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1"
+      ]
+    },
+    {
+      "name": "USB",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB SS10",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB SS10",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB SS10",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB SS10",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": [
+        "USB_1",
+        "USB_11",
+        "USB_2",
+        "USB_32_GEN1X1",
+        "USB_32_GEN2X1"
+      ]
+    },
+    {
+      "name": "Line Out",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    }
+  ]
+}
