@@ -270,9 +270,19 @@
     "description": "As found on consumer devices like PCs, smartphones"
   },
   {
+    "id": "SPDIF",
+    "name": "S/PDIF",
+    "description": "Sony/Philips Digital Interface"
+  },
+  {
     "id": "TOSLINK",
     "name": "TOSLINK",
     "description": ""
+  },
+  {
+    "id": "ADAT_LIGHTPIPE",
+    "name": "ADAT Lightpipe",
+    "description": "ADAT Lightpipe for 8ch digital audio"
   },
   {
     "id": "AUDIO_BAL_ANA",
