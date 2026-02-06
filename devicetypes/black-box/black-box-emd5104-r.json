@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "black-box-emd5104-r",
   "name": "EMD5104-R",
   "manufacturerId": "black-box",
@@ -23,25 +23,25 @@
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP", "HDMI"]
     },
     {
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP", "HDMI"]
     },
     {
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP", "HDMI"]
     },
     {
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A", "DP_13"]
+      "compatibleSignalTypes": ["DP", "HDMI"]
     },
     {
       "name": "3.5mm Audio",

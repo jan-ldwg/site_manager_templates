@@ -80,14 +80,19 @@
     "nameShort": "Riedel"
   },
   {
-    "id": "stagetec",
-    "name": "STAGETEC GmbH",
-    "nameShort": "Stagetec"
-  },
-  {
     "id": "sennheiser",
     "name": "Sennheiser electronic SE & Co. KG",
     "nameShort": "Sennheiser"
+  },
+  {
+    "id": "sharp",
+    "name": "Sharp Corporation",
+    "nameShort": "Sharp"
+  },
+  {
+    "id": "stagetec",
+    "name": "STAGETEC GmbH",
+    "nameShort": "Stagetec"
   },
   {
     "id": "yamaha",

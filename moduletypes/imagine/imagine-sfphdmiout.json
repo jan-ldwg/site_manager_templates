@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "name": "SFP+HDMI+OUT",
   "id": "imagine-sfphdmiout",
   "orderCode": null,
@@ -11,7 +11,7 @@
       "name": "",
       "direction": "OUT",
       "connectorId": "HDMI_D_f",
-      "compatibleSignalTypes": ["HDMI_10", "HDMI_11", "HDMI_12", "HDMI_12A"]
+      "compatibleSignalTypes": ["HDMI", "DVI_D", "DVI_I"]
     }
   ]
 }

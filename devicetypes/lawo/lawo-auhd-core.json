@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "lawo-auhd-core",
   "name": "A__UHD Core",
   "manufacturerId": "lawo",
@@ -72,7 +72,7 @@
       "name": "SERVICE - DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12"]
+      "compatibleSignalTypes": ["DP"]
     }
   ],
   "moduleSlotTypes": [

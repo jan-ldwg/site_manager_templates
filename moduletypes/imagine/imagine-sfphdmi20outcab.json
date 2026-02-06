@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "name": "SFP+HDMI20+OUT+CAB",
   "id": "imagine-sfphdmi20outcab",
   "orderCode": null,
@@ -11,16 +11,7 @@
       "name": "",
       "direction": "OUT",
       "connectorId": "HDMI_D_f",
-      "compatibleSignalTypes": [
-        "HDMI_10",
-        "HDMI_11",
-        "HDMI_12",
-        "HDMI_12A",
-        "HDMI_14",
-        "HDMI_14A",
-        "HDMI_14B",
-        "HDMI_20"
-      ]
+      "compatibleSignalTypes": ["HDMI", "DVI_D", "DVI_I"]
     }
   ]
 }

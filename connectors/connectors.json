@@ -521,6 +521,87 @@
     "compatibleConnectors": ["DISPLAYPORT_MINI_m"]
   },
   {
+    "id": "DVI_I_SL_f",
+    "name": "DVI-I Single Link female",
+    "gender": "FEMALE",
+    "icon": "DVI_I_SL_f",
+    "compatibleConnectors": ["DVI_I_SL_m", "DVI_A_m", "DVI_D_SL_m"]
+  },
+  {
+    "id": "DVI_I_SL_m",
+    "name": "DVI-I Single Link male",
+    "gender": "MALE",
+    "icon": "DVI_I_SL_m",
+    "compatibleConnectors": ["DVI_I_SL_f", "DVI_I_DL_f"]
+  },
+  {
+    "id": "DVI_I_DL_f",
+    "name": "DVI-I Dual Link female",
+    "gender": "FEMALE",
+    "icon": "DVI_I_DL_f",
+    "compatibleConnectors": [
+      "DVI_I_DL_m",
+      "DVI_I_SL_m",
+      "DVI_A_m",
+      "DVI_D_DL_m",
+      "DVI_D_SL_m"
+    ]
+  },
+  {
+    "id": "DVI_I_DL_m",
+    "name": "DVI-I Dual Link male",
+    "gender": "MALE",
+    "icon": "DVI_I_DL_m",
+    "compatibleConnectors": ["DVI_I_DL_f"]
+  },
+  {
+    "id": "DVI_D_SL_f",
+    "name": "DVI-D Single Link female",
+    "gender": "FEMALE",
+    "icon": "DVI_D_SL_f",
+    "compatibleConnectors": ["DVI_D_SL_m"]
+  },
+  {
+    "id": "DVI_D_SL_m",
+    "name": "DVI-D Single Link male",
+    "gender": "MALE",
+    "icon": "DVI_D_SL_m",
+    "compatibleConnectors": [
+      "DVI_D_SL_f",
+      "DVI_D_DL_f",
+      "DVI_I_SL_f",
+      "DVI_I_DL_f"
+    ]
+  },
+  {
+    "id": "DVI_D_DL_f",
+    "name": "DVI-D Dual Link female",
+    "gender": "FEMALE",
+    "icon": "DVI_D_DL_f",
+    "compatibleConnectors": ["DVI_D_DL_m", "DVI_D_SL_m"]
+  },
+  {
+    "id": "DVI_D_DL_m",
+    "name": "DVI-D Dual Link male",
+    "gender": "MALE",
+    "icon": "DVI_D_DL_m",
+    "compatibleConnectors": ["DVI_D_DL_f", "DVI_I_DL_f"]
+  },
+  {
+    "id": "DVI_A_f",
+    "name": "DVI-A female",
+    "gender": "FEMALE",
+    "icon": "DVI_A_f",
+    "compatibleConnectors": ["DVI_A_m"]
+  },
+  {
+    "id": "DVI_A_m",
+    "name": "DVI-A male",
+    "gender": "MALE",
+    "icon": "DVI_A_m",
+    "compatibleConnectors": ["DVI_A_f", "DVI_I_SL_f", "DVI_I_DL_f"]
+  },
+  {
     "id": "XLR3p_f",
     "name": "XLR 3pole female",
     "gender": "FEMALE",

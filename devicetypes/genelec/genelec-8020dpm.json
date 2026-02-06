@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "genelec-8020dpm",
+  "name": "8020DPM",
+  "manufacturerId": "genelec",
+  "orderCode": "8020DPM",
+  "orderNumber": null,
+  "climateLoad": 60,
+  "portTypes": [
+    {
+      "name": "ANALOG IN",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    }
+  ]
+}

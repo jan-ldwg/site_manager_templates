@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "id": "hp-universal-dock-g2",
   "name": "USB-C/A Universal Dock G2",
   "manufacturerId": "hp",
@@ -16,9 +16,7 @@
         "USB_11",
         "USB_2",
         "USB_32_GEN1X1",
-        "DP_12",
-        "DP_14",
-        "DP_20"
+        "DP"
       ]
     },
     {
@@ -31,30 +29,19 @@
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP", "HDMI", "DVI_I", "DVI_D"]
     },
     {
       "name": "DP",
       "direction": "OUT",
       "connectorId": "DISPLAYPORT_f",
-      "compatibleSignalTypes": ["DP_10", "DP_11", "DP_12", "DP_12A"]
+      "compatibleSignalTypes": ["DP", "HDMI", "DVI_I", "DVI_D"]
     },
     {
       "name": "HDMI",
       "direction": "OUT",
       "connectorId": "HDMI_A_f",
-      "compatibleSignalTypes": [
-        "HDMI_10",
-        "HDMI_11",
-        "HDMI_12",
-        "HDMI_12A",
-        "HDMI_13",
-        "HDMI_13A",
-        "HDMI_14",
-        "HDMI_14A",
-        "HDMI_14B",
-        "HDMI_20"
-      ]
+      "compatibleSignalTypes": ["HDMI", "DVI_D", "DVI_I"]
     },
     {
       "name": "Headset",
