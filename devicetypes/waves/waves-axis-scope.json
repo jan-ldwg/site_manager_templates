@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "id": "waves-axis-scope",
+  "name": "Axis Scope",
+  "manufacturerId": "waves",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 65,
+  "portTypes": [
+    {
+      "name": "Network",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "SoundGrid",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "HDMI",
+      "direction": "OUT",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "DP",
+      "direction": "OUT",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ]
+}

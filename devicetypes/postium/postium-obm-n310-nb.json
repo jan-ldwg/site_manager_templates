@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "id": "postium-obm-n310-nb",
+  "name": "OBM-N310-NB",
+  "manufacturerId": "postium",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 100,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "REMOTE",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "RS422 IN",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["RS_422"]
+    },
+    {
+      "name": "RS422 OUT",
+      "direction": "OUT",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["RS_422"]
+    },
+    {
+      "name": "HDMI-IN",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "DVI",
+      "direction": "IN",
+      "connectorId": "DVI_I_DL_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_D"]
+    },
+    {
+      "name": "SDI-1 IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI-1 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI-2 IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "SDI-2 OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"]
+    },
+    {
+      "name": "Y(CVBS1)",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["CVBS", "Y"]
+    },
+    {
+      "name": "Pb",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["PB"]
+    },
+    {
+      "name": "Pr",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["PR"]
+    },
+    {
+      "name": "AUDIO IN",
+      "direction": "IN",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    },
+    {
+      "name": "Headphones",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ]
+}

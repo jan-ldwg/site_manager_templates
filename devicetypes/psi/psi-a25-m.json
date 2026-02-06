@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "psi-a25-m",
+  "name": "A25-M",
+  "manufacturerId": "psi",
+  "orderCode": "A25-M",
+  "orderNumber": null,
+  "climateLoad": 200,
+  "portTypes": [
+    {
+      "name": "INPUT",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    }
+  ]
+}

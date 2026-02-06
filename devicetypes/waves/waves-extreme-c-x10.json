@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "waves-extreme-c-x10",
+  "name": "Extreme-C SoundGrid Server X10",
+  "manufacturerId": "waves",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 65,
+  "portTypes": [
+    {
+      "name": "SoundGrid",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "SERVICE",
+      "direction": "OUT",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_I", "DVI_D"]
+    },
+    {
+      "name": "SERVICE",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    },
+    {
+      "name": "SERVICE",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    }
+  ]
+}

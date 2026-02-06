@@ -155,6 +155,11 @@
     "description": ""
   },
   {
+    "id": "RS_422",
+    "name": "RS-422",
+    "description": ""
+  },
+  {
     "id": "CAN_1M",
     "name": "CAN 1 Mb/s",
     "description": ""
@@ -163,6 +168,26 @@
     "id": "CAN_500K",
     "name": "CAN 500 kb/s",
     "description": ""
+  },
+  {
+    "id": "CVBS",
+    "name": "CVBS",
+    "description": "Analog composite video signal according to PAL or NTSC standard"
+  },
+  {
+    "id": "Y",
+    "name": "Y",
+    "description": "Luma component of an analog video signal"
+  },
+  {
+    "id": "PB",
+    "name": "Pb",
+    "description": "Pb component of an analog video signal"
+  },
+  {
+    "id": "PR",
+    "name": "Pr",
+    "description": "Pr component of an analog video signal"
   },
   {
     "id": "SDI_SD_CU",

@@ -75,6 +75,16 @@
     "nameShort": "Neumann"
   },
   {
+    "id": "postium",
+    "name": "Postium Korea  Co., Ltd.",
+    "nameShort": "Postium"
+  },
+  {
+    "id": "psi",
+    "name": "PSI Audio",
+    "nameShort": "PSI"
+  },
+  {
     "id": "riedel",
     "name": "Riedel Communications GmbH",
     "nameShort": "Riedel"
@@ -93,6 +103,11 @@
     "id": "stagetec",
     "name": "STAGETEC GmbH",
     "nameShort": "Stagetec"
+  },
+  {
+    "id": "waves",
+    "name": "Waves Audio Ltd.",
+    "nameShort": "Waves"
   },
   {
     "id": "yamaha",
