@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "bricasti-m10",
+  "name": "M10",
+  "manufacturerId": "bricasti",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "Remote",
+      "direction": "OUT",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["RS_422"]
+    }
+  ]
+}

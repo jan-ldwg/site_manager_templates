@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "telestream-mp-sfp-25gesr",
+  "name": "MP-SFP 25GESR",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfp28",
+  "manufacturerId": "telestream",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["25GBASE_SR"]
+    }
+  ]
+}

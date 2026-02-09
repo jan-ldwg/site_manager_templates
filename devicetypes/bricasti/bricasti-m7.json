@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "id": "bricasti-m7",
+  "name": "M7",
+  "manufacturerId": "bricasti",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 60,
+  "portTypes": [
+    {
+      "name": "Midi In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "Midi Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "Remote",
+      "direction": "IN",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["RS_422"]
+    },
+    {
+      "name": "Loop thru",
+      "direction": "OUT",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["RS_422"]
+    },
+    {
+      "name": "AES In",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "AES Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "Analog Left In",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "name": "Analog Right In",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+
+    {
+      "name": "Analog Left Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    },
+    {
+      "name": "Analog Right Out",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+    }
+  ]
+}
