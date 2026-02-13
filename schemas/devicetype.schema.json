@@ -36,7 +36,7 @@
     },
     "climateLoad": {
       "description": "The maximum heat dissipation of the device type.",
-      "type": "integer",
+      "type": ["integer", "null"],
       "minimum": 0
     },
     "portTypes": {
