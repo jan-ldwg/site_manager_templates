@@ -1,0 +1,638 @@
+{
+  "version": "1.0",
+  "id": "netgear-m4350-32f8v",
+  "name": "M4350-32F8V",
+  "manufacturerId": "netgear",
+  "orderCode": null,
+  "orderNumber": "XSM4340FV",
+  "climateLoad": null,
+  "portTypes": [
+    {
+      "name": "USB 3.0",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+    },
+    {
+      "name": "USB 3.0",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+    },
+    {
+      "name": "USB C",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+
+    {
+      "name": "OOB",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "1",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "2",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "3",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "4",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "5",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "6",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "7",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "8",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "9",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "10",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "11",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "12",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "13",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "14",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "15",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "16",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "17",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "18",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "19",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "20",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "21",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "22",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "23",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "24",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "25",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "26",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "27",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "28",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "29",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "30",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "31",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "32",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "33",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "34",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "35",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "36",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "37",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "38",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "39",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "40",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus", "sfp28"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

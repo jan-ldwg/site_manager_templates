@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "id": "netgear-pr460x",
+  "name": "PR460X",
+  "manufacturerId": "netgear",
+  "orderCode": null,
+  "orderNumber": "pr460x",
+  "climateLoad": null,
+  "portTypes": [
+    {
+      "name": "LAN1",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T", "2_5GBASE_T"]
+    },
+    {
+      "name": "LAN2",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T", "2_5GBASE_T"]
+    },
+    {
+      "name": "LAN3",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T", "2_5GBASE_T"]
+    },
+    {
+      "name": "WAN1",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T", "2_5GBASE_T"]
+    },
+    {
+      "name": "LAN5 WAN2",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": [
+        "1000BASE_T",
+        "2_5GBASE_T",
+        "5GBASE_T",
+        "10GBASE_T"
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "LAN4",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "id": "digitus-dn-95118",
+  "name": "DN-95118",
+  "manufacturerId": "digitus",
+  "orderCode": null,
+  "orderNumber": "DN-95118",
+  "climateLoad": 250,
+  "portTypes": [
+    {
+      "name": "DATA 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 1",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 2",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 3",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 3",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 4",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 4",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 5",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 5",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 6",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 6",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 7",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 7",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA 8",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "DATA + PWR 8",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "id": "skaarhoj-ptz-extreme",
+  "name": "PTZ Extreme",
+  "manufacturerId": "skaarhoj",
+  "orderCode": null,
+  "orderNumber": "5714074002710",
+  "climateLoad": 7,
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "",
+      "direction": "IN",
+      "connectorId": "USB2.0B_MICRO_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -1,0 +1,243 @@
+{
+  "version": "1.0",
+  "id": "netgear-m4350-24g4xf",
+  "name": "M4350-24G4XF",
+  "manufacturerId": "netgear",
+  "orderCode": null,
+  "orderNumber": "GSM4328",
+  "climateLoad": null,
+  "portTypes": [
+    {
+      "name": "USB 3.0",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+    },
+    {
+      "name": "USB 3.0",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+    },
+    {
+      "name": "USB C",
+      "direction": "IN",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+
+    {
+      "name": "OOB",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "1",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "2",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "3",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "4",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "5",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "6",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "7",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "8",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "9",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "10",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "11",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+
+    {
+      "name": "12",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "13",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "14",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "15",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "16",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "17",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "18",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "19",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "20",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "21",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "22",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "23",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "24",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "25",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "26",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "27",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "28",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

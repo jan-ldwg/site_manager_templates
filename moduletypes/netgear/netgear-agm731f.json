@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "netgear-agm731f",
+  "name": "AGM731F",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "netgear",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["1000BASE_SX"]
+    }
+  ]
+}

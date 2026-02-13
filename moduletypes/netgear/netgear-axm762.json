@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "netgear-axm762",
+  "name": "AXM762",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfpplus",
+  "manufacturerId": "netgear",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["10GBASE_LR"]
+    }
+  ]
+}

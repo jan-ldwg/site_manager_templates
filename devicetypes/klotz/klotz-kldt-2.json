@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "id": "klotz-kldt-2",
+  "name": "KLDT-2",
+  "manufacturerId": "klotz",
+  "orderCode": null,
+  "orderNumber": "KLDT-2",
+  "climateLoad": 0,
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    },
+    {
+      "name": "1",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "2",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "3",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "4",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "5",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "6",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "7",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "8",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+
+    {
+      "name": "9",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "10",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "11",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "12",
+      "direction": "OUT",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "13",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "14",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "15",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    },
+    {
+      "name": "16",
+      "direction": "IN",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": ["AES3"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

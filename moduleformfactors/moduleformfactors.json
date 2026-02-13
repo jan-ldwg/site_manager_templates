@@ -5,6 +5,11 @@
     "description": "Keystone module used primarily for patch panels"
   },
   {
+    "id": "d-series",
+    "name": "D Series",
+    "description": "Module for D series panels"
+  },
+  {
     "id": "sfp",
     "name": "SFP",
     "description": "Small Formfactor Pluggable according to SFF Commttee specification INF-8074i"

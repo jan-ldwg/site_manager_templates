@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "id": "riedel-esp-1216hl",
+  "name": "ESP-1216HL",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "orderNumber": "1220700",
+  "climateLoad": 15,
+  "portTypes": [
+    {
+      "name": "EXP I/O",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["riedel_EXPANSION"]
+    },
+    {
+      "name": "EXP I/O",
+      "direction": "OUT",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["riedel_EXPANSION"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "neutrik-ne8fdx-p6-b",
+  "name": "NE8-FDX-P6-B",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "d-series",
+  "manufacturerId": "neutrik",
+  "portTypes": [
+    {
+      "name": "Front",
+      "direction": "FRONT",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "Rear",
+      "direction": "REAR",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": []
+    }
+  ]
+}
