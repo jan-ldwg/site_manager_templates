@@ -11,13 +11,13 @@
       "name": "USB 3.0",
       "direction": "OUT",
       "connectorId": "USB3.0A_f",
-      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
     },
     {
       "name": "USB 3.0",
       "direction": "OUT",
       "connectorId": "USB3.0A_f",
-      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_3GEN1X1"]
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
     },
     {
       "name": "USB C",
