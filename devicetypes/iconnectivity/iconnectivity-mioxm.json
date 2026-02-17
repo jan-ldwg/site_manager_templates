@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "id": "iconnectivity-mioxm",
+  "name": "mioXM",
+  "manufacturerId": "iconnectivity",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 36,
+  "portTypes": [
+    {
+      "name": "RTP-MIDI",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "USB-DAW",
+      "direction": "IN",
+      "connectorId": "USB2.0B_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "DIN 1 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 1 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 2 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 2 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 3 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 3 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 4 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 4 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "USB-MIDI Host",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

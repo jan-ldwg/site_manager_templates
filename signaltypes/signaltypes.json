@@ -55,6 +55,11 @@
     "description": "IEEE 802.3ae-2002"
   },
   {
+    "id": "10GBASE_LRM",
+    "name": "10GBASE-LRM",
+    "description": "IEEE 802.3aq"
+  },
+  {
     "id": "25GBASE_SR",
     "name": "25GBASE-SR",
     "description": "IEEE 802.3by-2016"
@@ -420,6 +425,31 @@
     "description": "80 Gbit/s, also known as USB 4v2 or USB 80Gbps"
   },
   {
+    "id": "TB_1",
+    "name": "Thunderbolt 1",
+    "description": ""
+  },
+  {
+    "id": "TB_2",
+    "name": "Thunderbolt 2",
+    "description": ""
+  },
+  {
+    "id": "TB_3",
+    "name": "Thunderbolt 3",
+    "description": ""
+  },
+  {
+    "id": "TB_4",
+    "name": "Thunderbolt 4",
+    "description": ""
+  },
+  {
+    "id": "TB_5",
+    "name": "Thunderbolt 5",
+    "description": ""
+  },
+  {
     "id": "VGA",
     "name": "VGA",
     "description": "Video Graphics Array"
@@ -463,5 +493,20 @@
     "id": "genelec_GLM",
     "name": "Genelec GLM Network",
     "description": "Proprietary format used by Genelec to control loudspeakers"
+  },
+  {
+    "id": "riedel_EXPANSION",
+    "name": "Riedel Panel Expansion",
+    "description": "Proprietary format used by Riedel to connect expansion panels to their intercom panels. Note that only expansion panels of the same generation can be connected to an intercom panel, but this is not modeled here."
+  },
+  {
+    "id": "riedel_ARTIST_G2_CAT",
+    "name": "Riedel Artist G2 CAT",
+    "description": "Proprietary format used by Riedel to connect panels over CAT to the matrix in their Artist G2 system."
+  },
+  {
+    "id": "riedel_ARTIST_G2_COAX",
+    "name": "Riedel Artist G2 Coax",
+    "description": "Proprietary format used by Riedel to connect panels over 75 ohm coax to the matrix in their Artist G2 system."
   }
 ]

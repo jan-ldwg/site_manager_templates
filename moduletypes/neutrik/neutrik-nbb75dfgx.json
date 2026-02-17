@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "neutrik-nbb75dfgx",
+  "name": "NBB75DFGX",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "d-series",
+  "manufacturerId": "neutrik",
+  "portTypes": [
+    {
+      "name": "Front",
+      "direction": "FRONT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "Rear",
+      "direction": "REAR",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": []
+    }
+  ]
+}

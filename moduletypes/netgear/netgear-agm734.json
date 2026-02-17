@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "netgear-agm734",
+  "name": "AGM734",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "netgear",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ]
+}

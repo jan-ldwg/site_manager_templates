@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "netgear-axm765",
+  "name": "AXM765",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfpplus",
+  "manufacturerId": "netgear",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10GBASE_T"]
+    }
+  ]
+}

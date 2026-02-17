@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "id": "riedel-rsp-1232hl-7p",
+  "name": "RSP-1232HL",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "orderNumber": "9301243",
+  "climateLoad": 20,
+  "portTypes": [
+    {
+      "name": "ETH 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "ETH 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "MGNT",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "EXP",
+      "direction": "OUT",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["riedel_EXPANSION"]
+    },
+    {
+      "name": "MATRIX 1",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["riedel_ARTIST_G2_CAT"]
+    },
+    {
+      "name": "MATRIX 2",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["riedel_ARTIST_G2_COAX"]
+    },
+    {
+      "name": "DP",
+      "direction": "OUT",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "GPI-IN",
+      "direction": "IN",
+      "connectorId": "DSUB9p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "GPI-OUT",
+      "direction": "OUT",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "AUDIO A",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "AUDIO B",
+      "direction": "BIDI",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "HEADSET A",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "HEADSET B",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USBC_f",
+      "compatibleSignalTypes": ["USB_2"]
+    },
+    {
+      "name": "USB (front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_2"]
+    },
+    {
+      "name": "",
+      "direction": "IN",
+      "connectorId": "XLR7p_m",
+      "compatibleSignalTypes": []
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "ETH 3",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "ETH 4",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "id": "cedar-dns-8d",
+  "name": "DNS 8D",
+  "manufacturerId": "cedar",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 15,
+  "portTypes": [
+    {
+      "name": "CONTROL",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "Dante PRIMARY",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "Dante SECONDARY",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "AES IN/OUT (AES59)",
+      "direction": "BIDI",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["AES59_DIGI_IO"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

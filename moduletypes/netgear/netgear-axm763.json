@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "netgear-axm763",
+  "name": "AXM763",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfpplus",
+  "manufacturerId": "netgear",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": ["10GBASE_LRM"]
+    }
+  ]
+}

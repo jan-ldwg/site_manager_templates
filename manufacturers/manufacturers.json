@@ -1,5 +1,10 @@
 [
   {
+    "id": "bfe",
+    "name": "BFE Studio und Mediensysteme GmbH",
+    "nameShort": "BFE"
+  },
+  {
     "id": "black-box",
     "name": "Black Box Ltd.",
     "nameShort": "Black Box"
@@ -15,6 +20,11 @@
     "nameShort": "Bricasti"
   },
   {
+    "id": "cedar",
+    "name": "CEDAR Audio Ltd",
+    "nameShort": "CEDAR"
+  },
+  {
     "id": "cisco",
     "name": "Cisco Systems, Inc.",
     "nameShort": "Cisco"
@@ -28,6 +38,11 @@
     "id": "dhd",
     "name": "DHD audio GmbH",
     "nameShort": "DHD"
+  },
+  {
+    "id": "digitus",
+    "name": "ASSMANN Electronic GmbH",
+    "nameShort": "Digitus"
   },
   {
     "id": "directout",
@@ -50,9 +65,19 @@
     "nameShort": "HP"
   },
   {
+    "id": "iconnectivity",
+    "name": "iKingdom Corp.",
+    "nameShort": "iConnectivity"
+  },
+  {
     "id": "imagine",
     "name": "Imagine Communications Corp.",
     "nameShort": "Imagine"
+  },
+  {
+    "id": "klotz",
+    "name": "KLOTZ AIS GmbH",
+    "nameShort": "KLOTZ"
   },
   {
     "id": "lake-people",
@@ -75,9 +100,19 @@
     "nameShort": "MMB"
   },
   {
+    "id": "netgear",
+    "name": "NETGEAR Inc.",
+    "nameShort": "NETGEAR"
+  },
+  {
     "id": "neumann",
     "name": "Georg Neumann GmbH",
     "nameShort": "Neumann"
+  },
+  {
+    "id": "neutrik",
+    "name": "Neutrik AG",
+    "nameShort": "Neutrik"
   },
   {
     "id": "postium",
@@ -103,6 +138,11 @@
     "id": "sharp",
     "name": "Sharp Corporation",
     "nameShort": "Sharp"
+  },
+  {
+    "id": "skaarhoj",
+    "name": "SKAARHOJ ApS",
+    "nameShort": "SKAARHOJ"
   },
   {
     "id": "stagetec",

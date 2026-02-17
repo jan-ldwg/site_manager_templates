@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "id": "iconnectivity-mioxl",
+  "name": "mioXL",
+  "manufacturerId": "iconnectivity",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 36,
+  "portTypes": [
+    {
+      "name": "RTP-MIDI",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "USB-DAW",
+      "direction": "IN",
+      "connectorId": "USB2.0B_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "DIN 1 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 1 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 2 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 2 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 3 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 3 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 4 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 4 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 5 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 5 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 6 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 6 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 7 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 7 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 8 In",
+      "direction": "IN",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 8 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 9 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 10 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 11 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "DIN 12 Out",
+      "direction": "OUT",
+      "connectorId": "DIN5p_f",
+      "compatibleSignalTypes": ["MIDI"]
+    },
+    {
+      "name": "USB-MIDI Host (front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB-MIDI Host (rear)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "id": "bfe-front-1he-16x-xlr-9005",
+  "name": "Front 1HE 16x XLR 9005",
+  "manufacturerId": "bfe",
+  "orderCode": null,
+  "orderNumber": "600069",
+  "climateLoad": 0,
+  "portTypes": [],
+  "moduleSlotTypes": [
+    {
+      "name": "1",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "2",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "3",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "4",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "5",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "6",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "7",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "8",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "9",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "10",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "11",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "12",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "13",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "14",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "15",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "16",
+      "compatibleModuleSlotFormFactors": ["d-series"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

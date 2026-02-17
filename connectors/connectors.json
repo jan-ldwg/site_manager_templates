@@ -637,6 +637,20 @@
     "compatibleConnectors": ["TRS_635_m", "XLR3p_m"]
   },
   {
+    "id": "XLR4p_f",
+    "name": "XLR 4pole female",
+    "gender": "FEMALE",
+    "icon": "XLR4p_f",
+    "compatibleConnectors": ["XLR4p_m"]
+  },
+  {
+    "id": "XLR4p_m",
+    "name": "XLR 4pole male",
+    "gender": "MALE",
+    "icon": "XLR4p_m",
+    "compatibleConnectors": ["XLR4p_f"]
+  },
+  {
     "id": "XLR5p_f",
     "name": "XLR 5pole female",
     "gender": "FEMALE",
@@ -649,6 +663,20 @@
     "gender": "MALE",
     "icon": "XLR5p_m",
     "compatibleConnectors": ["XLR5p_f"]
+  },
+  {
+    "id": "XLR7p_f",
+    "name": "XLR 7pole female",
+    "gender": "FEMALE",
+    "icon": "XLR7p_f",
+    "compatibleConnectors": ["XLR7p_m"]
+  },
+  {
+    "id": "XLR7p_m",
+    "name": "XLR 7pole male",
+    "gender": "MALE",
+    "icon": "XLR7p_m",
+    "compatibleConnectors": ["XLR7p_f"]
   },
   {
     "id": "TRS_35_f",
