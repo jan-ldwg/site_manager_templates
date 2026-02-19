@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "id": "neutrik-no2-4fdw-a-pc-mm",
+  "name": "NO2-4FDW-A (PC, MM)",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "d-series",
+  "manufacturerId": "neutrik",
+  "portTypes": [
+    {
+      "name": "Front",
+      "direction": "FRONT",
+      "connectorId": "OPC_DUO_PC_MM_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "Rear",
+      "direction": "REAR",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "",
+      "direction": "REAR",
+      "connectorId": "SOLDER_h",
+      "compatibleSignalTypes": []
+    }
+  ]
+}

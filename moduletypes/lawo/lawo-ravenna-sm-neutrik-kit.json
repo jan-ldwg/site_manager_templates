@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "id": "lawo-ravenna-sm-neutrik-kit",
+  "name": "RAVENNA-SM-Neutrik-Kit",
+  "orderCode": null,
+  "orderNumber": "976/74",
+  "moduleFormFactorId": null,
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "name": "1/3/5",
+      "direction": "UP",
+      "connectorId": "OPC_DUO_PC_SM_f",
+      "compatibleSignalTypes": ["1000BASE_LX"]
+    },
+    {
+      "name": "2/4/6",
+      "direction": "UP",
+      "connectorId": "OPC_DUO_PC_SM_f",
+      "compatibleSignalTypes": ["1000BASE_LX"]
+    }
+  ],
+  "moduleSlotTypes": []
+}
