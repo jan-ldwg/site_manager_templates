@@ -115,6 +115,11 @@
     "nameShort": "Neutrik"
   },
   {
+    "id": "philips",
+    "name": "Koninklijke Philips N.V.",
+    "nameShort": "Philips"
+  },
+  {
     "id": "postium",
     "name": "Postium Korea  Co., Ltd.",
     "nameShort": "Postium"
