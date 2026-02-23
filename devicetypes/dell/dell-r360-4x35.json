@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "id": "dell-r360-4x35",
+  "name": "PowerEdge R360 4x3,5 Zoll",
+  "manufacturerId": "dell",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 770,
+  "portTypes": [
+    {
+      "name": "USB (Front)",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "iDRAC Direct",
+      "direction": "IN",
+      "connectorId": "USB2.0B_MICRO_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "IOIOI",
+      "direction": "IN",
+      "connectorId": "DSUB9p_m",
+      "compatibleSignalTypes": ["RS_232"]
+    },
+    {
+      "name": "iDRAC",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "VGA",
+      "direction": "IN",
+      "connectorId": "DSUB15p_HD_f",
+      "compatibleSignalTypes": ["VGA", "DVI_I", "DVI_A"]
+    },
+    {
+      "name": "USB+",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "SS USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2", "USB_32_GEN1X1"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Slot-1",
+      "compatibleModuleSlotFormFactors": [
+        "pcie-x1-hl-lp",
+        "pcie-x4-hl-lp",
+        "pcie-x8-hl-lp",
+        "pcie-x16-hl-lp"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot-2",
+      "compatibleModuleSlotFormFactors": [
+        "pcie-x1-hl-lp",
+        "pcie-x4-hl-lp",
+        "pcie-x8-hl-lp",
+        "pcie-x16-hl-lp"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

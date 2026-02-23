@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "dell-540-bdrl",
+  "name": "Broadcom 5719 Quad Port 1GbE BASE-T Adapter V2",
+  "orderCode": null,
+  "orderNumber": "540-bdrl",
+  "moduleFormFactorId": "pcie-x1-hl-lp",
+  "manufacturerId": "dell",
+  "portTypes": [
+    {
+      "name": "0",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "3",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    }
+  ]
+}

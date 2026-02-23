@@ -75,6 +75,11 @@
     "nameShort": "Imagine"
   },
   {
+    "id": "intel",
+    "name": "Intel Corporation",
+    "nameShort": "Intel"
+  },
+  {
     "id": "klotz",
     "name": "KLOTZ AIS GmbH",
     "nameShort": "KLOTZ"

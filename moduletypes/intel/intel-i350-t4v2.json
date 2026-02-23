@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "intel-i350-t4v2",
+  "name": "I350-T4V2",
+  "orderCode": null,
+  "orderNumber": "I350T4V2",
+  "moduleFormFactorId": "pcie-x4-hl-lp",
+  "manufacturerId": "intel",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    }
+  ]
+}
