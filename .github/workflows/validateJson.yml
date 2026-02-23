@@ -73,3 +73,6 @@ jobs:
             -d "moduletypes/**/*.json" \
             --spec=draft2020 \
             --all-errors
+
+      - name: Run validation script
+        run: node scripts/validate.js
