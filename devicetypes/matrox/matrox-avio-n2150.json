@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "id": "matrox-avio-n2150",
+  "name": "Avio N2150",
+  "manufacturerId": "matrox",
+  "orderCode": null,
+  "orderNumber": "AV2-N2150 ",
+  "climateLoad": 26,
+  "portTypes": [
+    {
+      "name": "LAN PoE+",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "IO",
+      "direction": "OUT",
+      "connectorId": "EURO_XX_5p_m",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "HDMI IN",
+      "direction": "IN",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI"]
+    },
+    {
+      "name": "HDMI OUT",
+      "direction": "OUT",
+      "connectorId": "HDMI_A_f",
+      "compatibleSignalTypes": ["HDMI"]
+    },
+    {
+      "name": "USB 2.0",
+      "direction": "IN",
+      "connectorId": "USB2.0B_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB 2.0",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB 2.0",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB 2.0",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB 2.0",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "Line In",
+      "direction": "IN",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    },
+    {
+      "name": "Line Out",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["AUDIO_UNBAL_ANA_STEREO"]
+    },
+    {
+      "name": "Headphones",
+      "direction": "OUT",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "Microphone",
+      "direction": "IN",
+      "connectorId": "TRS_35_f",
+      "compatibleSignalTypes": []
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "SFP 1",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SFP 2",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

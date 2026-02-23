@@ -765,6 +765,76 @@
     "compatibleConnectors": ["JIS_F05_f"]
   },
   {
+    "id": "EURO_XX_5p_m",
+    "name": "Euroblock unknown pitch 5pole male",
+    "gender": "MALE",
+    "icon": "EURO_5p_m",
+    "compatibleConnectors": ["EURO_XX_5p_f"]
+  },
+  {
+    "id": "EURO_XX_5p_f",
+    "name": "Euroblock unknown pitch 5pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_5p_f",
+    "compatibleConnectors": ["EURO_XX_5p_m"]
+  },
+  {
+    "id": "EURO_35_2p_m",
+    "name": "Euroblock 3.5mm 2pole male",
+    "gender": "MALE",
+    "icon": "EURO_2p_m",
+    "compatibleConnectors": ["EURO_35_2p_f"]
+  },
+  {
+    "id": "EURO_35_2p_f",
+    "name": "Euroblock 3.5mm 2pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_2p_f",
+    "compatibleConnectors": ["EURO_35_2p_m"]
+  },
+  {
+    "id": "EURO_35_3p_m",
+    "name": "Euroblock 3.5mm 3pole male",
+    "gender": "MALE",
+    "icon": "EURO_3p_m",
+    "compatibleConnectors": ["EURO_35_3p_f"]
+  },
+  {
+    "id": "EURO_35_3p_f",
+    "name": "Euroblock 3.5mm 3pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_3p_f",
+    "compatibleConnectors": ["EURO_35_3p_m"]
+  },
+  {
+    "id": "EURO_508_2p_m",
+    "name": "Euroblock 5.08mm 2pole male",
+    "gender": "MALE",
+    "icon": "EURO_2p_m",
+    "compatibleConnectors": ["EURO_508_2p_f"]
+  },
+  {
+    "id": "EURO_508_2p_f",
+    "name": "Euroblock 5.08mm 2pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_2p_f",
+    "compatibleConnectors": ["EURO_508_2p_m"]
+  },
+  {
+    "id": "EURO_508_3p_m",
+    "name": "Euroblock 5.08mm 3pole male",
+    "gender": "MALE",
+    "icon": "EURO_3p_m",
+    "compatibleConnectors": ["EURO_508_3p_f"]
+  },
+  {
+    "id": "EURO_508_3p_f",
+    "name": "Euroblock 5.08mm 3pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_3p_f",
+    "compatibleConnectors": ["EURO_508_3p_m"]
+  },
+  {
     "id": "SOLDER_h",
     "name": "Solder joint",
     "gender": "HERMA",

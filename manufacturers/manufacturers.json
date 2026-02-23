@@ -100,6 +100,11 @@
     "nameShort": "Luminex"
   },
   {
+    "id": "matrox",
+    "name": "Matrox Graphics inc.",
+    "nameShort": "Matrox"
+  },
+  {
     "id": "mmb",
     "name": "Media Units MUG GmbH",
     "nameShort": "MMB"
