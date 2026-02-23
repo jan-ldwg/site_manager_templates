@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "id": "brainstorm-dxd-16-gps",
+  "name": "DXD-16 w/ GPS option",
+  "manufacturerId": "brainstorm",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 48,
+  "portTypes": [
+    {
+      "name": "NETWORK 1",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "NETWORK 2",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "NETWORK 3",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "NETWORK 4",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "RS-232 / GPI/O / TC OUT / 1PPS I/O",
+      "direction": "INOUT",
+      "connectorId": "DSUB25p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "ANT GNSS/GPS",
+      "direction": "IN",
+      "connectorId": "SMA_f",
+      "compatibleSignalTypes": ["GPS"]
+    },
+    {
+      "name": "INPUT A",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID"
+      ]
+    },
+    {
+      "name": "INPUT B",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 1",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 2",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 3",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 4",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 5",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 6",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 7",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 8",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 9",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 10",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 11",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 12",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 13",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 14",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 15",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    },
+    {
+      "name": "UNIVERSAL OUTPUT 16",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": [
+        "BLACK_BURST",
+        "TRI_SYNC",
+        "10MHZ",
+        "WCLK",
+        "AES3ID",
+        "LTC_UNBAL"
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -28,6 +28,20 @@
     "compatibleConnectors": ["HD_BNC_f"]
   },
   {
+    "id": "SMA_m",
+    "name": "SMA 50 Ohm male",
+    "gender": "MALE",
+    "icon": "SMA_m",
+    "compatibleConnectors": ["SMA_f"]
+  },
+  {
+    "id": "SMA_f",
+    "name": "SMA 50 Ohm female",
+    "gender": "FEMALE",
+    "icon": "SMA_f",
+    "compatibleConnectors": ["SMA_m"]
+  },
+  {
     "id": "DSUB9p_f",
     "name": "D-Sub 9p female",
     "gender": "FEMALE",
