@@ -130,11 +130,6 @@
     "description": ""
   },
   {
-    "id": "100GBASE_CWDM4",
-    "name": "100GBASE-CWDM4",
-    "description": ""
-  },
-  {
     "id": "100GBASE_VR1",
     "name": "100GBASE-VR1",
     "description": "IEEE 802.3db-2022"

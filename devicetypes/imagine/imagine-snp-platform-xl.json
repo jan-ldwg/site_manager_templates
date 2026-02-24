@@ -525,13 +525,13 @@
       "compatibleModuleSlotFormFactors": ["qsfp28"],
       "compatibleModuleTypes": [
         "imagine-op100gcwdm42k",
-        "imagine-op100glandwdm40k",
+        "imagine-op100glanwdm40k",
         "imagine-op100gswdm4100m",
         "imagine-opqsfp100g10k",
         "imagine-opqsfp100gbidi",
         "imagine-opqsfp100gpsm4",
-        "imagine-opqsfpddr100g",
-        "imagine-opqsfpdfr100g",
+        "imagine-opqsfpdr100g",
+        "imagine-opqsfpfr100g",
         "imagine-opqsfptrmm100g",
         "imagine-opqsfpxsr4100g"
       ],
@@ -542,13 +542,13 @@
       "compatibleModuleSlotFormFactors": ["qsfp28"],
       "compatibleModuleTypes": [
         "imagine-op100gcwdm42k",
-        "imagine-op100glandwdm40k",
+        "imagine-op100glanwdm40k",
         "imagine-op100gswdm4100m",
         "imagine-opqsfp100g10k",
         "imagine-opqsfp100gbidi",
         "imagine-opqsfp100gpsm4",
-        "imagine-opqsfpddr100g",
-        "imagine-opqsfpdfr100g",
+        "imagine-opqsfpdr100g",
+        "imagine-opqsfpfr100g",
         "imagine-opqsfptrmm100g",
         "imagine-opqsfpxsr4100g"
       ],
