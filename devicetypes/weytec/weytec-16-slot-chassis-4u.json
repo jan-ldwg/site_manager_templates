@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "id": "weytec-16-slot-chassis-4u",
+  "name": "16 Slot Chassis 4U",
+  "manufacturerId": "weytec",
+  "orderCode": null,
+  "orderNumber": "23175-MX",
+  "climateLoad": 400,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX"]
+    },
+    {
+      "name": "Service",
+      "direction": "IN",
+      "connectorId": "USB2.0B_MINI_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "Power Out 1",
+      "direction": "OUT",
+      "connectorId": "DIN4p_f",
+      "compatibleSignalTypes": ["12v_dc_power"]
+    },
+    {
+      "name": "Power Out 2",
+      "direction": "OUT",
+      "connectorId": "DIN4p_f",
+      "compatibleSignalTypes": ["12v_dc_power"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Slot 1",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 2",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 3",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 4",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 5",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 6",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 7",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 8",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 9",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 10",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 11",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 12",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 13",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 14",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 15",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 16",
+      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

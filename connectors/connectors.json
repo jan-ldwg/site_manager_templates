@@ -112,6 +112,20 @@
     "compatibleConnectors": ["DIN5p_f"]
   },
   {
+    "id": "DIN4p_f",
+    "name": "DIN 4p 216° female",
+    "gender": "FEMALE",
+    "icon": "DIN4p_f",
+    "compatibleConnectors": ["DIN4p_m"]
+  },
+  {
+    "id": "DIN4p_m",
+    "name": "DIN 4p 216° male",
+    "gender": "MALE",
+    "icon": "DIN4p_m",
+    "compatibleConnectors": ["DIN4p_f"]
+  },
+  {
     "id": "ETHERCON_f",
     "name": "ETHERCON female",
     "gender": "FEMALE",
@@ -405,6 +419,21 @@
     "gender": "MALE",
     "icon": "USB2.0A_MINI_m",
     "compatibleConnectors": ["USB2.0A_MINI_f"]
+  },
+
+  {
+    "id": "USB2.0B_MINI_f",
+    "name": "USB 2.0 mini B female",
+    "gender": "FEMALE",
+    "icon": "USB2.0B_MINI_f",
+    "compatibleConnectors": ["USB2.0B_MINI_m"]
+  },
+  {
+    "id": "USB2.0B_MINI_m",
+    "name": "USB 2.0 mini B male",
+    "gender": "MALE",
+    "icon": "USB2.0B_MINI_m",
+    "compatibleConnectors": ["USB2.0B_MINI_f"]
   },
 
   {
@@ -733,5 +762,19 @@
     "gender": "MALE",
     "icon": "JIS_F05_m",
     "compatibleConnectors": ["JIS_F05_f"]
+  },
+  {
+    "id": "sdr_50p_f",
+    "name": "Shrunk Delta Ribbon 50 Pin female",
+    "gender": "FEMALE",
+    "icon": "sdr_50p_f",
+    "compatibleConnectors": ["sdr_50p_m"]
+  },
+  {
+    "id": "sdr_50p_m",
+    "name": "Shrunk Delta Ribbon 50 Pin male",
+    "gender": "MALE",
+    "icon": "sdr_50p_m",
+    "compatibleConnectors": ["sdr_50p_f"]
   }
 ]
