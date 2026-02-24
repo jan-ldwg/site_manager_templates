@@ -75,4 +75,4 @@ jobs:
             --all-errors
 
       - name: Run validation script
-        run: node scripts/validate.js
+        run: node scripts/validate.mjs
