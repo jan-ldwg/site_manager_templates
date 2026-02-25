@@ -23,97 +23,97 @@
   "moduleSlotTypes": [
     {
       "name": "Slot 1",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 2",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 3",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 4",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 5",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 6",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 7",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 8",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 9",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 10",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 11",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 12",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 13",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 14",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 15",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "Slot 16",
-      "compatibleModuleSlotFormFactors": ["weytec_din_card"],
+      "compatibleModuleSlotFormFactors": ["weytec-din-card"],
       "compatibleModuleTypes": ["weytec-ip-remote-ii-dp-tx-dual"],
       "incompatibleModuleTypes": []
     }
