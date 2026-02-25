@@ -112,20 +112,6 @@
     "compatibleConnectors": ["DIN5p_f"]
   },
   {
-    "id": "DIN4p_f",
-    "name": "DIN 4p 216° female",
-    "gender": "FEMALE",
-    "icon": "DIN4p_f",
-    "compatibleConnectors": ["DIN4p_m"]
-  },
-  {
-    "id": "DIN4p_m",
-    "name": "DIN 4p 216° male",
-    "gender": "MALE",
-    "icon": "DIN4p_m",
-    "compatibleConnectors": ["DIN4p_f"]
-  },
-  {
     "id": "ETHERCON_f",
     "name": "ETHERCON female",
     "gender": "FEMALE",
@@ -764,14 +750,14 @@
     "compatibleConnectors": ["JIS_F05_f"]
   },
   {
-    "id": "sdr_50p_f",
+    "id": "SDR_50p_f",
     "name": "Shrunk Delta Ribbon 50 Pin female",
     "gender": "FEMALE",
     "icon": "sdr_50p_f",
     "compatibleConnectors": ["sdr_50p_m"]
   },
   {
-    "id": "sdr_50p_m",
+    "id": "SDR_50p_m",
     "name": "Shrunk Delta Ribbon 50 Pin male",
     "gender": "MALE",
     "icon": "sdr_50p_m",

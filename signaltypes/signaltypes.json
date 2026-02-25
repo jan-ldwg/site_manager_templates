@@ -503,10 +503,5 @@
     "id": "riedel_ARTIST_G2_COAX",
     "name": "Riedel Artist G2 Coax",
     "description": "Proprietary format used by Riedel to connect panels over 75 ohm coax to the matrix in their Artist G2 system."
-  },
-  {
-    "id": "12v_dc_power",
-    "name": "12V DC Power",
-    "description": "12V DC power supply"
   }
 ]

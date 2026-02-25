@@ -18,18 +18,6 @@
       "direction": "IN",
       "connectorId": "USB2.0B_MINI_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
-    },
-    {
-      "name": "Power Out 1",
-      "direction": "OUT",
-      "connectorId": "DIN4p_f",
-      "compatibleSignalTypes": ["12v_dc_power"]
-    },
-    {
-      "name": "Power Out 2",
-      "direction": "OUT",
-      "connectorId": "DIN4p_f",
-      "compatibleSignalTypes": ["12v_dc_power"]
     }
   ],
   "moduleSlotTypes": [

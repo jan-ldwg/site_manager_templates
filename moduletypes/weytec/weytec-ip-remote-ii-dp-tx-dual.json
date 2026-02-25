@@ -9,7 +9,7 @@
   "portTypes": [
     {
       "name": "Service",
-      "direction": "UP",
+      "direction": "IN",
       "connectorId": "USB2.0B_MINI_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
     },
@@ -28,7 +28,7 @@
     {
       "name": "Data",
       "direction": "IN",
-      "connectorId": "sdr_50p_f",
+      "connectorId": "SDR_50p_f",
       "compatibleSignalTypes": []
     }
   ],
