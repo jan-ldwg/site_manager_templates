@@ -3,7 +3,7 @@
   "id": "weytec-ip-remote-ii-dp-tx-dual",
   "name": "IP Remote II DP TX Dual",
   "orderCode": null,
-  "orderNumber": "23175-MX",
+  "orderNumber": "24872TDP-MX",
   "moduleFormFactorId": "weytec-din-card",
   "manufacturerId": "weytec",
   "portTypes": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "Data",
-      "direction": "IN",
+      "direction": "INOUT",
       "connectorId": "SDR_50p_f",
       "compatibleSignalTypes": []
     }
