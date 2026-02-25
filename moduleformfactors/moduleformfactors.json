@@ -53,5 +53,10 @@
     "id": "lawo-powercore-io",
     "name": "Expansion I/O",
     "description": "Expansion I/O used by Lawo for their Power Core product line"
+  },
+  {
+    "id": "weytec-din-card",
+    "name": "DIN Card",
+    "description": "Module form factor used by Weytec for their remote and I/O modules"
   }
 ]

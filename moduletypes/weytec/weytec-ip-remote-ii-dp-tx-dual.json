@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "id": "weytec-ip-remote-ii-dp-tx-dual",
+  "name": "IP Remote II DP TX Dual",
+  "orderCode": null,
+  "orderNumber": "24872TDP-MX",
+  "moduleFormFactorId": "weytec-din-card",
+  "manufacturerId": "weytec",
+  "portTypes": [
+    {
+      "name": "Service",
+      "direction": "IN",
+      "connectorId": "USB2.0B_MINI_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "DisplayPort 1",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "DisplayPort 2",
+      "direction": "IN",
+      "connectorId": "DISPLAYPORT_f",
+      "compatibleSignalTypes": ["DP"]
+    },
+    {
+      "name": "Data",
+      "direction": "INOUT",
+      "connectorId": "SDR_50p_f",
+      "compatibleSignalTypes": []
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Line",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
