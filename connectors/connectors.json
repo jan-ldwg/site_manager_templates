@@ -753,14 +753,14 @@
     "id": "SDR_50p_f",
     "name": "Shrunk Delta Ribbon 50 Pin female",
     "gender": "FEMALE",
-    "icon": "sdr_50p_f",
-    "compatibleConnectors": ["sdr_50p_m"]
+    "icon": "SDR_50p_f",
+    "compatibleConnectors": ["SDR_50p_m"]
   },
   {
     "id": "SDR_50p_m",
     "name": "Shrunk Delta Ribbon 50 Pin male",
     "gender": "MALE",
-    "icon": "sdr_50p_m",
-    "compatibleConnectors": ["sdr_50p_f"]
+    "icon": "SDR_50p_m",
+    "compatibleConnectors": ["SDR_50p_f"]
   }
 ]
