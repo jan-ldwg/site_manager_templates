@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "ross-sfp-rj45-1g",
+  "name": "SFP-RJ45-1G",
+  "orderCode": null,
+  "orderNumber": "SFP-RJ45-1G",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    }
+  ]
+}
