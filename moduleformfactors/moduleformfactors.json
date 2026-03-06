@@ -35,6 +35,46 @@
     "description": ""
   },
   {
+    "id": "pcie-x16-fl-fh",
+    "name": "PCIe x16 Full length Full height",
+    "description": ""
+  },
+  {
+    "id": "pcie-x16-hl-lp",
+    "name": "PCIe x16 Half length Low profile",
+    "description": ""
+  },
+  {
+    "id": "pcie-x8-fl-fh",
+    "name": "PCIe x8 Full length Full height",
+    "description": ""
+  },
+  {
+    "id": "pcie-x8-hl-lp",
+    "name": "PCIe x8 Half length Low profile",
+    "description": ""
+  },
+  {
+    "id": "pcie-x4-fl-fh",
+    "name": "PCIe x4 Full length Full height",
+    "description": ""
+  },
+  {
+    "id": "pcie-x4-hl-lp",
+    "name": "PCIe x4 Half length Low profile",
+    "description": ""
+  },
+  {
+    "id": "pcie-x1-fl-fh",
+    "name": "PCIe x1 Full length Full height",
+    "description": ""
+  },
+  {
+    "id": "pcie-x1-hl-lp",
+    "name": "PCIe x1 Half length Low profile",
+    "description": ""
+  },
+  {
     "id": "directout-a-slot",
     "name": "A Slot",
     "description": "Audio network modules used by DirectOut"

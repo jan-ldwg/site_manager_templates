@@ -285,6 +285,16 @@
     "description": ""
   },
   {
+    "id": "10MHZ",
+    "name": "10 MHz reference clock",
+    "description": ""
+  },
+  {
+    "id": "GPS",
+    "name": "GPS signal",
+    "description": ""
+  },
+  {
     "id": "AUDIO_UNBAL_ANA",
     "name": "Unbalanced Analog Audio",
     "description": ""
@@ -377,6 +387,16 @@
   {
     "id": "WCLK",
     "name": "Wordclock",
+    "description": ""
+  },
+  {
+    "id": "LTC_UNBAL",
+    "name": "Unbalanced Longitudanal Timecode",
+    "description": ""
+  },
+  {
+    "id": "LTC_BAL",
+    "name": "Balanced Longitudanal Timecode",
     "description": ""
   },
   {

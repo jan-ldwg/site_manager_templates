@@ -28,6 +28,20 @@
     "compatibleConnectors": ["HD_BNC_f"]
   },
   {
+    "id": "SMA_m",
+    "name": "SMA 50 Ohm male",
+    "gender": "MALE",
+    "icon": "SMA_m",
+    "compatibleConnectors": ["SMA_f"]
+  },
+  {
+    "id": "SMA_f",
+    "name": "SMA 50 Ohm female",
+    "gender": "FEMALE",
+    "icon": "SMA_f",
+    "compatibleConnectors": ["SMA_m"]
+  },
+  {
     "id": "DSUB9p_f",
     "name": "D-Sub 9p female",
     "gender": "FEMALE",
@@ -294,34 +308,6 @@
     "compatibleConnectors": ["MPO_12_PC_MM_m", "MPO_8_PC_MM_m"]
   },
   {
-    "id": "MPO_8_PC_SM_m",
-    "name": "MPO8, PC, SM male",
-    "gender": "MALE",
-    "icon": "MPO8_m",
-    "compatibleConnectors": ["MPO_8_PC_SM_f", "MPO_12_PC_SM_f"]
-  },
-  {
-    "id": "MPO_8_PC_SM_f",
-    "name": "MPO8, PC, SM female",
-    "gender": "FEMALE",
-    "icon": "MPO8_f",
-    "compatibleConnectors": ["MPO_8_PC_SM_m", "MPO_12_PC_SM_m"]
-  },
-  {
-    "id": "MPO_12_PC_SM_m",
-    "name": "MPO12, PC, SM male",
-    "gender": "MALE",
-    "icon": "MPO12_m",
-    "compatibleConnectors": ["MPO_12_PC_SM_f", "MPO_8_PC_SM_f"]
-  },
-  {
-    "id": "MPO_12_PC_SM_f",
-    "name": "MPO12, PC, SM female",
-    "gender": "FEMALE",
-    "icon": "MPO12_f",
-    "compatibleConnectors": ["MPO_12_PC_SM_m", "MPO_8_PC_SM_m"]
-  },
-  {
     "id": "MPO_8_APC_SM_m",
     "name": "MPO8, APC, SM male",
     "gender": "MALE",
@@ -348,6 +334,64 @@
     "gender": "FEMALE",
     "icon": "MPO12_f",
     "compatibleConnectors": ["MPO_12_APC_SM_m", "MPO_8_APC_SM_m"]
+  },
+  {
+    "id": "OPC_DUO_PC_MM_m",
+    "name": "opticalCON DUO, PC, MM male",
+    "gender": "MALE",
+    "icon": "OPC_DUO_m",
+    "compatibleConnectors": [
+      "OPC_DUO_PC_MM_f",
+      "LC_DPLX_PC_MM_f",
+      "LC_DPLX_UPC_MM_f"
+    ]
+  },
+  {
+    "id": "OPC_DUO_PC_MM_f",
+    "name": "opticalCON DUO, PC, MM female",
+    "gender": "FEMALE",
+    "icon": "OPC_DUO_f",
+    "compatibleConnectors": [
+      "OPC_DUO_PC_MM_m",
+      "LC_DPLX_PC_MM_m",
+      "LC_DPLX_UPC_MM_m"
+    ]
+  },
+  {
+    "id": "OPC_DUO_PC_SM_m",
+    "name": "opticalCON DUO, PC, SM male",
+    "gender": "MALE",
+    "icon": "OPC_DUO_m",
+    "compatibleConnectors": [
+      "OPC_DUO_APC_SM_f",
+      "LC_DPLX_PC_SM_f",
+      "LC_DPLX_UPC_SM_f"
+    ]
+  },
+  {
+    "id": "OPC_DUO_PC_SM_f",
+    "name": "opticalCON DUO, PC, SM female",
+    "gender": "FEMALE",
+    "icon": "OPC_DUO_f",
+    "compatibleConnectors": [
+      "OPC_DUO_APC_SM_m",
+      "LC_DPLX_PC_SM_m",
+      "LC_DPLX_UPC_SM_m"
+    ]
+  },
+  {
+    "id": "OPC_DUO_APC_SM_m",
+    "name": "opticalCON DUO, APC, SM male",
+    "gender": "MALE",
+    "icon": "OPC_DUO_m",
+    "compatibleConnectors": ["OPC_DUO_APC_SM_f", "LC_DPLX_APC_SM_f"]
+  },
+  {
+    "id": "OPC_DUO_APC_SM_f",
+    "name": "opticalCON DUO, APC, SM female",
+    "gender": "FEMALE",
+    "icon": "OPC_DUO_f",
+    "compatibleConnectors": ["OPC_DUO_APC_SM_m", "LC_DPLX_APC_SM_m"]
   },
   {
     "id": "RJ45_f",
@@ -748,6 +792,83 @@
     "gender": "MALE",
     "icon": "JIS_F05_m",
     "compatibleConnectors": ["JIS_F05_f"]
+  },
+  {
+    "id": "EURO_XX_5p_m",
+    "name": "Euroblock unknown pitch 5pole male",
+    "gender": "MALE",
+    "icon": "EURO_5p_m",
+    "compatibleConnectors": ["EURO_XX_5p_f"]
+  },
+  {
+    "id": "EURO_XX_5p_f",
+    "name": "Euroblock unknown pitch 5pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_5p_f",
+    "compatibleConnectors": ["EURO_XX_5p_m"]
+  },
+  {
+    "id": "EURO_35_2p_m",
+    "name": "Euroblock 3.5mm 2pole male",
+    "gender": "MALE",
+    "icon": "EURO_2p_m",
+    "compatibleConnectors": ["EURO_35_2p_f"]
+  },
+  {
+    "id": "EURO_35_2p_f",
+    "name": "Euroblock 3.5mm 2pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_2p_f",
+    "compatibleConnectors": ["EURO_35_2p_m"]
+  },
+  {
+    "id": "EURO_35_3p_m",
+    "name": "Euroblock 3.5mm 3pole male",
+    "gender": "MALE",
+    "icon": "EURO_3p_m",
+    "compatibleConnectors": ["EURO_35_3p_f"]
+  },
+  {
+    "id": "EURO_35_3p_f",
+    "name": "Euroblock 3.5mm 3pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_3p_f",
+    "compatibleConnectors": ["EURO_35_3p_m"]
+  },
+  {
+    "id": "EURO_508_2p_m",
+    "name": "Euroblock 5.08mm 2pole male",
+    "gender": "MALE",
+    "icon": "EURO_2p_m",
+    "compatibleConnectors": ["EURO_508_2p_f"]
+  },
+  {
+    "id": "EURO_508_2p_f",
+    "name": "Euroblock 5.08mm 2pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_2p_f",
+    "compatibleConnectors": ["EURO_508_2p_m"]
+  },
+  {
+    "id": "EURO_508_3p_m",
+    "name": "Euroblock 5.08mm 3pole male",
+    "gender": "MALE",
+    "icon": "EURO_3p_m",
+    "compatibleConnectors": ["EURO_508_3p_f"]
+  },
+  {
+    "id": "EURO_508_3p_f",
+    "name": "Euroblock 5.08mm 3pole female",
+    "gender": "FEMALE",
+    "icon": "EURO_3p_f",
+    "compatibleConnectors": ["EURO_508_3p_m"]
+  },
+  {
+    "id": "SOLDER_h",
+    "name": "Solder joint",
+    "gender": "HERMA",
+    "icon": "SOLDER_h",
+    "compatibleConnectors": ["SOLDER_h"]
   },
   {
     "id": "SDR_50p_f",

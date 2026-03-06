@@ -1,41 +1,89 @@
 {
   "version": "1.0",
-  "id": "lawo-astage64",
-  "name": "A__stage64",
+  "id": "lawo-mc2-36-mkii-32-studio",
+  "name": "mc²36 MK II 32-Fader Studio",
   "manufacturerId": "lawo",
   "orderCode": null,
-  "orderNumber": "985/62",
-  "climateLoad": 240,
+  "orderNumber": "976/32S",
+  "climateLoad": 409,
   "portTypes": [
     {
-      "name": "MGMT",
+      "name": "MGMT A",
       "direction": "UP",
-      "connectorId": "RJ45_f",
+      "connectorId": "ETHERCON_f",
       "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
     },
     {
-      "name": "RAVENNA/AES67 PRIMARY",
+      "name": "MGMT B",
       "direction": "UP",
-      "connectorId": "RJ45_f",
+      "connectorId": "ETHERCON_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "MISC. A",
+      "direction": "UP",
+      "connectorId": "ETHERCON_f",
       "compatibleSignalTypes": ["1000BASE_T"]
     },
     {
-      "name": "RAVENNA/AES67 SECONDARY",
+      "name": "MISC. B",
       "direction": "UP",
-      "connectorId": "RJ45_f",
+      "connectorId": "ETHERCON_f",
       "compatibleSignalTypes": ["1000BASE_T"]
     },
     {
-      "name": "WCLK IN",
+      "name": "CLOCK IN",
       "direction": "IN",
       "connectorId": "BNC_f",
       "compatibleSignalTypes": ["WCLK"]
     },
     {
-      "name": "WCLK OUT",
+      "name": "CLOCK OUT",
       "direction": "OUT",
       "connectorId": "BNC_f",
       "compatibleSignalTypes": ["WCLK"]
+    },
+    {
+      "name": "HP",
+      "direction": "OUT",
+      "connectorId": "TRS_635_f",
+      "compatibleSignalTypes": ["PHONES_ANA"]
+    },
+    {
+      "name": "",
+      "direction": "FRONT",
+      "connectorId": "XLR3p_f",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "ETH A",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "DONGLE USB",
+      "direction": "OUT",
+      "connectorId": "USB2.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
     },
     {
       "name": "GPIO",
@@ -44,194 +92,104 @@
       "compatibleSignalTypes": ["GPIO"]
     },
     {
-      "name": "MIC/LINE IN 1",
+      "name": "TB",
+      "direction": "REAR",
+      "connectorId": "XLR3p_m",
+      "compatibleSignalTypes": []
+    },
+    {
+      "name": "MIC IN 1",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 2",
+      "name": "MIC IN 2",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 3",
+      "name": "MIC IN 3",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 4",
+      "name": "MIC IN 4",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 5",
+      "name": "MIC IN 5",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 6",
+      "name": "MIC IN 6",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 7",
+      "name": "MIC IN 7",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 8",
+      "name": "MIC IN 8",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
 
     {
-      "name": "MIC/LINE IN 9",
+      "name": "MIC IN 9",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 10",
+      "name": "MIC IN 10",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 11",
+      "name": "MIC IN 11",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 12",
+      "name": "MIC IN 12",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 13",
+      "name": "MIC IN 13",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 14",
+      "name": "MIC IN 14",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 15",
+      "name": "MIC IN 15",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
     },
     {
-      "name": "MIC/LINE IN 16",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 17",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 18",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 19",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 20",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 21",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 22",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 23",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 24",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 25",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 26",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 27",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 28",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 29",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 30",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 31",
-      "direction": "IN",
-      "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
-    },
-    {
-      "name": "MIC/LINE IN 32",
+      "name": "MIC IN 16",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AUDIO_MIC", "AUDIO_MIC_48V"]
@@ -333,97 +291,97 @@
       "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
     },
     {
-      "name": "AES 3 IN 1",
+      "name": "AES3 IN 1",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 2",
+      "name": "AES3 IN 2",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 3",
+      "name": "AES3 IN 3",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 4",
+      "name": "AES3 IN 4",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 5",
+      "name": "AES3 IN 5",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 6",
+      "name": "AES3 IN 6",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 7",
+      "name": "AES3 IN 7",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 IN 8",
+      "name": "AES3 IN 8",
       "direction": "IN",
       "connectorId": "XLR3p_f",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 1",
+      "name": "AES3 OUT 1",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 2",
+      "name": "AES3 OUT 2",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 3",
+      "name": "AES3 OUT 3",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 4",
+      "name": "AES3 OUT 4",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 5",
+      "name": "AES3 OUT 5",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 6",
+      "name": "AES3 OUT 6",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 7",
+      "name": "AES3 OUT 7",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
     },
     {
-      "name": "AES 3 OUT 8",
+      "name": "AES3 OUT 8",
       "direction": "OUT",
       "connectorId": "XLR3p_m",
       "compatibleSignalTypes": ["AES3"]
@@ -431,41 +389,37 @@
   ],
   "moduleSlotTypes": [
     {
-      "name": "RAVENNA/AES67 PRIMARY",
-      "compatibleModuleSlotFormFactors": ["sfp"],
+      "name": "I/O 1/2",
+      "compatibleModuleSlotFormFactors": [],
       "compatibleModuleTypes": [
-        "lawo-98160-10",
-        "lawo-98160-20",
-        "lawo-98160-30",
-        "lawo-98160-60",
-        "lawo-98160-61"
+        "lawo-ravenna-rj45-kit",
+        "lawo-ravenna-mm-neutrik-kit",
+        "lawo-ravenna-sm-neutrik-kit"
       ],
       "incompatibleModuleTypes": []
     },
     {
-      "name": "RAVENNA/AES67 SECONDARY",
-      "compatibleModuleSlotFormFactors": ["sfp"],
+      "name": "I/O 3/4",
+      "compatibleModuleSlotFormFactors": [],
       "compatibleModuleTypes": [
-        "lawo-98160-10",
-        "lawo-98160-20",
-        "lawo-98160-30",
-        "lawo-98160-60",
-        "lawo-98160-61"
+        "lawo-ravenna-rj45-kit",
+        "lawo-ravenna-mm-neutrik-kit",
+        "lawo-ravenna-sm-neutrik-kit"
       ],
       "incompatibleModuleTypes": []
     },
     {
-      "name": "MADI PRI",
-      "compatibleModuleSlotFormFactors": ["sfp"],
+      "name": "I/O 5/6",
+      "compatibleModuleSlotFormFactors": [],
       "compatibleModuleTypes": [
-        "lawo-98160-80",
-        "lawo-98160-81",
-        "lawo-98160-82"
+        "lawo-ravenna-rj45-kit",
+        "lawo-ravenna-mm-neutrik-kit",
+        "lawo-ravenna-sm-neutrik-kit"
       ],
       "incompatibleModuleTypes": []
     },
     {
-      "name": "MADI SEC",
+      "name": "MADI",
       "compatibleModuleSlotFormFactors": ["sfp"],
       "compatibleModuleTypes": [
         "lawo-98160-80",

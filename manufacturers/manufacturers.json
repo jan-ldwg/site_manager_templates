@@ -15,6 +15,11 @@
     "nameShort": "Blackmagic"
   },
   {
+    "id": "brainstorm",
+    "name": "Brainstorm Electronics, Inc.",
+    "nameShort": "Brainstorm"
+  },
+  {
     "id": "bricasti",
     "name": "Bricasti Design Ltd.",
     "nameShort": "Bricasti"
@@ -75,6 +80,11 @@
     "nameShort": "Imagine"
   },
   {
+    "id": "intel",
+    "name": "Intel Corporation",
+    "nameShort": "Intel"
+  },
+  {
     "id": "klotz",
     "name": "KLOTZ AIS GmbH",
     "nameShort": "KLOTZ"
@@ -93,6 +103,11 @@
     "id": "luminex",
     "name": "Luminex Network Intelligence",
     "nameShort": "Luminex"
+  },
+  {
+    "id": "matrox",
+    "name": "Matrox Graphics inc.",
+    "nameShort": "Matrox"
   },
   {
     "id": "mmb",
