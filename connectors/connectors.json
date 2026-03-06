@@ -452,6 +452,21 @@
   },
 
   {
+    "id": "USB2.0B_MINI_f",
+    "name": "USB 2.0 mini B female",
+    "gender": "FEMALE",
+    "icon": "USB2.0B_MINI_f",
+    "compatibleConnectors": ["USB2.0B_MINI_m"]
+  },
+  {
+    "id": "USB2.0B_MINI_m",
+    "name": "USB 2.0 mini B male",
+    "gender": "MALE",
+    "icon": "USB2.0B_MINI_m",
+    "compatibleConnectors": ["USB2.0B_MINI_f"]
+  },
+
+  {
     "id": "USB2.0B_MICRO_f",
     "name": "USB 2.0 micro B female",
     "gender": "FEMALE",
@@ -854,5 +869,17 @@
     "gender": "HERMA",
     "icon": "SOLDER_h",
     "compatibleConnectors": ["SOLDER_h"]
+    "id": "SDR_50p_f",
+    "name": "Shrunk Delta Ribbon 50 Pin female",
+    "gender": "FEMALE",
+    "icon": "SDR_50p_f",
+    "compatibleConnectors": ["SDR_50p_m"]
+  },
+  {
+    "id": "SDR_50p_m",
+    "name": "Shrunk Delta Ribbon 50 Pin male",
+    "gender": "MALE",
+    "icon": "SDR_50p_m",
+    "compatibleConnectors": ["SDR_50p_f"]
   }
 ]
