@@ -869,6 +869,8 @@
     "gender": "HERMA",
     "icon": "SOLDER_h",
     "compatibleConnectors": ["SOLDER_h"]
+  },
+  {
     "id": "SDR_50p_f",
     "name": "Shrunk Delta Ribbon 50 Pin female",
     "gender": "FEMALE",
