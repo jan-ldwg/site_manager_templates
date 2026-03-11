@@ -1,0 +1,367 @@
+{
+  "version": "1.0",
+  "id": "netgear-m4300-52g-poe-plus",
+  "name": "M4300-52G-PoE+",
+  "manufacturerId": "netgear",
+  "orderCode": null,
+  "orderNumber": "GSM4352PB",
+  "climateLoad": null,
+  "portTypes": [
+    {
+      "name": "USB",
+      "direction": "OUT",
+      "connectorId": "USB3.0A_f",
+      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+    },
+    {
+      "name": "Console",
+      "direction": "OUT",
+      "connectorId": "USB2.0B_MINI_f",
+      "compatibleSignalTypes": ["RS_232"]
+    },
+    {
+      "name": "Console",
+      "direction": "OUT",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["RS_232"]
+    },
+    {
+      "name": "OOB",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["1000BASE_T"]
+    },
+    {
+      "name": "1",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "2",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "3",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "4",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "5",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "6",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "7",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "8",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "9",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "10",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "11",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "12",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "13",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "14",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "15",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "16",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "17",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "18",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "19",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "20",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "21",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "22",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "23",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "24",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "25",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "26",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "27",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "28",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "29",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "30",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "31",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "32",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "33",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "34",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "35",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "36",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "37",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "38",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "39",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "40",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "41",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "42",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "43",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "44",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "45",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "46",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "47",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "48",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"]
+    },
+    {
+      "name": "49",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T", "10GBASE_T"]
+    },
+    {
+      "name": "50",
+      "direction": "DOWN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T", "10GBASE_T"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "51",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "52",
+      "compatibleModuleSlotFormFactors": ["sfp", "sfpplus"],
+      "compatibleModuleTypes": [
+        "netgear-agm731f",
+        "netgear-agm732f",
+        "netgear-agm734",
+        "netgear-axm761",
+        "netgear-axm762",
+        "netgear-axm763",
+        "netgear-axm764",
+        "netgear-axm765"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
