@@ -17,13 +17,13 @@
       "name": "Console",
       "direction": "OUT",
       "connectorId": "USB2.0B_MINI_f",
-      "compatibleSignalTypes": ["RS232"]
+      "compatibleSignalTypes": ["RS_232"]
     },
     {
       "name": "Console",
       "direction": "OUT",
       "connectorId": "RJ45_f",
-      "compatibleSignalTypes": ["RS232"]
+      "compatibleSignalTypes": ["RS_232"]
     },
     {
       "name": "OOB",
