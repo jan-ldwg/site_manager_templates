@@ -16,7 +16,7 @@
     {
       "name": "Console",
       "direction": "OUT",
-      "connectorId": "USBMiniB_f",
+      "connectorId": "USB2.0B_MINI_f",
       "compatibleSignalTypes": ["RS232"]
     },
     {
