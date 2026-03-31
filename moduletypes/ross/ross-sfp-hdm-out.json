@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "name": "SFP-HDM-OUT",
+  "id": "ross-sfp-hdm-out",
+  "orderCode": null,
+  "orderNumber": "SFP-HDM-OUT",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "OUT",
+      "connectorId": "HDMI_D_f",
+      "compatibleSignalTypes": ["HDMI", "DVI_D", "DVI_I"]
+    }
+  ]
+}

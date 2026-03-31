@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "name": "SFP-FIBER-12G",
+  "id": "ross-sfp-fiber-12g",
+  "orderCode": null,
+  "orderNumber": "SFP-FIBER-12G",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "RX",
+      "direction": "IN",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310",
+        "SDI_6G_SM_1310",
+        "SDI_12G_SM_1310"
+      ]
+    },
+    {
+      "name": "TX",
+      "direction": "OUT",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310",
+        "SDI_6G_SM_1310",
+        "SDI_12G_SM_1310"
+      ]
+    }
+  ]
+}

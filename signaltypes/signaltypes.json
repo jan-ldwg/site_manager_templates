@@ -375,9 +375,14 @@
     "description": ""
   },
   {
+    "id": "MADI_MM_850",
+    "name": "MADI, MM, 850nm",
+    "description": ""
+  },
+  {
     "id": "MADI_MM_1310",
     "name": "MADI, MM, 1310nm",
-    "description": ""
+    "description": "Older 1300 nm multi mode equipment should also use this"
   },
   {
     "id": "MADI_SM_1310",
