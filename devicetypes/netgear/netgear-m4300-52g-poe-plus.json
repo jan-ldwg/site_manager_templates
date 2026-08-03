@@ -10,18 +10,18 @@
     {
       "name": "USB",
       "direction": "OUT",
-      "connectorId": "USB3.0A_f",
+      "connectorId": "USB2.0A_f",
       "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
     },
     {
-      "name": "Console",
-      "direction": "OUT",
+      "name": "Console (USB)",
+      "direction": "IN",
       "connectorId": "USB2.0B_MINI_f",
       "compatibleSignalTypes": ["RS_232"]
     },
     {
       "name": "Console",
-      "direction": "OUT",
+      "direction": "IN",
       "connectorId": "RJ45_f",
       "compatibleSignalTypes": ["RS_232"]
     },
