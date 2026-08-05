@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "N9K-C9348GC-FXP",
   "climateLoad": 287,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 533,
   "portTypes": [
     {
       "name": "Console",

@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "EMD5104-R",
   "climateLoad": 90,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

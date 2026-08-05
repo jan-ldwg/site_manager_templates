@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "DOEXB2030",
   "climateLoad": 9,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "01 (PoE)",

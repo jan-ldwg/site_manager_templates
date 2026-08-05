@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "P2225H",
   "climateLoad": 60,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "DP",

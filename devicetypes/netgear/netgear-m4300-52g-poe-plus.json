@@ -5,7 +5,10 @@
   "manufacturerId": "netgear",
   "orderCode": null,
   "orderNumber": "GSM4352PB",
-  "climateLoad": null,
+  "climateLoad": 888,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 388,
   "portTypes": [
     {
       "name": "USB",

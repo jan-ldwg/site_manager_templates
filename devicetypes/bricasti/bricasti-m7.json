@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 60,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 297,
   "portTypes": [
     {
       "name": "Midi In",

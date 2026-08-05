@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 15,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 200,
   "portTypes": [
     {
       "name": "CONTROL",

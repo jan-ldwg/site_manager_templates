@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "DOBOB0991",
   "climateLoad": 0,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 65,
   "portTypes": [
     {
       "name": "ANALOG OUT 01..08",

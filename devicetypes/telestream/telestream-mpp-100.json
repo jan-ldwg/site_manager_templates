@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 160,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 285,
   "portTypes": [
     {
       "name": "LAN",

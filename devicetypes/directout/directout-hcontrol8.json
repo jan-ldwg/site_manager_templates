@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "DOCTRL001",
   "climateLoad": 36,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "ETHERNET",

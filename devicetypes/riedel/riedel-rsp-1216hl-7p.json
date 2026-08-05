@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "9301244",
   "climateLoad": 15,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 95,
   "portTypes": [
     {
       "name": "ETH 1",

@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "710/20",
   "climateLoad": 220,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 379,
   "portTypes": [
     {
       "name": "MGMT A",

@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "P2425",
   "climateLoad": 74,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "DP",

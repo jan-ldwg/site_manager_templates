@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "DOPRDG003",
   "climateLoad": 110,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 262,
   "portTypes": [
     {
       "name": "MGMT",

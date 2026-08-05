@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "DOPRDG010",
   "climateLoad": 110,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 262,
   "portTypes": [
     {
       "name": "MANAGEMENT PORT 1",

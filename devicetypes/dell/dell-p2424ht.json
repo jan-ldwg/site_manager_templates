@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "P2424HT",
   "climateLoad": 190,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

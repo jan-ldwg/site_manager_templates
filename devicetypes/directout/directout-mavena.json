@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "DOMVA0002",
   "climateLoad": 55,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 262,
   "portTypes": [
     {
       "name": "MGMT",

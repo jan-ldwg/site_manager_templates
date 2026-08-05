@@ -6,6 +6,9 @@
   "orderCode": "SXP-S241U",
   "orderNumber": "69182",
   "climateLoad": 0,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 92,
   "portTypes": [],
   "moduleSlotTypes": [
     {

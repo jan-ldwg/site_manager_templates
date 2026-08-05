@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "U4924DW",
   "climateLoad": 45,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

@@ -6,6 +6,7 @@
   "orderCode": "G2399",
   "orderNumber": null,
   "climateLoad": 1,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "USB",

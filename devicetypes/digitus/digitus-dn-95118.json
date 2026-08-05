@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "DN-95118",
   "climateLoad": 250,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "DATA 1",

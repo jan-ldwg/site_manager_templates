@@ -5,7 +5,10 @@
   "manufacturerId": "netgear",
   "orderCode": null,
   "orderNumber": "XSM4328FV",
-  "climateLoad": null,
+  "climateLoad": 119,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 400,
   "portTypes": [
     {
       "name": "USB 3.0",

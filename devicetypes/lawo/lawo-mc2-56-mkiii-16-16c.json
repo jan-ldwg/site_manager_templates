@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "977/51",
   "climateLoad": 255,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "MGMT A",
