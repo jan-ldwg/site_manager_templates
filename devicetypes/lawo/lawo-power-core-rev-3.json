@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "710/13",
   "climateLoad": 90,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 361,
   "portTypes": [
     {
       "name": "WCLK IN",

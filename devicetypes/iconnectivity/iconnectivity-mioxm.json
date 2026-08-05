@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 36,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "RTP-MIDI",

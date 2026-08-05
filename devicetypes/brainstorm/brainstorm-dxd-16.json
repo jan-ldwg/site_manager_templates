@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 48,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 203,
   "portTypes": [
     {
       "name": "NETWORK 1",

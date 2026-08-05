@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "985/01",
   "climateLoad": 15,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 210,
   "portTypes": [
     {
       "name": "ETHERNET A",

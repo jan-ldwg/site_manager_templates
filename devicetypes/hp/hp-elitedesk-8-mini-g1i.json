@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "623K0ET#ABD",
   "climateLoad": 90,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

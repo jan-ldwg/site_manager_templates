@@ -5,7 +5,8 @@
   "manufacturerId": "netgear",
   "orderCode": null,
   "orderNumber": "WBE718",
-  "climateLoad": null,
+  "climateLoad": 30,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

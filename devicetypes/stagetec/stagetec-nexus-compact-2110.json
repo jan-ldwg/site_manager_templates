@@ -6,6 +6,7 @@
   "orderCode": "NXCT-ST2110",
   "orderNumber": "121603",
   "climateLoad": 21,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "Headphones",

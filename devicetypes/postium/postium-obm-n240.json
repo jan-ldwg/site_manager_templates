@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 40,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN",

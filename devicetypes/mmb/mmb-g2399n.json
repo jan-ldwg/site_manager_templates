@@ -6,6 +6,7 @@
   "orderCode": "G2399N",
   "orderNumber": null,
   "climateLoad": 1,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "OPTICAL",

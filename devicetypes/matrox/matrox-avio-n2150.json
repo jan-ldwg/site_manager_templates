@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "AV2-N2150",
   "climateLoad": 26,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN PoE+",

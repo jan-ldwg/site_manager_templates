@@ -39,6 +39,19 @@
       "type": ["integer", "null"],
       "minimum": 0
     },
+    "rackType": {
+      "description": "The type of rack the device can be mounted in.",
+      "enum": ["19INCH", "NONE"]
+    },
+    "rackHeight": {
+      "description": "The height the device occupies inside a rack in units of that rack type.",
+      "type": "integer"
+    },
+    "rackDepth": {
+      "description": "The distance between the mounting plane of the rack and the rear most potrusion of the device in mm.",
+      "type": "integer",
+      "minimum": 0
+    },
     "portTypes": {
       "description": "List of all types of ports on the device type.",
       "type": "array",
@@ -134,6 +147,6 @@
       }
     }
   },
-  "required": ["version", "id", "name", "manufacturerId"],
+  "required": ["version", "id", "name", "manufacturerId", "rackType"],
   "additionalProperties": false
 }

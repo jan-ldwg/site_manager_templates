@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "SNP-PLATFORM-XL",
   "climateLoad": 550,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 594,
   "portTypes": [
     {
       "name": "MGMT A",

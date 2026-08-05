@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 5,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "SDI IN",

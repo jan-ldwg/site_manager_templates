@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "EMD2002PE-DP-T",
   "climateLoad": 36,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN 1",

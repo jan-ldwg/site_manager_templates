@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "N9K-C9364C-GX",
   "climateLoad": 1622,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 574,
   "portTypes": [
     {
       "name": "Console",

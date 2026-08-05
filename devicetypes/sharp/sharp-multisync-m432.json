@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "PN-M432",
   "climateLoad": 75,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "LAN 1",

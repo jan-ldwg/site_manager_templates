@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "985/62",
   "climateLoad": 240,
+  "rackType": "19INCH",
+  "rackHeight": 4,
+  "rackDepth": 207,
   "portTypes": [
     {
       "name": "MGMT",

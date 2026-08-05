@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "1008574",
   "climateLoad": 58,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "BALANCED IN LEFT",

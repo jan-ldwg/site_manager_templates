@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "399007",
   "climateLoad": 0,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "Out",

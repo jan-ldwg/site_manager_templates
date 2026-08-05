@@ -6,6 +6,7 @@
   "orderCode": "8010AP",
   "orderNumber": null,
   "climateLoad": 30,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "ANALOG IN",

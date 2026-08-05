@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "23175-MX",
   "climateLoad": 400,
+  "rackType": "19INCH",
+  "rackHeight": 4,
+  "rackDepth": 245,
   "portTypes": [
     {
       "name": "LAN",

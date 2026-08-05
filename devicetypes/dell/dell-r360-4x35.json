@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": null,
   "climateLoad": 770,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 563,
   "portTypes": [
     {
       "name": "USB (Front)",

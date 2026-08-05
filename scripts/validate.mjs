@@ -257,6 +257,20 @@ async function validateDevictypes(
         );
       }
 
+      //if rackType is 19INCH, rackHeight and rackDepth must be specified
+      if (dt.rackType === "19INCH") {
+        if (!dt.rackHeight) {
+          throw new Error(
+            `${file}: ${dt.id} is of type ${dt.rackType} but does not specify a height`,
+          );
+        }
+        if (!dt.rackDepth) {
+          throw new Error(
+            `${file}: ${dt.id} is of type ${dt.rackType} but does not specify a depth`,
+          );
+        }
+      }
+
       //check portTypes
       const portTypes = dt.portTypes;
 

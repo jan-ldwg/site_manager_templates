@@ -6,6 +6,7 @@
   "orderCode": null,
   "orderNumber": "715/31-10",
   "climateLoad": 50,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "ETHERNET",

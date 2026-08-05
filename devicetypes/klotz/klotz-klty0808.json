@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "KLTY0808",
   "climateLoad": 0,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 100,
   "portTypes": [
     {
       "name": "",

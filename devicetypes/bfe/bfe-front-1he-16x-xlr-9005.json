@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "600069",
   "climateLoad": 0,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 50,
   "portTypes": [],
   "moduleSlotTypes": [
     {

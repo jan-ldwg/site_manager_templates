@@ -6,6 +6,9 @@
   "orderCode": null,
   "orderNumber": "DOBOB0987",
   "climateLoad": 0,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 65,
   "portTypes": [
     {
       "name": "AES IN/OUT 01..08",

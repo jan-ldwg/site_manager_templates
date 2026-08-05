@@ -6,6 +6,7 @@
   "orderCode": "8351BP",
   "orderNumber": null,
   "climateLoad": 200,
+  "rackType": "NONE",
   "portTypes": [
     {
       "name": "DIGITAL IN AES/EBU",
