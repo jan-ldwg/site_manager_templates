@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "name": "SFP-FIBER-3G",
+  "id": "ross-sfp-fiber-3g",
+  "orderCode": null,
+  "orderNumber": "SFP-FIBER-3G",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "RX",
+      "direction": "IN",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310"
+      ]
+    },
+    {
+      "name": "TX",
+      "direction": "OUT",
+      "connectorId": "LC_SPLX_PC_SM_f",
+      "compatibleSignalTypes": [
+        "SDI_SD_SM_1310",
+        "SDI_HD_SM_1310",
+        "SDI_3G_SM_1310"
+      ]
+    }
+  ]
+}

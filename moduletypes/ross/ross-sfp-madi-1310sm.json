@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "ross-sfp-madi-1310sm",
+  "name": "SFP-MADI-1310SM",
+  "orderCode": null,
+  "orderNumber": "SFP-MADI-1310SM",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "",
+      "direction": "BIDI",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "compatibleSignalTypes": ["MADI_SM_1310"]
+    }
+  ]
+}

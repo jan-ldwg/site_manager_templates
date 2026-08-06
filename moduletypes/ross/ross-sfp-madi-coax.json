@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "SFP-MADI-COAX",
+  "id": "ross-sfp-madi-coax",
+  "orderCode": null,
+  "orderNumber": "SFP-MADI-COAX",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "TX",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    },
+    {
+      "name": "RX",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["MADI_CU"]
+    }
+  ]
+}

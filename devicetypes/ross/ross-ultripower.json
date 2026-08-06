@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "id": "ross-ultripower",
+  "name": "Ultripower",
+  "manufacturerId": "ross",
+  "orderCode": "ULTRIPOWER",
+  "orderNumber": null,
+  "climateLoad": null,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    }
+  ]
+}

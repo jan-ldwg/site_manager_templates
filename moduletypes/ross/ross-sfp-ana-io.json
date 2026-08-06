@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "SFP-ANA-IO",
+  "id": "ross-sfp-ana-io",
+  "orderCode": null,
+  "orderNumber": "SFP-ANA-IO",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "ross",
+  "portTypes": [
+    {
+      "name": "TX",
+      "direction": "OUT",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["CVBS"]
+    },
+    {
+      "name": "RX",
+      "direction": "IN",
+      "connectorId": "HD_BNC_f",
+      "compatibleSignalTypes": ["CVBS"]
+    }
+  ]
+}
