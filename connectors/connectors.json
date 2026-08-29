@@ -864,6 +864,20 @@
     "compatibleConnectors": ["EURO_508_3p_m"]
   },
   {
+    "id": "TERMINAL_generic_10p_f",
+    "name": "Terminal Generic 10pole female",
+    "gender": "FEMALE",
+    "icon": "TERMINAL_10p_f",
+    "compatibleConnectors": ["BARE_10p_m"]
+  },
+  {
+    "id": "BARE_10p_m",
+    "name": "Bare wire 10pole",
+    "gender": "MALE",
+    "icon": "BARE_m",
+    "compatibleConnectors": ["TERMINAL_generic_10p_f"]
+  },
+  {
     "id": "SOLDER_h",
     "name": "Solder joint",
     "gender": "HERMA",

@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "id": "lynx-rct-5023g",
+  "name": "RCT 5023-G",
+  "orderCode": null,
+  "orderNumber": "4250479321434",
+  "moduleFormFactorId": null,
+  "manufacturerId": "lynx",
+  "portTypes": [],
+  "moduleSlotTypes": [
+    {
+      "name": "",
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lynx-oh-rct5023-svr"],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
