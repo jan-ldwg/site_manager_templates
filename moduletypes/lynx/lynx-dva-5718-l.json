@@ -2,7 +2,7 @@
   "version": "1.0",
   "id": "lynx-dva-5718-l",
   "name": "DVA 5718 L",
-  "orderCode": "",
+  "orderCode": null,
   "orderNumber": "4250479321601",
   "moduleFormFactorId": "lynx-5000-active",
   "spanWidth": 1,

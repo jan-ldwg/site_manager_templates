@@ -2,7 +2,7 @@
   "version": "1.0",
   "id": "lynx-dva-5760-l",
   "name": "DVA 5760 L",
-  "orderCode": "",
+  "orderCode": null,
   "orderNumber": "4250479321625",
   "moduleFormFactorId": "lynx-5000-active",
   "spanWidth": 2,
