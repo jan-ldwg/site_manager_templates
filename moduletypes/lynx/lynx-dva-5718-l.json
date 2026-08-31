@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "id": "lynx-dva-5718-l",
+  "name": "DVA 5718 L",
+  "orderCode": null,
+  "orderNumber": "4250479321601",
+  "moduleFormFactorId": "lynx-5000-active",
+  "spanWidth": 1,
+  "manufacturerId": "lynx",
+  "portTypes": [
+    {
+      "name": "IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "Loop OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 1",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 2",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 3",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 4",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 5",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 6",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 7",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "OUT 8",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    }
+  ],
+  "moduleSlotTypes": []
+}

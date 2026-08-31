@@ -109,6 +109,10 @@
             "description": "Name of the module slot, as labeled on the device.",
             "type": "string"
           },
+          "canSpan": {
+            "description": "Indicates wether a module can span into the next slot",
+            "type": "boolean"
+          },
           "compatibleModuleSlotFormFactors": {
             "description": "List of module slot factors that can physically fit into the slot.",
             "type": "array",

@@ -76,27 +76,37 @@
   },
   {
     "id": "directout-a-slot",
-    "name": "A Slot",
+    "name": "DirectOut - A Slot",
     "description": "Audio network modules used by DirectOut"
   },
   {
     "id": "directout-b-slot",
-    "name": "B Slot",
+    "name": "DirectOut - Slot",
     "description": "MADI modules used by DirectOut"
   },
   {
     "id": "directout-c-slot",
-    "name": "C Slot",
+    "name": "DirectOut - Slot",
     "description": "Base band modules used by DirectOut"
   },
   {
     "id": "lawo-powercore-io",
-    "name": "Expansion I/O",
+    "name": "Lawo - Expansion I/O",
     "description": "Expansion I/O used by Lawo for their Power Core product line"
   },
   {
+    "id": "lynx-5000-passive",
+    "name": "LYNX - 5000 Series Passive",
+    "description": "Passive modules used by LYNX in their 5000 series frames"
+  },
+  {
+    "id": "lynx-5000-active",
+    "name": "LYNX - 5000 Series Active",
+    "description": "Active modules used by LYNX in their 5000 series frames"
+  },
+  {
     "id": "weytec-din-card",
-    "name": "DIN Card",
+    "name": "Weytec - DIN Card",
     "description": "Module form factor used by Weytec for their remote and I/O modules"
   }
 ]

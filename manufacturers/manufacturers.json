@@ -105,6 +105,11 @@
     "nameShort": "Luminex"
   },
   {
+    "id": "lynx",
+    "name": "LYNX Technik AG",
+    "nameShort": "LYNX"
+  },
+  {
     "id": "matrox",
     "name": "Matrox Graphics inc.",
     "nameShort": "Matrox"

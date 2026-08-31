@@ -1,0 +1,171 @@
+{
+  "id": "lynx-r-fr-5018",
+  "version": "1.0",
+  "name": "R FR 5018",
+  "manufacturerId": "lynx",
+  "orderCode": "RFR 5018",
+  "orderNumber": "4250479327689",
+  "climateLoad": 180,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 325,
+  "portTypes": [
+    {
+      "name": "LAN",
+      "direction": "UP",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"]
+    },
+    {
+      "name": "SYNC IN",
+      "direction": "IN",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "SYNC OUT",
+      "direction": "OUT",
+      "connectorId": "BNC_f",
+      "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+    },
+    {
+      "name": "GPI Input 1-4",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "GPI Input 1-4",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "GPI Input 5-8",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "GPI Input 5-8",
+      "direction": "IN",
+      "connectorId": "RJ45_f",
+      "compatibleSignalTypes": ["GPIO"]
+    },
+    {
+      "name": "[Alarm]",
+      "direction": "INOUT",
+      "connectorId": "TERMINAL_generic_10p_f",
+      "compatibleSignalTypes": ["GPIO"]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Controller",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lynx-rct-5023g"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 1",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 2",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 3",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 4",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 5",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 6",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 7",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 8",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 9",
+      "canSpan": true,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 10",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [
+        "lynx-5000-passive",
+        "lynx-5000-active"
+      ],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
