@@ -41,7 +41,8 @@
     },
     "spanWidth": {
       "description": "The width of the module in slots",
-      "type": "integer"
+      "type": "integer",
+      "minimum": 1
     },
     "portTypes": {
       "description": "List of all types of ports on the module type.",
