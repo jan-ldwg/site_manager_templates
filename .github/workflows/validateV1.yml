@@ -1,0 +1,78 @@
+name: Validate the files in the V1 folder agaist the schemas and the script
+
+on:
+  pull_request:
+    paths:
+      - "**/*.json"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: lts/krypton
+
+      - run: npm install -g ajv-cli
+
+      - name: Validate manufacturers
+        run: |
+          ajv validate \
+            -s v1/schemas/manufacturers.schema.json \
+            -d v1/manufacturers/manufacturers.json \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate connectorTypes
+        run: |
+          ajv validate \
+            -s v1/schemas/connectorTypes.schema.json \
+            -d v1/connectorTypes/connectorTypes.json \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate signalTypes
+        run: |
+          ajv validate \
+            -s v1/schemas/signalTypes.schema.json \
+            -d v1/signalTypes/signalTypes.json \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate cableTypes
+        run: |
+          ajv validate \
+            -s v1/schemas/cableTypes.schema.json \
+            -d v1/cableTypes/cableTypes.json \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate moduleFormFactors
+        run: |
+          ajv validate \
+            -s schemas/moduleFormFactors.schema.json \
+            -d moduleFormFactors/moduleFormFactors.json \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate deviceTypes
+        run: |
+          ajv validate \
+            -s v1/schemas/deviceType.schema.json \
+            -d v1/"deviceTypes/**/*.json" \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Validate moduleTypes
+        run: |
+          ajv validate \
+            -s v1/schemas/moduleType.schema.json \
+            -d v1/"moduleTypes/**/*.json" \
+            --spec=draft2020 \
+            --all-errors
+
+      - name: Run validation script
+        run: node v1/scripts/validate.mjs

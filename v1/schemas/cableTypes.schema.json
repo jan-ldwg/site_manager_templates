@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "cabletypes",
-  "description": "JSON document describing a list of cabletypes",
+  "title": "cableTypes",
+  "description": "JSON document describing a list of cableTypes",
   "type": "array",
   "uniqueItems": true,
   "items": {

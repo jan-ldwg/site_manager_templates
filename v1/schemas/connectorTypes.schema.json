@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "connectors",
-  "description": "JSON document describing a list of connectors",
+  "title": "connectorTypes",
+  "description": "JSON document describing a list of connectorTypes",
   "type": "array",
   "uniqueItems": true,
   "items": {
