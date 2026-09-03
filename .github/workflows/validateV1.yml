@@ -53,8 +53,8 @@ jobs:
       - name: Validate moduleFormFactors
         run: |
           ajv validate \
-            -s schemas/moduleFormFactors.schema.json \
-            -d moduleFormFactors/moduleFormFactors.json \
+            -s v1/schemas/moduleFormFactors.schema.json \
+            -d v1/moduleFormFactors/moduleFormFactors.json \
             --spec=draft2020 \
             --all-errors
 
