@@ -81,7 +81,7 @@
               "properties": {
                 "name": {
                   "description": "The name of the subinterfaceType. Left null if only one subinterface exists on the port. Else a descriptive name, like Ch. 1, GPI IN 3, etc.",
-                  "type": "string"
+                  "type": ["string", "null"]
                 },
                 "direction": {
                   "description": "Direction of the subinterFaceType. See documentation for explainations of the possible values.",
@@ -107,7 +107,7 @@
                 },
                 "pinout": {
                   "description": "An array describing the pins asscociated with the subinterface.",
-                  "type": "array",
+                  "type": ["array", "null"],
                   "items": {
                     "type": "object",
                     "properties": {
