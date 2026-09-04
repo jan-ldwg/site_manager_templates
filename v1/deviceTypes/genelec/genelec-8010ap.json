@@ -10,9 +10,15 @@
   "portTypes": [
     {
       "name": "ANALOG IN",
-      "direction": "IN",
       "connectorId": "XLR3p_f",
-      "compatibleSignalTypes": ["AUDIO_BAL_ANA"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinput": null
+        }
+      ]
     }
   ]
 }
