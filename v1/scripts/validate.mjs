@@ -189,7 +189,7 @@ async function validateModuletypes(
       //check moduleSlots
       const moduleSlotTypes = moduletype.moduleSlotTypes;
 
-      if (Array.isArray(moduleSlotTypes)) {
+      if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
         //check last moduleSlotType can not span
         const lastMST = moduleSlotTypes[-1];
         if (lastMST.canSpan) {
@@ -316,7 +316,7 @@ async function validateDevictypes(
       //check moduleSlotTypes
       const moduleSlotTypes = dt.moduleSlotTypes;
 
-      if (Array.isArray(moduleSlotTypes)) {
+      if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
         //check last moduleSlotType can not span
         const lastMST = moduleSlotTypes[-1];
         if (lastMST.canSpan) {
