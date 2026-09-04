@@ -16,7 +16,7 @@
           "name": null,
           "direction": "IN",
           "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
-          "pinput": null
+          "pinout": null
         }
       ]
     }
