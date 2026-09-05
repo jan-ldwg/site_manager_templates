@@ -232,7 +232,6 @@
     {
       "name": "MIC/LINE IN 1-8",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AES59_ANA"],
       "subinterfaceTypes": [
         {
           "name": "CH.1",
@@ -351,7 +350,6 @@
     {
       "name": "MIC/LINE IN 9-16",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AES59_ANA"],
       "subinterfaceTypes": [
         {
           "name": "CH.1",
@@ -470,7 +468,6 @@
     {
       "name": "MIC/LINE IN 17-24",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AES59_ANA"],
       "subinterfaceTypes": [
         {
           "name": "CH.1",
@@ -589,7 +586,6 @@
     {
       "name": "MIC/LINE IN 25-32",
       "connectorId": "DSUB37p_f",
-      "compatibleSignalTypes": ["AES59_ANA"],
       "subinterfaceTypes": [
         {
           "name": "CH.1",
