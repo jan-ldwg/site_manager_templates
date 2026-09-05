@@ -1,8 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "moduletype",
-  "description": "JSON document describing a new module type",
+  "title": "moduleType",
+  "description": "JSON document describing a new moduleType",
   "type": "object",
+  "required": ["version", "id", "name", "manufacturerId"],
+  "additionalProperties": false,
   "properties": {
     "version": {
       "description": "Version number of the template. Minor version must be increased with every change. Major version must only be changed when targeting a different API version.",
@@ -45,50 +47,77 @@
       "minimum": 1
     },
     "portTypes": {
-      "description": "List of all types of ports on the module type.",
+      "description": "List of all types of ports on the device type.",
       "type": "array",
       "items": {
         "type": "object",
+        "required": ["name", "connectorId", "subinterfaceTypes"],
+        "additionalProperties": false,
         "properties": {
           "name": {
-            "description": "Name of the port, as printed on the module.",
+            "description": "Name of the port, as printed on the device.",
             "type": "string"
-          },
-          "direction": {
-            "description": "Direction of the port type. See documentation for explainations of the possible values.",
-            "enum": [
-              "IN",
-              "OUT",
-              "INOUT",
-              "BIDI",
-              "UP",
-              "DOWN",
-              "FRONT",
-              "REAR"
-            ]
           },
           "connectorId": {
             "description": "Id of the connector.",
             "type": "string",
             "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9]|[_.](?=[A-Za-z0-9]))*_(?:f|m|h)$"
           },
-          "compatibleSignalTypes": {
-            "description": "List of signal types that are compatible with this port.",
+          "subinterfaceTypes": {
+            "description": "List of all subinterfaceTypes included in the portType",
             "type": "array",
             "items": {
-              "type": "string",
-              "pattern": "^(?!.*--)(?:[a-z](?:[a-z-]{0,14}[a-z])?_)?[A-Z0-9]+(?:_[A-Z0-9]+)*$"
-            },
-            "uniqueItems": true
+              "type": "object",
+              "required": ["name", "direction", "compatibleSignalTypes"],
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "description": "The name of the subinterfaceType. Left null if only one subinterface exists on the port. Else a descriptive name, like Ch. 1, GPI IN 3, etc.",
+                  "type": ["string", "null"]
+                },
+                "direction": {
+                  "description": "Direction of the subinterFaceType. See documentation for explainations of the possible values.",
+                  "enum": [
+                    "IN",
+                    "OUT",
+                    "INOUT",
+                    "BIDI",
+                    "UP",
+                    "DOWN",
+                    "FRONT",
+                    "REAR"
+                  ]
+                },
+                "compatibleSignalTypes": {
+                  "description": "List of signal types that are compatible with this port.",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^(?!.*--)(?:[a-z](?:[a-z-]{0,14}[a-z])?_)?[A-Z0-9]+(?:_[A-Z0-9]+)*$"
+                  },
+                  "uniqueItems": true
+                },
+                "pinout": {
+                  "description": "An array describing the pins asscociated with the subinterface.",
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "pin": {
+                        "description": "A human readable identification of the pin, e.g. its number or center/shield for BNC.",
+                        "type": "string"
+                      },
+                      "signal": {
+                        "description": "The signal present on that pin. This is not the signalType, but something more basic like positive, negative, GND, etc.",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
-        },
-        "required": [
-          "name",
-          "direction",
-          "connectorId",
-          "compatibleSignalTypes"
-        ],
-        "additionalProperties": false
+        }
       }
     },
     "moduleSlotTypes": {
@@ -96,6 +125,13 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "name",
+          "compatibleModuleSlotFormFactors",
+          "compatibleModuleTypes",
+          "incompatibleModuleTypes"
+        ],
+        "additionalProperties": false,
         "properties": {
           "name": {
             "description": "Name of the module slot, as labeled on the module.",
@@ -132,17 +168,8 @@
               "pattern": "^(?=.{1,48}$)(?!.*--)[a-z](?:[a-z-]{0,14}[a-z])?-[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
             }
           }
-        },
-        "required": [
-          "name",
-          "compatibleModuleSlotFormFactors",
-          "compatibleModuleTypes",
-          "incompatibleModuleTypes"
-        ],
-        "additionalProperties": false
+        }
       }
     }
-  },
-  "required": ["version", "id", "name", "manufacturerId"],
-  "additionalProperties": false
+  }
 }

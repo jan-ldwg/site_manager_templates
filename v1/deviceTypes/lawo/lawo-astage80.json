@@ -1,0 +1,1271 @@
+{
+  "version": "1.0",
+  "id": "lawo-astage80",
+  "name": "A__stage80",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "985/64",
+  "climateLoad": 240,
+  "rackType": "19INCH",
+  "rackHeight": 3,
+  "rackDepth": 208,
+  "portTypes": [
+    {
+      "name": "MGMT",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "RAVENNA/AES67 PRIMARY",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "RAVENNA/AES67 SECONDARY",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "WCLK IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["WCLK"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "WCLK OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": ["WCLK"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "GPIO",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "GPI 1",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "1", "signal": "anode" },
+            { "pin": "20", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 2",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "2", "signal": "anode" },
+            { "pin": "21", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 3",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "3", "signal": "anode" },
+            { "pin": "22", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 4",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "4", "signal": "anode" },
+            { "pin": "23", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 5",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "5", "signal": "anode" },
+            { "pin": "24", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 6",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "6", "signal": "anode" },
+            { "pin": "25", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 7",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "7", "signal": "anode" },
+            { "pin": "26", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPI 8",
+          "direction": "IN",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "8", "signal": "anode" },
+            { "pin": "27", "signal": "cathode" }
+          ]
+        },
+        {
+          "name": "GPO 1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "9", "signal": "a" },
+            { "pin": "28", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "10", "signal": "a" },
+            { "pin": "29", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "11", "signal": "a" },
+            { "pin": "30", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "12", "signal": "a" },
+            { "pin": "31", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "13", "signal": "a" },
+            { "pin": "32", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "14", "signal": "a" },
+            { "pin": "33", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "15", "signal": "a" },
+            { "pin": "34", "signal": "b" }
+          ]
+        },
+        {
+          "name": "GPO 8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["GPIO"],
+          "pinout": [
+            { "pin": "16", "signal": "a" },
+            { "pin": "35", "signal": "b" }
+          ]
+        },
+        {
+          "name": "DC",
+          "direction": "OUT",
+          "compatibleSignalTypes": [],
+          "pinout": [
+            { "pin": "19", "signal": "+12V" },
+            { "pin": "17", "signal": "-" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIC/LINE IN 1-8",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "CH.1",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.2",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.3",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.4",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.5",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.6",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.7",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.8",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIC/LINE IN 9-16",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "CH.1",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.2",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.3",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.4",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.5",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.6",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.7",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.8",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIC/LINE IN 17-24",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "CH.1",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.2",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.3",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.4",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.5",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.6",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.7",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.8",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIC/LINE IN 25-32",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "CH.1",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.2",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.3",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.4",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.5",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.6",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.7",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "CH.8",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LINE OUT 1-8",
+      "connectorId": "DSUB37p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Ch.1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LINE OUT 9-16",
+      "connectorId": "DSUB37p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Ch.1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LINE OUT 17-24",
+      "connectorId": "DSUB37p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Ch.1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LINE OUT 25-32",
+      "connectorId": "DSUB37p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Ch.1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "5", "signal": "Cold" },
+            { "pin": "23", "signal": "Hot" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "7", "signal": "Cold" },
+            { "pin": "25", "signal": "Hot" },
+            { "pin": "26", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "27", "signal": "Hot" },
+            { "pin": "28", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "11", "signal": "Cold" },
+            { "pin": "29", "signal": "Hot" },
+            { "pin": "30", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "13", "signal": "Cold" },
+            { "pin": "31", "signal": "Hot" },
+            { "pin": "32", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "15", "signal": "Cold" },
+            { "pin": "33", "signal": "Hot" },
+            { "pin": "34", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "35", "signal": "Hot" },
+            { "pin": "36", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AES3 1-4",
+      "connectorId": "DSUB25p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "RCV1",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "12", "signal": "Cold" },
+            { "pin": "24", "signal": "Hot" },
+            { "pin": "25", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV2",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "23", "signal": "Cold" },
+            { "pin": "10", "signal": "Hot" },
+            { "pin": "11", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV3",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV4",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "20", "signal": "Cold" },
+            { "pin": "7", "signal": "Hot" },
+            { "pin": "8", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "6", "signal": "Cold" },
+            { "pin": "18", "signal": "Hot" },
+            { "pin": "19", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "4", "signal": "Hot" },
+            { "pin": "5", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "15", "signal": "Hot" },
+            { "pin": "16", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "14", "signal": "Cold" },
+            { "pin": "1", "signal": "Hot" },
+            { "pin": "2", "signal": "GND" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AES3 5-8",
+      "connectorId": "DSUB25p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "RCV1",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "12", "signal": "Cold" },
+            { "pin": "24", "signal": "Hot" },
+            { "pin": "25", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV2",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "23", "signal": "Cold" },
+            { "pin": "10", "signal": "Hot" },
+            { "pin": "11", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV3",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV4",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "20", "signal": "Cold" },
+            { "pin": "7", "signal": "Hot" },
+            { "pin": "8", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "6", "signal": "Cold" },
+            { "pin": "18", "signal": "Hot" },
+            { "pin": "19", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "4", "signal": "Hot" },
+            { "pin": "5", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "15", "signal": "Hot" },
+            { "pin": "16", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "14", "signal": "Cold" },
+            { "pin": "1", "signal": "Hot" },
+            { "pin": "2", "signal": "GND" }
+          ]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "RAVENNA/AES67 PRIMARY",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "canSpan": false,
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "RAVENNA/AES67 SECONDARY",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "canSpan": false,
+      "compatibleModuleTypes": [
+        "lawo-98160-10",
+        "lawo-98160-20",
+        "lawo-98160-30",
+        "lawo-98160-60",
+        "lawo-98160-61"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI PRI",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "canSpan": false,
+      "compatibleModuleTypes": [
+        "lawo-98160-80",
+        "lawo-98160-81",
+        "lawo-98160-82"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI SEC",
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "canSpan": false,
+      "compatibleModuleTypes": [
+        "lawo-98160-80",
+        "lawo-98160-81",
+        "lawo-98160-82"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

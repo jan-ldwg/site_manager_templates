@@ -1,23 +1,23 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "moduleformfactors",
-  "description": "JSON document describing a list of moduleformfactors",
+  "title": "signalTypes",
+  "description": "JSON document describing a list of signalTypes",
   "type": "array",
   "uniqueItems": true,
   "items": {
     "type": "object",
     "properties": {
       "id": {
-        "description": "Id of the moduleformfactor",
+        "description": "Id of the signaltype",
         "type": "string",
-        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        "pattern": "^(?!.*--)(?:[a-z](?:[a-z-]{0,14}[a-z])?_)?[A-Z0-9]+(?:_[A-Z0-9]+)*$"
       },
       "name": {
-        "description": "Name of the moduleformfactor",
+        "description": "Name of the signaltype",
         "type": "string"
       },
       "description": {
-        "description": "Description of the moduleformfactor",
+        "description": "Description of the signaltype",
         "type": "string"
       }
     },

@@ -2,7 +2,7 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
 async function readManufacturers() {
-  const filepath = path.join("./manufacturers", "manufacturers.json");
+  const filepath = path.join("./v1/manufacturers", "manufacturers.json");
   const manufacturers = JSON.parse(await readFile(filepath, "utf-8"));
   const manufacturerSet = new Set();
 
@@ -19,7 +19,7 @@ async function readManufacturers() {
 }
 
 async function readSignaltypes() {
-  const filepath = path.join("./signaltypes", "signaltypes.json");
+  const filepath = path.join("./v1/signalTypes", "signalTypes.json");
   const signaltypes = JSON.parse(await readFile(filepath, "utf-8"));
   const signaltypeSet = new Set();
 
@@ -36,7 +36,10 @@ async function readSignaltypes() {
 }
 
 async function readModuleformfactors() {
-  const filepath = path.join("./moduleformfactors", "moduleformfactors.json");
+  const filepath = path.join(
+    "./v1/moduleFormFactors",
+    "moduleFormFactors.json",
+  );
   const moduleformfactors = JSON.parse(await readFile(filepath, "utf-8"));
   const moduleformfactorSet = new Set();
 
@@ -53,7 +56,7 @@ async function readModuleformfactors() {
 }
 
 async function readConnectors() {
-  const filepath = path.join("./connectors", "connectors.json");
+  const filepath = path.join("./v1/connectorTypes", "connectorTypes.json");
   const connectors = JSON.parse(await readFile(filepath, "utf-8"));
   const connectorSet = new Set();
 
@@ -81,7 +84,8 @@ async function readConnectors() {
 }
 
 async function readModuletypes(manufacturers) {
-  const folders = await readdir("./moduletypes");
+  const mTBasePath = "./v1/moduleTypes";
+  const folders = await readdir(mTBasePath);
 
   const moduletypeSet = new Set();
 
@@ -91,10 +95,10 @@ async function readModuletypes(manufacturers) {
       throw new Error(`Manufacturer ${folder} does not exist`);
     }
 
-    const files = await readdir(path.join("./moduletypes", folder));
+    const files = await readdir(path.join(mTBasePath, folder));
     for (const file of files) {
       const moduletype = JSON.parse(
-        await readFile(path.join("./moduletypes", folder, file), "utf-8"),
+        await readFile(path.join(mTBasePath, folder, file), "utf-8"),
       );
 
       //check filename and moduletypeId match
@@ -135,14 +139,15 @@ async function validateModuletypes(
   moduleformfactors,
   moduletypes,
 ) {
-  const folders = await readdir("./moduletypes");
+  const mTBasePath = "./v1/moduleTypes";
+  const folders = await readdir(mTBasePath);
 
   for (const folder of folders) {
-    const files = await readdir(path.join("./moduletypes", folder));
+    const files = await readdir(path.join(mTBasePath, folder));
 
     for (const file of files) {
       const moduletype = JSON.parse(
-        await readFile(path.join("./moduletypes", folder, file)),
+        await readFile(path.join(mTBasePath, folder, file)),
       );
 
       //check moduleFormFactorId
@@ -169,12 +174,14 @@ async function validateModuletypes(
           }
 
           //check compatibleSignalTypes are valid
-          const compatibleSignalTypes = p.compatibleSignalTypes;
-          for (const cst of compatibleSignalTypes) {
-            if (!signaltypes.has(cst)) {
-              throw new Error(
-                `${file}: Signaltype ${cst} at ${p.name} does not exist`,
-              );
+          for (const sub of p.subinterfaceTypes) {
+            const compatibleSignalTypes = sub.compatibleSignalTypes;
+            for (const cst of compatibleSignalTypes) {
+              if (!signaltypes.has(cst)) {
+                throw new Error(
+                  `${file}: Signaltype ${cst} at ${p.name} does not exist`,
+                );
+              }
             }
           }
         }
@@ -182,7 +189,14 @@ async function validateModuletypes(
       //check moduleSlots
       const moduleSlotTypes = moduletype.moduleSlotTypes;
 
-      if (Array.isArray(moduleSlotTypes)) {
+      if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
+        //check last moduleSlotType can not span
+        const lastMST = moduleSlotTypes[-1];
+        if (lastMST?.canSpan) {
+          throw new Error(
+            `${file}: ${lastMST.name} can span, but is the last moduleSlot in the device.`,
+          );
+        }
         for (const mst of moduleSlotTypes) {
           //check form factors are valid
           for (const cff of mst.compatibleModuleSlotFormFactors) {
@@ -192,6 +206,7 @@ async function validateModuletypes(
               );
             }
           }
+
           //check compatibleModuleTypes are valid
           for (const cmt of mst.compatibleModuleTypes) {
             if (!moduletypes.has(cmt)) {
@@ -221,14 +236,15 @@ async function validateDevictypes(
   moduleformfactors,
   moduletypes,
 ) {
-  const folders = await readdir("./devicetypes");
+  const dTBasePath = "./v1/deviceTypes";
+  const folders = await readdir(dTBasePath);
 
   for (const folder of folders) {
-    const files = await readdir(path.join("./devicetypes", folder));
+    const files = await readdir(path.join(dTBasePath, folder));
 
     for (const file of files) {
       const dt = JSON.parse(
-        await readFile(path.join("./devicetypes", folder, file)),
+        await readFile(path.join(dTBasePath, folder, file)),
       );
 
       //check filename and devicetypeid match
@@ -284,12 +300,14 @@ async function validateDevictypes(
           }
 
           //check compatibleSignalTypes are valid
-          const compatibleSignalTypes = p.compatibleSignalTypes;
-          for (const cst of compatibleSignalTypes) {
-            if (!signaltypes.has(cst)) {
-              throw new Error(
-                `${file}: Signaltype ${cst} at ${p.name} does not exist`,
-              );
+          for (const sub of p.subinterfaceTypes) {
+            const compatibleSignalTypes = sub.compatibleSignalTypes;
+            for (const cst of compatibleSignalTypes) {
+              if (!signaltypes.has(cst)) {
+                throw new Error(
+                  `${file}: Signaltype ${cst} at ${p.name} does not exist`,
+                );
+              }
             }
           }
         }
@@ -298,7 +316,15 @@ async function validateDevictypes(
       //check moduleSlotTypes
       const moduleSlotTypes = dt.moduleSlotTypes;
 
-      if (Array.isArray(moduleSlotTypes)) {
+      if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
+        //check last moduleSlotType can not span
+        const lastMST = moduleSlotTypes[-1];
+        if (lastMST?.canSpan) {
+          throw new Error(
+            `${file}: ${lastMST.name} can span, but is the last moduleSlot in the device.`,
+          );
+        }
+
         for (const mst of moduleSlotTypes) {
           //check form factors are valid
           for (const cff of mst.compatibleModuleSlotFormFactors) {

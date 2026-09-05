@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "id": "blackmagic-test-device",
+  "name": "Test Device",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 36,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 162,
+  "portTypes": [
+    {
+      "name": "CONTROL",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "Audio Out",
+      "connectorId": "DSUB25p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "Ch.1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.5",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.6",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.7",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Ch.8",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "1", "signal": "Audio +" },
+            { "pin": "3", "signal": "Audio -" },
+            { "pin": "24", "signal": "GND" }
+          ]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
