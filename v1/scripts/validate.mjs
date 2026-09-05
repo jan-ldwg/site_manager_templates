@@ -192,7 +192,7 @@ async function validateModuletypes(
       if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
         //check last moduleSlotType can not span
         const lastMST = moduleSlotTypes[-1];
-        if (lastMST.canSpan) {
+        if (lastMST?.canSpan) {
           throw new Error(
             `${file}: ${lastMST.name} can span, but is the last moduleSlot in the device.`,
           );
@@ -319,7 +319,7 @@ async function validateDevictypes(
       if (Array.isArray(moduleSlotTypes) && moduleSlotTypes.length > 0) {
         //check last moduleSlotType can not span
         const lastMST = moduleSlotTypes[-1];
-        if (lastMST.canSpan) {
+        if (lastMST?.canSpan) {
           throw new Error(
             `${file}: ${lastMST.name} can span, but is the last moduleSlot in the device.`,
           );
