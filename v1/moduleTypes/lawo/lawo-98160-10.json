@@ -9,9 +9,15 @@
   "portTypes": [
     {
       "name": "",
-      "direction": "UP",
       "connectorId": "LC_DPLX_PC_MM_f",
-      "compatibleSignalTypes": ["1000BASE_SX"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["1000BASE_SX"],
+          "pinout": null
+        }
+      ]
     }
   ]
 }
