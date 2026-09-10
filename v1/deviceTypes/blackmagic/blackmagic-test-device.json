@@ -12,7 +12,7 @@
   "portTypes": [
     {
       "name": "CONTROL",
-      "connectorId": "RJ45_f",
+      "connectorId": "ETHERCON_f",
       "subinterfaceTypes": [
         {
           "name": null,
