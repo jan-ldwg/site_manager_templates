@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "directout-usbmadi",
+  "name": "USB.MADI",
+  "orderCode": null,
+  "orderNumber": null,
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "pinout": {},
+          "compatibleSignalTypes": ["USB_2"]
+        }
+      ]
+    }
+  ]
+}

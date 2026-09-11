@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "id": "directout-scio-mm",
+  "name": "SC.IO MM",
+  "orderCode": null,
+  "orderNumber": "DOMIO0006",
+  "moduleFormFactorId": "directout-b-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "IN",
+      "connectorId": "SC_SPLX_PC_MM_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "pinout": {},
+          "compatibleSignalTypes": ["MADI_MM_1310"]
+        }
+      ]
+    },
+    {
+      "name": "OUT",
+      "connectorId": "SC_SPLX_PC_MM_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "pinout": {},
+          "compatibleSignalTypes": ["MADI_MM_1310"]
+        }
+      ]
+    }
+  ]
+}
