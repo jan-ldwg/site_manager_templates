@@ -13,7 +13,7 @@
     {
       "name": "[Out]",
       "connectorId": "XLR3p_m",
-      "subinterfaces": [
+      "subinterfaceTypes": [
         {
           "name": "",
           "direction": "OUT",
