@@ -15,7 +15,7 @@
           "name": null,
           "direction": "IN",
           "compatibleSignalTypes": ["MADI_CU"],
-          "pinout": null
+          "pinout": []
         }
       ]
     },
@@ -27,7 +27,7 @@
           "name": null,
           "direction": "OUT",
           "compatibleSignalTypes": ["MADI_CU"],
-          "pinout": null
+          "pinout": []
         }
       ]
     }

@@ -12,45 +12,143 @@
   "portTypes": [
     {
       "name": "MGMT",
-      "direction": "UP",
       "connectorId": "RJ45_f",
-      "compatibleSignalTypes": ["1000BASE_T"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"]
+        }
+      ]
     },
     {
       "name": "WCK IN",
-      "direction": "IN",
       "connectorId": "BNC_f",
-      "compatibleSignalTypes": ["WCLK"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["WCLK"]
+        }
+      ]
     },
     {
       "name": "WCK OUT",
-      "direction": "OUT",
       "connectorId": "BNC_f",
-      "compatibleSignalTypes": ["WCLK"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["WCLK"]
+        }
+      ]
     },
     {
       "name": "USB",
-      "direction": "OUT",
       "connectorId": "USB2.0A_f",
-      "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
+        }
+      ]
     },
     {
       "name": "GPIO",
       "direction": "INOUT",
       "connectorId": "DSUB9p_f",
-      "compatibleSignalTypes": ["GPIO"]
+      "compatibleSignalTypes": ["GPIO"],
+      "subinterfaceTypes": [
+        {
+          "name": "GPI 1",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "7",
+              "signal": "GPI 1"
+            },
+            {
+              "pin": "2",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"]
+        },
+        {
+          "name": "GPI 2",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "6",
+              "signal": "GPI 2"
+            },
+            {
+              "pin": "1",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"]
+        },
+        {
+          "name": "GPO 1",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "9",
+              "signal": "GPO 1"
+            },
+            {
+              "pin": "5",
+              "signal": "+12V"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"]
+        },
+        {
+          "name": "GPO 2",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "8",
+              "signal": "GPO 1"
+            },
+            {
+              "pin": "4",
+              "signal": "+12V"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"]
+        }
+      ]
     },
     {
       "name": "PHONES 1",
-      "direction": "OUT",
       "connectorId": "TRS_635_f",
-      "compatibleSignalTypes": ["PHONES_ANA"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PHONES_ANA"]
+        }
+      ]
     },
     {
       "name": "PHONES 2",
-      "direction": "OUT",
       "connectorId": "TRS_35_f",
-      "compatibleSignalTypes": ["PHONES_ANA"]
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PHONES_ANA"]
+        }
+      ]
     }
   ],
   "moduleSlotTypes": [

@@ -15,13 +15,13 @@
           "name": "Tx",
           "direction": "OUT",
           "compatibleSignalTypes": ["MADI_SM_1310"],
-          "pinout": null
+          "pinout": []
         },
         {
           "name": "Rx",
           "direction": "IN",
           "compatibleSignalTypes": ["MADI_SM_1310"],
-          "pinout": null
+          "pinout": []
         }
       ]
     }

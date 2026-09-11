@@ -14,7 +14,7 @@
         {
           "name": null,
           "direction": "IN",
-          "pinout": {},
+          "pinout": [],
           "compatibleSignalTypes": ["USB_2", "USB_32_GEN1X1"]
         }
       ]

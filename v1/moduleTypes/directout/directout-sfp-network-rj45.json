@@ -15,7 +15,7 @@
           "name": null,
           "direction": "UP",
           "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"],
-          "pinout": null
+          "pinout": []
         }
       ]
     }
