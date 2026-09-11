@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "id": "directout-prodigymc",
-  "name": "PRODIGY.MC",
+  "id": "directout-mavena",
+  "name": "MAVEN.A",
   "manufacturerId": "directout",
   "orderCode": null,
-  "orderNumber": "DOPRDG003",
-  "climateLoad": 110,
+  "orderNumber": "DOMVA0002",
+  "climateLoad": 55,
   "rackType": "19INCH",
-  "rackHeight": 2,
+  "rackHeight": 1,
   "rackDepth": 262,
   "portTypes": [
     {
@@ -43,6 +43,18 @@
           "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": ["WCLK"]
+        }
+      ]
+    },
+    {
+      "name": "USB",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_1", "USB_11", "USB_2"]
         }
       ]
     },
@@ -152,66 +164,40 @@
   "moduleSlotTypes": [
     {
       "name": "MADI 1",
-      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
-      "compatibleModuleTypes": [],
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "MADI 2",
-      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
-      "compatibleModuleTypes": [],
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "directout-sfp-madi-bnc",
+        "directout-sfp-madi-mm",
+        "directout-sfp-madi-sm",
+        "directout-usbmadi"
+      ],
       "incompatibleModuleTypes": []
     },
     {
       "name": "SLOT A",
       "compatibleModuleSlotFormFactors": ["directout-a-slot"],
       "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": ["directout-madi4io", "directout-madi4srcio"]
+      "incompatibleModuleTypes": []
     },
     {
-      "name": "SLOT 1",
+      "name": "SLOT C1",
       "compatibleModuleSlotFormFactors": ["directout-c-slot"],
       "compatibleModuleTypes": [],
       "incompatibleModuleTypes": []
     },
     {
-      "name": "SLOT 2",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 3",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 4",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 5",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 6",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 7",
-      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
-      "compatibleModuleTypes": [],
-      "incompatibleModuleTypes": []
-    },
-    {
-      "name": "SLOT 8",
+      "name": "SLOT C2",
       "compatibleModuleSlotFormFactors": ["directout-c-slot"],
       "compatibleModuleTypes": [],
       "incompatibleModuleTypes": []
