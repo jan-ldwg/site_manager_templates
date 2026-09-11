@@ -355,21 +355,6 @@
     "description": ""
   },
   {
-    "id": "AES59_ANA",
-    "name": "AES59 Analog Audio",
-    "description": ""
-  },
-  {
-    "id": "AES59_DIGI",
-    "name": "AES59 Digital Audio",
-    "description": ""
-  },
-  {
-    "id": "AES59_DIGI_IO",
-    "name": "AES59 Digital Combined I/O",
-    "description": ""
-  },
-  {
     "id": "MADI_CU",
     "name": "MADI, Coaxial",
     "description": ""

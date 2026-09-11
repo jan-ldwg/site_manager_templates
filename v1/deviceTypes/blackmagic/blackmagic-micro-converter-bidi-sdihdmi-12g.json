@@ -1,0 +1,99 @@
+{
+    "id": "blackmagic-micro-converter-bidi-sdihdmi-12g",
+    "version": "1.0",
+    "name": "Micro Converter BiDirectional SDI/HDMI 12G",
+    "manufacturerId": "blackmagic",
+    "orderCode": "",
+    "orderNumber": "",
+    "climateLoad": 5,
+    "rackType": "NONE",
+    "rackHeight": 0,
+    "rackDepth": 0,
+    "portTypes": [
+        {
+            "name": "USB POWER",
+            "connectorId": "USBC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "USB_1",
+                        "USB_11",
+                        "USB_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SDI IN",
+            "connectorId": "BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "SDI_SD_CU",
+                        "SDI_HD_CU",
+                        "SDI_3G_CU",
+                        "SDI_6G_CU",
+                        "SDI_12G_CU"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SDI OUT",
+            "connectorId": "BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "SDI_SD_CU",
+                        "SDI_HD_CU",
+                        "SDI_3G_CU",
+                        "SDI_6G_CU",
+                        "SDI_12G_CU"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HDMI IN",
+            "connectorId": "HDMI_A_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "HDMI",
+                        "DVI_I",
+                        "DVI_D"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HDMI OUT",
+            "connectorId": "HDMI_A_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "HDMI",
+                        "DVI_I",
+                        "DVI_D"
+                    ]
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}

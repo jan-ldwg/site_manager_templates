@@ -5,12 +5,14 @@
   "orderCode": null,
   "orderNumber": "4250479321434",
   "moduleFormFactorId": null,
+  "spanWidth": 1,
   "manufacturerId": "lynx",
   "portTypes": [],
   "moduleSlotTypes": [
     {
       "name": "",
       "compatibleModuleSlotFormFactors": [],
+      "canSpan": false,
       "compatibleModuleTypes": ["lynx-oh-rct5023-svr"],
       "incompatibleModuleTypes": []
     }

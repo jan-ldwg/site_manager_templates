@@ -1,0 +1,229 @@
+{
+  "version": "1.0",
+  "id": "lynx-dva-5760-l",
+  "name": "DVA 5760 L",
+  "orderCode": null,
+  "orderNumber": "4250479321625",
+  "moduleFormFactorId": "lynx-5000-active",
+  "spanWidth": 2,
+  "manufacturerId": "lynx",
+  "portTypes": [
+    {
+      "name": "IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "Loop Out",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 1",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 2",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 3",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 4",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 5",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 6",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 7",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 8",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 9",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 10",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 11",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 12",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 13",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 14",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 15",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    },
+    {
+      "name": "OUT 16",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
