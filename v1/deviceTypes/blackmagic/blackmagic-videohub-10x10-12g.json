@@ -1,0 +1,442 @@
+{
+  "version": "1.0",
+  "id": "blackmagic-videohub-10x10-12g",
+  "name": "Videohub 10x10 12G",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "orderNumber": null,
+  "climateLoad": 21,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 211,
+  "portTypes": [
+    {
+      "name": "ETHERNET",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "USB",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["USB_2"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "REF IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "REF OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 1",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 2",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 3",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 4",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 5",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 6",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 7",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 8",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 9",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI IN 10",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 1",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 2",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 3",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 4",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 5",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 6",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 7",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 8",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 9",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    },
+    {
+      "name": "SD/3G/12G SDI OUT 10",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": [
+            "DVB_ASI",
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU"
+          ],
+          "pinout": null
+        }
+      ]
+    }
+  ]
+}

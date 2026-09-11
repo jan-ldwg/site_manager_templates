@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "id": "lawo-98160-60",
+  "name": "981/60-60",
+  "orderCode": null,
+  "orderNumber": "981/60-60",
+  "moduleFormFactorId": "sfp",
+  "manufacturerId": "lawo",
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"],
+          "pinout": null
+        }
+      ]
+    }
+  ]
+}

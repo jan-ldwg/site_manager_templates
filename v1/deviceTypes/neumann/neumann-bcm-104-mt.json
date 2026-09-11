@@ -1,0 +1,27 @@
+{
+  "id": "neumann-bcm-104-mt",
+  "version": "1.0",
+  "name": "BCM 104 mt",
+  "manufacturerId": "neumann",
+  "orderCode": "",
+  "orderNumber": "399007",
+  "climateLoad": 0,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "[Out]",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
