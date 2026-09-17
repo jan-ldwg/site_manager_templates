@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "id": "directout-aes4srcio",
+  "name": "AES4.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DOAIO0007",
+  "moduleFormFactorId": "directout-c-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "AES3 INPUT (SRC)/OUTPUT",
+      "connectorId": "DSUB25p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "RCV1",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "12", "signal": "Cold" },
+            { "pin": "24", "signal": "Hot" },
+            { "pin": "25", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV2",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "23", "signal": "Cold" },
+            { "pin": "10", "signal": "Hot" },
+            { "pin": "11", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV3",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "9", "signal": "Cold" },
+            { "pin": "21", "signal": "Hot" },
+            { "pin": "22", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "RCV4",
+          "direction": "IN",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "20", "signal": "Cold" },
+            { "pin": "7", "signal": "Hot" },
+            { "pin": "8", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "6", "signal": "Cold" },
+            { "pin": "18", "signal": "Hot" },
+            { "pin": "19", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "4", "signal": "Hot" },
+            { "pin": "5", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT3",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "3", "signal": "Cold" },
+            { "pin": "15", "signal": "Hot" },
+            { "pin": "16", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "XMT4",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AES3"],
+          "pinout": [
+            { "pin": "14", "signal": "Cold" },
+            { "pin": "1", "signal": "Hot" },
+            { "pin": "2", "signal": "GND" }
+          ]
+        }
+      ]
+    }
+  ]
+}

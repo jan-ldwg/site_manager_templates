@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "id": "directout-dantesgsrcio",
+  "name": "DANTE.SG.SRC.IO",
+  "orderCode": null,
+  "orderNumber": "DONETDS01",
+  "moduleFormFactorId": "directout-a-slot",
+  "manufacturerId": "directout",
+  "portTypes": [
+    {
+      "name": "PRI (1)",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"]
+        }
+      ]
+    },
+    {
+      "name": "SEC (2)",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"]
+        }
+      ]
+    },
+    {
+      "name": "PORT 1",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"]
+        }
+      ]
+    },
+    {
+      "name": "PORT 2",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"]
+        }
+      ]
+    }
+  ]
+}

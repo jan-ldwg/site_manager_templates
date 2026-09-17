@@ -1,0 +1,29 @@
+{
+  "version": "1.1",
+  "id": "lawo-98160-81",
+  "name": "981/60-81",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "orderNumber": "981/60-81",
+  "moduleFormFactorId": "sfp",
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "subinterfaceTypes": [
+        {
+          "name": "Tx",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["MADI_SM_1310"],
+          "pinout": null
+        },
+        {
+          "name": "Rx",
+          "direction": "IN",
+          "compatibleSignalTypes": ["MADI_SM_1310"],
+          "pinout": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "neumann-bmc-104",
+  "version": "1.0",
+  "name": "BMC 104",
+  "manufacturerId": "neumann",
+  "orderCode": "",
+  "orderNumber": "008483",
+  "climateLoad": 0,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "[Out]",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_MIC_48V"]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
