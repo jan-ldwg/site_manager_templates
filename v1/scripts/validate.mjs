@@ -28,7 +28,7 @@ function validatePortTypes(portTypes, signaltypes, connectors, file) {
             "3PHASE_POWER",
           ]);
           if (acPowerTypes.has(cst)) {
-            if (sub.add === undefined) {
+            if (sub.addInfo === undefined) {
               throw new Error(`${file}: ${p.name} is missing addInfo.`);
             }
 
@@ -50,7 +50,7 @@ function validatePortTypes(portTypes, signaltypes, connectors, file) {
 
           //check addInfo contains the right values for DC power
           if (cst === "DC_POWER") {
-            if (sub.add === undefined) {
+            if (sub.addInfo === undefined) {
               throw new Error(`${file}: ${p.name} is missing addInfo.`);
             }
 
