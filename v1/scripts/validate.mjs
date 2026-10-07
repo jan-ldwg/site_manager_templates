@@ -1,7 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
-function validatePortTypes(portTypes, signaltypes, file) {
+function validatePortTypes(portTypes, signaltypes, connectors, file) {
   if (Array.isArray(portTypes)) {
     for (const p of portTypes) {
       //check connectorId is valid
@@ -229,7 +229,7 @@ async function validateModuletypes(
       }
 
       //check portTypes
-      validatePortTypes(moduletype.portTypes, signaltypes, file);
+      validatePortTypes(moduletype.portTypes, signaltypes, connectors, file);
 
       //check moduleSlots
       const moduleSlotTypes = moduletype.moduleSlotTypes;
@@ -333,7 +333,7 @@ async function validateDevictypes(
       }
 
       //check portTypes
-      validatePortTypes(dt.portTypes, signaltypes, file);
+      validatePortTypes(dt.portTypes, signaltypes, connectors, file);
 
       //check moduleSlotTypes
       const moduleSlotTypes = dt.moduleSlotTypes;
