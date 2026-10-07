@@ -110,6 +110,7 @@
                   "type": ["array", "null"],
                   "items": {
                     "type": "object",
+                    "additionalProperties": false,
                     "properties": {
                       "pin": {
                         "description": "A human readable identification of the pin, e.g. its number or center/shield for BNC.",
@@ -125,6 +126,7 @@
                 "addInfo": {
                   "description": "An object that contains additional information, depending on the signalType",
                   "type": ["object", "null"],
+                  "additionalProperties": false,
                   "properties": {
                     "minV": {
                       "description": "Minimum acceptable voltage of a power input or output",

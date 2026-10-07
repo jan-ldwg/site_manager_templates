@@ -501,7 +501,7 @@
   },
   {
     "id": "AC_POWER_PE",
-    "name": "AC Power",
+    "name": "AC Power w/PE",
     "description": "Single-phase AC power with PE"
   },
   {
