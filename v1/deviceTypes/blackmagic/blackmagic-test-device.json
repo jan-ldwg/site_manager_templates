@@ -72,7 +72,7 @@
     },
     {
       "name": "AC 230V/50Hz",
-      "connectorId": "C13_3p_m",
+      "connectorId": "C13_3p_f",
       "subinterfaceTypes": [
         {
           "name": null,
