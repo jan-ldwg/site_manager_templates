@@ -897,5 +897,47 @@
     "gender": "MALE",
     "icon": "SDR_50p_m",
     "compatibleConnectors": ["SDR_50p_f"]
+  },
+  {
+    "id": "C13_3p_f",
+    "name": "C13",
+    "gender": "FEMALE",
+    "icon": "C13_3p_f",
+    "compatibleConnectors": ["C14_3p_m"]
+  },
+  {
+    "id": "C14_3p_m",
+    "name": "C14",
+    "gender": "MALE",
+    "icon": "C14_3p_m",
+    "compatibleConnectors": ["C13_3p_f", "C15_3p_f"]
+  },
+  {
+    "id": "C15_3p_f",
+    "name": "C15",
+    "gender": "FEMALE",
+    "icon": "C15_3p_f",
+    "compatibleConnectors": ["C16_3p_m", "C14_3p_m"]
+  },
+  {
+    "id": "C16_3p_m",
+    "name": "C16",
+    "gender": "MALE",
+    "icon": "C16_3p_m",
+    "compatibleConnectors": ["C15_3p_f"]
+  },
+  {
+    "id": "BARREL_XX_m",
+    "name": "Barrel connector, male, unknown size",
+    "gender": "MALE",
+    "icon": "BARREL_XX_m",
+    "compatibleConnectors": ["BARREL_XX_f"]
+  },
+  {
+    "id": "BARREL_XX_f",
+    "name": "Barrel connector, female, unknown size",
+    "gender": "FEMALE",
+    "icon": "BARREL_XX_f",
+    "compatibleConnectors": ["BARREL_XX_m"]
   }
 ]

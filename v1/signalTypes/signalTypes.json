@@ -490,6 +490,31 @@
     "description": "MIDI 1.0"
   },
   {
+    "id": "DC_POWER",
+    "name": "DC Power",
+    "description": "DC power"
+  },
+  {
+    "id": "AC_POWER",
+    "name": "AC Power",
+    "description": "Single-phase AC power without PE"
+  },
+  {
+    "id": "AC_POWER_PE",
+    "name": "AC Power",
+    "description": "Single-phase AC power with PE"
+  },
+  {
+    "id": "3PHASE_POWER",
+    "name": "Three-phase Power",
+    "description": "Three-phase power"
+  },
+  {
+    "id": "GND",
+    "name": "Functional Earth",
+    "description": "Functional earth for equipment, not PE"
+  },
+  {
     "id": "genelec_GLM",
     "name": "Genelec GLM Network",
     "description": "Proprietary format used by Genelec to control loudspeakers"
