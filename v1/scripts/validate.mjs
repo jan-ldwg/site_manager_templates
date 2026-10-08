@@ -21,43 +21,23 @@ function validatePortTypes(portTypes, signaltypes, connectors, file) {
             );
           }
 
-          //check addInfo contains the right values for AC power
-          const acPowerTypes = new Set([
+          //check addInfo exists and keys are valid signal types
+          const addInfoSignalTypes = new Set([
             "AC_POWER",
             "AC_POWER_PE",
             "3PHASE_POWER",
+            "DC_POWER",
           ]);
-          if (acPowerTypes.has(cst)) {
+
+          if (addInfoSignalTypes.has(cst)) {
             if (sub.addInfo === undefined) {
               throw new Error(`${file}: ${p.name} is missing addInfo.`);
             }
 
-            for (const key of [
-              "minV",
-              "maxV",
-              "minF",
-              "maxF",
-              "maxA",
-              "maxP",
-            ]) {
-              if (!sub.addInfo.hasOwnProperty(key)) {
+            for (const key of Object.keys(sub.addInfo)) {
+              if (!signaltypes.has(key)) {
                 throw new Error(
-                  `${file}: ${p.name} is missing ${key} in addInfo.`,
-                );
-              }
-            }
-          }
-
-          //check addInfo contains the right values for DC power
-          if (cst === "DC_POWER") {
-            if (sub.addInfo === undefined) {
-              throw new Error(`${file}: ${p.name} is missing addInfo.`);
-            }
-
-            for (const key of ["minV", "maxV", "maxA", "maxP"]) {
-              if (!sub.addInfo.hasOwnProperty(key)) {
-                throw new Error(
-                  `${file}: ${p.name} is missing ${key} in addInfo.`,
+                  `${file}: Signaltype ${cst}, which is a key in addInfo at ${p.name}, does not exist`,
                 );
               }
             }

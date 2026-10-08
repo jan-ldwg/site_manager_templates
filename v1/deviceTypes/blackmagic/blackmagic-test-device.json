@@ -20,12 +20,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 47,
-            "maxF": 53,
-            "minV": 200,
-            "maxV": 250,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 53,
+              "minV": 200,
+              "maxV": 250,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]
@@ -40,12 +42,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 60,
-            "maxF": 60,
-            "minV": 120,
-            "maxV": 120,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 60,
+              "maxF": 60,
+              "minV": 120,
+              "maxV": 120,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]
@@ -60,12 +64,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 47,
-            "maxF": 63,
-            "minV": 95,
-            "maxV": 250,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 95,
+              "maxV": 250,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]
@@ -80,12 +86,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 47,
-            "maxF": 53,
-            "minV": 200,
-            "maxV": 250,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 53,
+              "minV": 200,
+              "maxV": 250,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]
@@ -100,12 +108,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 60,
-            "maxF": 60,
-            "minV": 120,
-            "maxV": 120,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 60,
+              "maxF": 60,
+              "minV": 120,
+              "maxV": 120,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]
@@ -120,12 +130,14 @@
           "compatibleSignalTypes": ["AC_POWER_PE"],
           "pinout": null,
           "addInfo": {
-            "minF": 47,
-            "maxF": 63,
-            "minV": 95,
-            "maxV": 250,
-            "maxA": 5,
-            "maxP": 1000
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 95,
+              "maxV": 250,
+              "maxA": 5,
+              "maxP": 1000
+            }
           }
         }
       ]

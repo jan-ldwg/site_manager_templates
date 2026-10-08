@@ -118,31 +118,34 @@
                 "addInfo": {
                   "description": "An object that contains additional information, depending on the signalType",
                   "type": ["object", "null"],
-                  "additionalProperties": false,
-                  "properties": {
-                    "minV": {
-                      "description": "Minimum acceptable voltage of a power input or output",
-                      "type": "number"
-                    },
-                    "maxV": {
-                      "description": "Maximum acceptable voltage of a power input or output",
-                      "type": "number"
-                    },
-                    "minF": {
-                      "description": "Minimum acceptable frequency of a power input or output",
-                      "type": "number"
-                    },
-                    "maxF": {
-                      "description": "Maximum acceptable frequency of a power input or output",
-                      "type": "number"
-                    },
-                    "maxP": {
-                      "description": "Maximum acceptable power of a power input or output",
-                      "type": "number"
-                    },
-                    "maxA": {
-                      "description": "Maximum acceptable amperage of a power input or output",
-                      "type": "number"
+                  "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "minV": {
+                        "description": "Minimum acceptable voltage of a power input or output",
+                        "type": "number"
+                      },
+                      "maxV": {
+                        "description": "Maximum acceptable voltage of a power input or output",
+                        "type": "number"
+                      },
+                      "minF": {
+                        "description": "Minimum acceptable frequency of a power input or output",
+                        "type": "number"
+                      },
+                      "maxF": {
+                        "description": "Maximum acceptable frequency of a power input or output",
+                        "type": "number"
+                      },
+                      "maxP": {
+                        "description": "Maximum acceptable power of a power input or output",
+                        "type": "number"
+                      },
+                      "maxA": {
+                        "description": "Maximum acceptable amperage of a power input or output",
+                        "type": "number"
+                      }
                     }
                   }
                 }
