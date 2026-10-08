@@ -25,7 +25,7 @@ function validatePortTypes(portTypes, signaltypes, connectors, file) {
           const addInfoSignalTypes = new Set([
             "AC_POWER",
             "AC_POWER_PE",
-            "3PHASE_POWER",
+            "THREE_PHASE_POWER",
             "DC_POWER",
           ]);
 

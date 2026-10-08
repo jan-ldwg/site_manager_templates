@@ -505,7 +505,7 @@
     "description": "Single-phase AC power with PE"
   },
   {
-    "id": "3PHASE_POWER",
+    "id": "THREE_PHASE_POWER",
     "name": "Three-phase Power",
     "description": "Three-phase power"
   },
