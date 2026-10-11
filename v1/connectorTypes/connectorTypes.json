@@ -945,7 +945,7 @@
     "name": "Screw, M4 thread",
     "gender": "MALE",
     "icon": "SCREW_f",
-    "compatibleConnectors": ["RING_TERMINAL_f"]
+    "compatibleConnectors": ["RING_TERMINAL_M4_f"]
   },
   {
     "id": "RING_TERMINAL_M4_f",
