@@ -56,8 +56,8 @@
       "type": ["integer", "null"],
       "minimum": 0
     },
-    "heigth": {
-      "description": "Heigth of the device type in millimeter.",
+    "height": {
+      "description": "Height of the device type in millimeter.",
       "type": ["integer", "null"],
       "minimum": 0
     },
