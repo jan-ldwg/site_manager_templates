@@ -4,7 +4,7 @@
   "name": "Test Device",
   "manufacturerId": "blackmagic",
   "orderCode": null,
-  "orderNumber": null,
+  "sku": null,
   "climateLoad": 36,
   "rackType": "19INCH",
   "rackHeight": 1,

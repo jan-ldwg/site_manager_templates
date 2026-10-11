@@ -939,5 +939,26 @@
     "gender": "FEMALE",
     "icon": "BARREL_XX_f",
     "compatibleConnectors": ["BARREL_XX_m"]
+  },
+  {
+    "id": "BARREL_XX_f",
+    "name": "Barrel connector, female, unknown size",
+    "gender": "FEMALE",
+    "icon": "BARREL_XX_f",
+    "compatibleConnectors": ["BARREL_XX_m"]
+  },
+  {
+    "id": "SCREW_M4_m",
+    "name": "Screw, M4 thread",
+    "gender": "MALE",
+    "icon": "SCREW_f",
+    "compatibleConnectors": ["RING_TERMINAL_f"]
+  },
+  {
+    "id": "RING_TERMINAL_M4_f",
+    "name": "Cable shoe, for M4 thread",
+    "gender": "FEMALE",
+    "icon": "RING_TERMINAL_f",
+    "compatibleConnectors": ["SCREW_M4_m"]
   }
 ]
