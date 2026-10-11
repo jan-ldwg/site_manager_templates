@@ -1,0 +1,145 @@
+{
+  "id": "blackmagic-mini-converter-sdi-to-hdmi-6g",
+  "version": "1.0",
+  "name": "Mini Converter SDI to HDMI 6G",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 6,
+  "weight": 257,
+  "width": 115,
+  "height": 23,
+  "depth": 93,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +12V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 12,
+              "maxV": 18,
+              "maxP": 6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[USB]",
+      "connectorId": "USB2.0B_MINI_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "ALT SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "L - ANALOG or AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "R - ANALOG",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

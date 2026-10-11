@@ -32,9 +32,14 @@
       "description": "Order code for the device type as used by the manufacturer.",
       "type": ["string", "null"]
     },
-    "orderNumber": {
-      "description": "Order number for the device type as used by the manufacturer.",
+    "sku": {
+      "description": "SKU for the device type as used by the manufacturer.",
       "type": ["string", "null"]
+    },
+    "gtin": {
+      "description": "GTIN for the device type as used by the manufacturer.",
+      "type": ["string", "null"],
+      "maxLength": 14
     },
     "moduleFormFactorId": {
       "description": "Form factor of the module.",
@@ -45,6 +50,14 @@
       "description": "The width of the module in slots",
       "type": "integer",
       "minimum": 1
+    },
+    "weight": {
+      "description": "Weight of the module in gram.",
+      "type": ["integer", "null"]
+    },
+    "climateLoad": {
+      "description": "Thermal load of the module in watt.",
+      "type": ["integer", "null"]
     },
     "portTypes": {
       "description": "List of all types of ports on the device type.",

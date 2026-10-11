@@ -32,12 +32,37 @@
       "description": "Order code for the device type as used by the manufacturer.",
       "type": ["string", "null"]
     },
-    "orderNumber": {
-      "description": "Order number for the device type as used by the manufacturer.",
+    "sku": {
+      "description": "SKU for the device type as used by the manufacturer.",
       "type": ["string", "null"]
     },
+    "gtin": {
+      "description": "GTIN for the device type as used by the manufacturer.",
+      "type": ["string", "null"],
+      "maxLength": 14
+    },
     "climateLoad": {
-      "description": "The maximum heat dissipation of the device type.",
+      "description": "The maximum heat dissipation of the device type in watt.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "weight": {
+      "description": "Weigth of the device type in gram.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "width": {
+      "description": "Width of the device type in millimeter.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "heigth": {
+      "description": "Heigth of the device type in millimeter.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "depth": {
+      "description": "Depth of the device type in millimeter.",
       "type": ["integer", "null"],
       "minimum": 0
     },
