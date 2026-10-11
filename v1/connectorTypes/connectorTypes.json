@@ -941,13 +941,6 @@
     "compatibleConnectors": ["BARREL_XX_m"]
   },
   {
-    "id": "BARREL_XX_f",
-    "name": "Barrel connector, female, unknown size",
-    "gender": "FEMALE",
-    "icon": "BARREL_XX_f",
-    "compatibleConnectors": ["BARREL_XX_m"]
-  },
-  {
     "id": "SCREW_M4_m",
     "name": "Screw, M4 thread",
     "gender": "MALE",
