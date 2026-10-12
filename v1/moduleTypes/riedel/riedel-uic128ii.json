@@ -6,7 +6,7 @@
   "orderCode": null,
   "sku": "9301306",
   "gtin": null,
-  "moduleFormFactor": null,
+  "moduleFormFactorId": null,
   "spanWidth": 1,
   "climateLoad": 20,
   "weight": 410,
