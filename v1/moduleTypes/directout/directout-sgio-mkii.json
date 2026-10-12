@@ -3,7 +3,7 @@
   "id": "directout-sgio-mkii",
   "name": "SG.IO MKII",
   "orderCode": null,
-  "orderNumber": "DONETS021",
+  "sku": "DONETS021",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

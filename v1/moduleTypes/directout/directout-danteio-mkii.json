@@ -3,7 +3,7 @@
   "id": "directout-danteio-mkii",
   "name": "DANTE.IO MKII",
   "orderCode": null,
-  "orderNumber": "DONETD021",
+  "sku": "DONETD021",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

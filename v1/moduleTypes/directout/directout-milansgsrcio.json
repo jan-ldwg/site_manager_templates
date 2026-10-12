@@ -3,7 +3,7 @@
   "id": "directout-milansgsrcio",
   "name": "MILAN.SG.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DONETAS01",
+  "sku": "DONETAS01",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

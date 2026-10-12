@@ -180,6 +180,11 @@
     "nameShort": "Telestream"
   },
   {
+    "id": "ubiquiti",
+    "name": "Ubiquiti Inc.",
+    "nameShort": "Ubiquiti"
+  },
+  {
     "id": "waves",
     "name": "Waves Audio Ltd.",
     "nameShort": "Waves"

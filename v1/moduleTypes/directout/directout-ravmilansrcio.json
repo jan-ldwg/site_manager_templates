@@ -3,7 +3,7 @@
   "id": "directout-ravmilansrcio",
   "name": "RAV.MILAN.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DONETRA01",
+  "sku": "DONETRA01",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

@@ -3,7 +3,7 @@
   "id": "directout-ravio",
   "name": "RAV.IO",
   "orderCode": null,
-  "orderNumber": "DONETR001",
+  "sku": "DONETR001",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

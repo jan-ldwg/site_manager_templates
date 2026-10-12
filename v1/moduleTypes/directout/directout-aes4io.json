@@ -3,7 +3,7 @@
   "id": "directout-aes4io",
   "name": "AES4.IO",
   "orderCode": null,
-  "orderNumber": "DOAIO0006",
+  "sku": "DOAIO0006",
   "moduleFormFactorId": "directout-c-slot",
   "manufacturerId": "directout",
   "portTypes": [

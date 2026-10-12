@@ -32,12 +32,37 @@
       "description": "Order code for the device type as used by the manufacturer.",
       "type": ["string", "null"]
     },
-    "orderNumber": {
-      "description": "Order number for the device type as used by the manufacturer.",
+    "sku": {
+      "description": "SKU for the device type as used by the manufacturer.",
       "type": ["string", "null"]
     },
+    "gtin": {
+      "description": "GTIN for the device type as used by the manufacturer.",
+      "type": ["string", "null"],
+      "maxLength": 14
+    },
     "climateLoad": {
-      "description": "The maximum heat dissipation of the device type.",
+      "description": "The maximum heat dissipation of the device type in watt.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "weight": {
+      "description": "Weigth of the device type in gram.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "width": {
+      "description": "Width of the device type in millimeter.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "height": {
+      "description": "Height of the device type in millimeter.",
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "depth": {
+      "description": "Depth of the device type in millimeter.",
       "type": ["integer", "null"],
       "minimum": 0
     },
@@ -110,6 +135,7 @@
                   "type": ["array", "null"],
                   "items": {
                     "type": "object",
+                    "additionalProperties": false,
                     "properties": {
                       "pin": {
                         "description": "A human readable identification of the pin, e.g. its number or center/shield for BNC.",
@@ -118,6 +144,40 @@
                       "signal": {
                         "description": "The signal present on that pin. This is not the signalType, but something more basic like positive, negative, GND, etc.",
                         "type": "string"
+                      }
+                    }
+                  }
+                },
+                "addInfo": {
+                  "description": "An object that contains additional information, depending on the signalType",
+                  "type": ["object", "null"],
+                  "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "minV": {
+                        "description": "Minimum acceptable voltage of a power input or output",
+                        "type": "number"
+                      },
+                      "maxV": {
+                        "description": "Maximum acceptable voltage of a power input or output",
+                        "type": "number"
+                      },
+                      "minF": {
+                        "description": "Minimum acceptable frequency of a power input or output",
+                        "type": "number"
+                      },
+                      "maxF": {
+                        "description": "Maximum acceptable frequency of a power input or output",
+                        "type": "number"
+                      },
+                      "maxP": {
+                        "description": "Maximum acceptable power of a power input or output",
+                        "type": "number"
+                      },
+                      "maxA": {
+                        "description": "Maximum acceptable amperage of a power input or output",
+                        "type": "number"
                       }
                     }
                   }

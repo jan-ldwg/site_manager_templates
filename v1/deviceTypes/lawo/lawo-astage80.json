@@ -1,15 +1,75 @@
 {
-  "version": "1.0",
   "id": "lawo-astage80",
+  "version": "1.0",
   "name": "A__stage80",
   "manufacturerId": "lawo",
   "orderCode": null,
-  "orderNumber": "985/64",
-  "climateLoad": 240,
+  "sku": "985/64",
+  "gtin": null,
+  "climateLoad": 276,
+  "weight": 5900,
+  "width": 483,
+  "height": 133,
+  "depth": 228,
   "rackType": "19INCH",
   "rackHeight": 3,
   "rackDepth": 208,
   "portTypes": [
+    {
+      "name": "PSU 1",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 90,
+              "maxV": 264,
+              "maxP": 276
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "PSU 2",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 90,
+              "maxV": 264,
+              "maxP": 276
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[Earth]",
+      "connectorId": "SCREW_M4_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["GND"],
+          "addInfo": {}
+        }
+      ]
+    },
     {
       "name": "MGMT",
       "connectorId": "RJ45_f",

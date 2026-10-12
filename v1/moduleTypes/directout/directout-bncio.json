@@ -3,7 +3,7 @@
   "id": "directout-bncio",
   "name": "BNC.IO",
   "orderCode": null,
-  "orderNumber": "DOMIO0005",
+  "sku": "DOMIO0005",
   "moduleFormFactorId": "directout-b-slot",
   "manufacturerId": "directout",
   "portTypes": [

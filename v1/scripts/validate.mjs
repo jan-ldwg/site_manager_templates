@@ -1,6 +1,53 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
+function validatePortTypes(portTypes, signaltypes, connectors, file) {
+  if (Array.isArray(portTypes)) {
+    for (const p of portTypes) {
+      //check connectorId is valid
+      if (!connectors.has(p.connectorId)) {
+        throw new Error(
+          `${file}: Connector ${p.connectorId} at ${p.name} does not exist`,
+        );
+      }
+
+      for (const sub of p.subinterfaceTypes) {
+        const compatibleSignalTypes = sub.compatibleSignalTypes;
+        for (const cst of compatibleSignalTypes) {
+          //check compatibleSignalTypes are valid
+          if (!signaltypes.has(cst)) {
+            throw new Error(
+              `${file}: Signaltype ${cst} at ${p.name} does not exist`,
+            );
+          }
+
+          //check addInfo exists and keys are valid signal types
+          const addInfoSignalTypes = new Set([
+            "AC_POWER",
+            "AC_POWER_PE",
+            "THREE_PHASE_POWER",
+            "DC_POWER",
+          ]);
+
+          if (addInfoSignalTypes.has(cst)) {
+            if (sub.addInfo === undefined) {
+              throw new Error(`${file}: ${p.name} is missing addInfo.`);
+            }
+
+            for (const key of Object.keys(sub.addInfo)) {
+              if (!signaltypes.has(key)) {
+                throw new Error(
+                  `${file}: Signaltype ${cst}, which is a key in addInfo at ${p.name}, does not exist`,
+                );
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 async function readManufacturers() {
   const filepath = path.join("./v1/manufacturers", "manufacturers.json");
   const manufacturers = JSON.parse(await readFile(filepath, "utf-8"));
@@ -162,30 +209,8 @@ async function validateModuletypes(
       }
 
       //check portTypes
-      const portTypes = moduletype.portTypes;
+      validatePortTypes(moduletype.portTypes, signaltypes, connectors, file);
 
-      if (Array.isArray(portTypes)) {
-        for (const p of portTypes) {
-          //check connectorId is valid
-          if (!connectors.has(p.connectorId)) {
-            throw new Error(
-              `${file}: Connector ${p.connectorId} at ${p.name} does not exist`,
-            );
-          }
-
-          //check compatibleSignalTypes are valid
-          for (const sub of p.subinterfaceTypes) {
-            const compatibleSignalTypes = sub.compatibleSignalTypes;
-            for (const cst of compatibleSignalTypes) {
-              if (!signaltypes.has(cst)) {
-                throw new Error(
-                  `${file}: Signaltype ${cst} at ${p.name} does not exist`,
-                );
-              }
-            }
-          }
-        }
-      }
       //check moduleSlots
       const moduleSlotTypes = moduletype.moduleSlotTypes;
 
@@ -288,30 +313,7 @@ async function validateDevictypes(
       }
 
       //check portTypes
-      const portTypes = dt.portTypes;
-
-      if (Array.isArray(portTypes)) {
-        for (const p of portTypes) {
-          //check connectorId is valid
-          if (!connectors.has(p.connectorId)) {
-            throw new Error(
-              `${file}: Connector ${p.connectorId} at ${p.name} does not exist`,
-            );
-          }
-
-          //check compatibleSignalTypes are valid
-          for (const sub of p.subinterfaceTypes) {
-            const compatibleSignalTypes = sub.compatibleSignalTypes;
-            for (const cst of compatibleSignalTypes) {
-              if (!signaltypes.has(cst)) {
-                throw new Error(
-                  `${file}: Signaltype ${cst} at ${p.name} does not exist`,
-                );
-              }
-            }
-          }
-        }
-      }
+      validatePortTypes(dt.portTypes, signaltypes, connectors, file);
 
       //check moduleSlotTypes
       const moduleSlotTypes = dt.moduleSlotTypes;

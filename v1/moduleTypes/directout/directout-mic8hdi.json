@@ -3,7 +3,7 @@
   "id": "directout-mic8hdi",
   "name": "MIC8.HD.I",
   "orderCode": null,
-  "orderNumber": "DOAIO0004",
+  "sku": "DOAIO0004",
   "moduleFormFactorId": "directout-c-slot",
   "manufacturerId": "directout",
   "portTypes": [

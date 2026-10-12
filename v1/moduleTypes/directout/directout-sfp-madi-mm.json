@@ -3,7 +3,7 @@
   "id": "directout-sfp-madi-mm",
   "name": "SFP MADI mm",
   "orderCode": null,
-  "orderNumber": "DOICT0136",
+  "sku": "DOICT0136",
   "moduleFormFactorId": "sfp",
   "manufacturerId": "directout",
   "portTypes": [

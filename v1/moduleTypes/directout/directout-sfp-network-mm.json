@@ -3,7 +3,7 @@
   "id": "directout-sfp-network-mm",
   "name": "SFP Network mm",
   "orderCode": null,
-  "orderNumber": "DOICT0135",
+  "sku": "DOICT0135",
   "moduleFormFactorId": "sfp",
   "manufacturerId": "directout",
   "portTypes": [

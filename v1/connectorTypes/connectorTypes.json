@@ -780,6 +780,20 @@
     "compatibleConnectors": ["TRS_635_f"]
   },
   {
+    "id": "RCA_f",
+    "name": "RCA female",
+    "gender": "FEMALE",
+    "icon": "RCA_f",
+    "compatibleConnectors": ["RCA_m"]
+  },
+  {
+    "id": "RCA_m",
+    "name": "RCA male",
+    "gender": "MALE",
+    "icon": "RCA_m",
+    "compatibleConnectors": ["RCA_f"]
+  },
+  {
     "id": "JIS_F05_f",
     "name": "JIS F05 female",
     "gender": "FEMALE",
@@ -897,5 +911,61 @@
     "gender": "MALE",
     "icon": "SDR_50p_m",
     "compatibleConnectors": ["SDR_50p_f"]
+  },
+  {
+    "id": "C13_3p_f",
+    "name": "C13",
+    "gender": "FEMALE",
+    "icon": "C13_3p_f",
+    "compatibleConnectors": ["C14_3p_m"]
+  },
+  {
+    "id": "C14_3p_m",
+    "name": "C14",
+    "gender": "MALE",
+    "icon": "C14_3p_m",
+    "compatibleConnectors": ["C13_3p_f", "C15_3p_f"]
+  },
+  {
+    "id": "C15_3p_f",
+    "name": "C15",
+    "gender": "FEMALE",
+    "icon": "C15_3p_f",
+    "compatibleConnectors": ["C16_3p_m", "C14_3p_m"]
+  },
+  {
+    "id": "C16_3p_m",
+    "name": "C16",
+    "gender": "MALE",
+    "icon": "C16_3p_m",
+    "compatibleConnectors": ["C15_3p_f"]
+  },
+  {
+    "id": "BARREL_XX_m",
+    "name": "Barrel connector, male, unknown size",
+    "gender": "MALE",
+    "icon": "BARREL_XX_m",
+    "compatibleConnectors": ["BARREL_XX_f"]
+  },
+  {
+    "id": "BARREL_XX_f",
+    "name": "Barrel connector, female, unknown size",
+    "gender": "FEMALE",
+    "icon": "BARREL_XX_f",
+    "compatibleConnectors": ["BARREL_XX_m"]
+  },
+  {
+    "id": "SCREW_M4_m",
+    "name": "Screw, M4 thread",
+    "gender": "MALE",
+    "icon": "SCREW_f",
+    "compatibleConnectors": ["RING_TERMINAL_M4_f"]
+  },
+  {
+    "id": "RING_TERMINAL_M4_f",
+    "name": "Ring terminal, for M4 thread",
+    "gender": "FEMALE",
+    "icon": "RING_TERMINAL_f",
+    "compatibleConnectors": ["SCREW_M4_m"]
   }
 ]

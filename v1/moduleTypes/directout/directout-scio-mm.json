@@ -3,7 +3,7 @@
   "id": "directout-scio-mm",
   "name": "SC.IO MM",
   "orderCode": null,
-  "orderNumber": "DOMIO0006",
+  "sku": "DOMIO0006",
   "moduleFormFactorId": "directout-b-slot",
   "manufacturerId": "directout",
   "portTypes": [

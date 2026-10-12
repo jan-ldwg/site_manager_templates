@@ -3,9 +3,11 @@
   "id": "lawo-98160-10",
   "name": "981/60-10",
   "orderCode": null,
-  "orderNumber": "981/60-10",
+  "sku": "981/60-10",
   "moduleFormFactorId": "sfp",
   "manufacturerId": "lawo",
+  "climateLoad": 1,
+  "weight": 20,
   "portTypes": [
     {
       "name": "",

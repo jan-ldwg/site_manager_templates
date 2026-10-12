@@ -1,0 +1,210 @@
+{
+  "id": "blackmagic-mini-converter-sdi-distribution-4k",
+  "version": "1.0",
+  "name": "Mini Converter SDI Distribution 4K",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 5,
+  "weight": 337,
+  "width": 123,
+  "height": 23,
+  "depth": 93,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +12V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 12,
+              "maxV": 31,
+              "maxP": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

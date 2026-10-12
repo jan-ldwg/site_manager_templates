@@ -3,7 +3,7 @@
   "id": "directout-mic8linei",
   "name": "MIC8.LINE.I",
   "orderCode": null,
-  "orderNumber": "DOAIO0005",
+  "sku": "DOAIO0005",
   "moduleFormFactorId": "directout-c-slot",
   "manufacturerId": "directout",
   "portTypes": [

@@ -4,12 +4,138 @@
   "name": "Test Device",
   "manufacturerId": "blackmagic",
   "orderCode": null,
-  "orderNumber": null,
+  "sku": null,
   "climateLoad": 36,
   "rackType": "19INCH",
   "rackHeight": 1,
   "rackDepth": 162,
   "portTypes": [
+    {
+      "name": "AC 230V/50Hz",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 53,
+              "minV": 200,
+              "maxV": 250,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AC 110V/60Hz",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 60,
+              "maxF": 60,
+              "minV": 120,
+              "maxV": 120,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AC Wide Range",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "IN",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 95,
+              "maxV": 250,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AC 230V/50Hz",
+      "connectorId": "C13_3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 53,
+              "minV": 200,
+              "maxV": 250,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AC 110V/60Hz",
+      "connectorId": "C13_3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 60,
+              "maxF": 60,
+              "minV": 120,
+              "maxV": 120,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AC Wide Range",
+      "connectorId": "C13_3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": null,
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "pinout": null,
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 95,
+              "maxV": 250,
+              "maxP": 1000
+            }
+          }
+        }
+      ]
+    },
     {
       "name": "CONTROL",
       "connectorId": "ETHERCON_f",

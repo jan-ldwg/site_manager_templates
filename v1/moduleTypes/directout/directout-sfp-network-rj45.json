@@ -3,7 +3,7 @@
   "id": "directout-sfp-network-rj45",
   "name": "SFP Network RJ45",
   "orderCode": null,
-  "orderNumber": "DOICT0132",
+  "sku": "DOICT0132",
   "moduleFormFactorId": "sfp",
   "manufacturerId": "directout",
   "portTypes": [

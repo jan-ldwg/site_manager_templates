@@ -3,7 +3,7 @@
   "id": "directout-dantemilansrcio",
   "name": "DANTE.MILAN.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DONETDA01",
+  "sku": "DONETDA01",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

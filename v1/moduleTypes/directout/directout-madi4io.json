@@ -3,7 +3,7 @@
   "id": "directout-madi4io",
   "name": "MADI4.IO",
   "orderCode": null,
-  "orderNumber": "DOMIO0041",
+  "sku": "DOMIO0041",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "moduleSlotTypes": [

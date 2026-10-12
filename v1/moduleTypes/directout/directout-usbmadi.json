@@ -3,7 +3,7 @@
   "id": "directout-usbmadi",
   "name": "USB.MADI",
   "orderCode": null,
-  "orderNumber": null,
+  "sku": null,
   "moduleFormFactorId": "sfp",
   "manufacturerId": "directout",
   "portTypes": [

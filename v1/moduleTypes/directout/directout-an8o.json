@@ -3,7 +3,7 @@
   "id": "directout-an8o",
   "name": "AN8.O",
   "orderCode": null,
-  "orderNumber": "DOAIO0023",
+  "sku": "DOAIO0023",
   "moduleFormFactorId": "directout-c-slot",
   "manufacturerId": "directout",
   "portTypes": [

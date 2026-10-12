@@ -3,7 +3,7 @@
   "id": "directout-madi2bncsrcio",
   "name": "MADI2.BNC.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DOMIO0023",
+  "sku": "DOMIO0023",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

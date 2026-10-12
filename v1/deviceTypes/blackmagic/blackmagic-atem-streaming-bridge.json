@@ -1,0 +1,130 @@
+{
+  "id": "blackmagic-atem-streaming-bridge",
+  "version": "1.0",
+  "name": "ATEM Streaming Bridge",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 6,
+  "weight": 230,
+  "width": 135,
+  "height": 23,
+  "depth": 93,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +6 to 30V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 6,
+              "maxV": 30,
+              "maxP": 6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ETHERNET",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "USB ATEM UTILITY",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI REF IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI OUT",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

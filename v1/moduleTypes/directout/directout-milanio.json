@@ -3,7 +3,7 @@
   "id": "directout-milanio",
   "name": "MILAN.IO",
   "orderCode": null,
-  "orderNumber": "DONETA001",
+  "sku": "DONETA001",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

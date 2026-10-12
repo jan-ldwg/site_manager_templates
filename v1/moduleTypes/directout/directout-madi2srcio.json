@@ -3,7 +3,7 @@
   "id": "directout-madi2srcio",
   "name": "MADI2.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DOMIO0021",
+  "sku": "DOMIO0021",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "moduleSlotTypes": [

@@ -3,7 +3,7 @@
   "id": "directout-usbio",
   "name": "USB.IO",
   "orderCode": null,
-  "orderNumber": "DOUSBIO01",
+  "sku": "DOUSBIO01",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [

@@ -3,7 +3,7 @@
   "id": "directout-sfpio",
   "name": "SFP.IO",
   "orderCode": null,
-  "orderNumber": "DOMIO0017",
+  "sku": "DOMIO0017",
   "moduleFormFactorId": "directout-b-slot",
   "manufacturerId": "directout",
   "moduleSlotTypes": [

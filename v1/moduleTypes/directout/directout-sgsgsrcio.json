@@ -3,7 +3,7 @@
   "id": "directout-sgsgsrcio",
   "name": "SG.SG.SRC.IO",
   "orderCode": null,
-  "orderNumber": "DONETSS01",
+  "sku": "DONETSS01",
   "moduleFormFactorId": "directout-a-slot",
   "manufacturerId": "directout",
   "portTypes": [
