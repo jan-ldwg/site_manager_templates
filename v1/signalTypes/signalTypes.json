@@ -200,6 +200,16 @@
     "description": "Analog composite video signal according to PAL or NTSC standard"
   },
   {
+    "id": "S_VIDEO_Y",
+    "name": "S-Video Y",
+    "description": "Y component of an analog S-Video signal according to PAL or NTSC standard"
+  },
+  {
+    "id": "S_VIDEO_C",
+    "name": "S-Video C",
+    "description": "C component of an analog S-Video signal according to PAL or NTSC standard"
+  },
+  {
     "id": "Y",
     "name": "Y",
     "description": "Luma component of an analog video signal"

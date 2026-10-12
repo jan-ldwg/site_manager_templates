@@ -59,7 +59,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -78,7 +78,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -97,7 +97,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -116,7 +116,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -135,7 +135,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -154,7 +154,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -173,7 +173,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",
@@ -192,7 +192,7 @@
       "subinterfaceTypes": [
         {
           "name": "",
-          "direction": "IN",
+          "direction": "OUT",
           "pinout": [],
           "compatibleSignalTypes": [
             "SDI_SD_CU",

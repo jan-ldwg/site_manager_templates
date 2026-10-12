@@ -780,6 +780,20 @@
     "compatibleConnectors": ["TRS_635_f"]
   },
   {
+    "id": "RCA_f",
+    "name": "RCA female",
+    "gender": "FEMALE",
+    "icon": "RCA_f",
+    "compatibleConnectors": ["RCA_m"]
+  },
+  {
+    "id": "RCA_m",
+    "name": "RCA male",
+    "gender": "MALE",
+    "icon": "RCA_m",
+    "compatibleConnectors": ["RCA_f"]
+  },
+  {
     "id": "JIS_F05_f",
     "name": "JIS F05 female",
     "gender": "FEMALE",
@@ -949,7 +963,7 @@
   },
   {
     "id": "RING_TERMINAL_M4_f",
-    "name": "Cable shoe, for M4 thread",
+    "name": "Ring terminal, for M4 thread",
     "gender": "FEMALE",
     "icon": "RING_TERMINAL_f",
     "compatibleConnectors": ["SCREW_M4_m"]
