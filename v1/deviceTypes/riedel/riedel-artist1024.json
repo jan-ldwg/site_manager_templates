@@ -1,0 +1,161 @@
+{
+  "id": "riedel-artist1024",
+  "version": "1.0",
+  "name": "Artist-1024",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "sku": "1010010",
+  "gtin": null,
+  "climateLoad": 225,
+  "weight": 6300,
+  "width": 445,
+  "height": 88,
+  "depth": 377,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 380,
+  "portTypes": [
+    {
+      "name": "[AC 1]",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 249,
+              "maxP": 225
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[AC 2]",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 249,
+              "maxP": 225
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Bay 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 3",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 4",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 5",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 6",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 7",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 8",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 9",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay 10",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["riedel-uic128", "riedel-uic128ii"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay A",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay B",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay C",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Bay D",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
