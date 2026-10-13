@@ -829,14 +829,14 @@
       "name": "QSFP 1",
       "canSpan": false,
       "compatibleModuleSlotFormFactors": ["qsfp28"],
-      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "compatibleModuleTypes": ["lawo-edge-qsfp28lr", "lawo-edge-qsfp28sr"],
       "incompatibleModuleTypes": []
     },
     {
       "name": "QSFP 2",
       "canSpan": false,
       "compatibleModuleSlotFormFactors": ["qsfp28"],
-      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "compatibleModuleTypes": ["lawo-edge-qsfp28lr", "lawo-edge-qsfp28sr"],
       "incompatibleModuleTypes": []
     }
   ]
