@@ -913,6 +913,34 @@
     "compatibleConnectors": ["SDR_50p_f"]
   },
   {
+    "id": "C5_3p_f",
+    "name": "C5",
+    "gender": "FEMALE",
+    "icon": "C5_3p_f",
+    "compatibleConnectors": ["C6_3p_m"]
+  },
+  {
+    "id": "C6_3p_m",
+    "name": "C6",
+    "gender": "MALE",
+    "icon": "C6_3p_m",
+    "compatibleConnectors": ["C5_3p_f"]
+  },
+  {
+    "id": "C7_2p_f",
+    "name": "C7",
+    "gender": "FEMALE",
+    "icon": "C7_2p_f",
+    "compatibleConnectors": ["C8_2p_m"]
+  },
+  {
+    "id": "C8_2p_m",
+    "name": "C8",
+    "gender": "MALE",
+    "icon": "C8_2p_m",
+    "compatibleConnectors": ["C7_2p_f"]
+  },
+  {
     "id": "C13_3p_f",
     "name": "C13",
     "gender": "FEMALE",
@@ -939,6 +967,20 @@
     "gender": "MALE",
     "icon": "C16_3p_m",
     "compatibleConnectors": ["C15_3p_f"]
+  },
+  {
+    "id": "C19_3p_f",
+    "name": "C19",
+    "gender": "FEMALE",
+    "icon": "C19_3p_f",
+    "compatibleConnectors": ["C20_3p_m"]
+  },
+  {
+    "id": "C20_3p_m",
+    "name": "C20",
+    "gender": "MALE",
+    "icon": "C20_3p_m",
+    "compatibleConnectors": ["C20_3p_f"]
   },
   {
     "id": "BARREL_XX_m",
