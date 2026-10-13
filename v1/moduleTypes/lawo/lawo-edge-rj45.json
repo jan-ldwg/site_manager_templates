@@ -1,0 +1,29 @@
+{
+  "id": "lawo-edge-rj45",
+  "version": "1.0",
+  "name": ".edge_rj45",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": ".edge_rj45",
+  "gtin": null,
+  "moduleFormFactorId": "sfp",
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": null,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

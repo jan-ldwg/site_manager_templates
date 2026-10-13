@@ -1,0 +1,29 @@
+{
+  "id": "lawo-edge-sfpsr",
+  "version": "1.0",
+  "name": ".edge_sfpsr",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": ".edge_sfpsr",
+  "gtin": null,
+  "moduleFormFactorId": "sfp",
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": null,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_SX"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
