@@ -693,7 +693,7 @@
     "name": "XLR/6.35mm Combo",
     "gender": "FEMALE",
     "icon": "XLR_635_f",
-    "compatibleConnectors": ["TRS_635_m", "XLR3p_m"]
+    "compatibleConnectors": ["XLR3p_m", "TRS_635_m", "TS_635_f"]
   },
   {
     "id": "XLR4p_f",
@@ -766,18 +766,32 @@
     "compatibleConnectors": ["TRRS_35_f", "TRS_35_f"]
   },
   {
+    "id": "TS_635_f",
+    "name": "TS 6.35mm female",
+    "gender": "FEMALE",
+    "icon": "TS_635_f",
+    "compatibleConnectors": ["TS_635_m", "TRS_635_m"]
+  },
+  {
+    "id": "TS_635_m",
+    "name": "TS 6.35mm male",
+    "gender": "MALE",
+    "icon": "TS_635_m",
+    "compatibleConnectors": ["TS_635_f", "TRS_635_f"]
+  },
+  {
     "id": "TRS_635_f",
     "name": "TRS 6.35mm female",
     "gender": "FEMALE",
     "icon": "TRS_635_f",
-    "compatibleConnectors": ["TRS_635_m"]
+    "compatibleConnectors": ["TRS_635_m", "TS_635_m"]
   },
   {
     "id": "TRS_635_m",
     "name": "TRS 6.35mm male",
     "gender": "MALE",
     "icon": "TRS_635_m",
-    "compatibleConnectors": ["TRS_635_f"]
+    "compatibleConnectors": ["TRS_635_f", "TS_635_f"]
   },
   {
     "id": "RCA_f",

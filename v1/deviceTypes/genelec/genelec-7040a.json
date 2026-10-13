@@ -1,0 +1,103 @@
+{
+    "id": "genelec-7040a",
+    "version": "1.0",
+    "name": "7040A",
+    "manufacturerId": "genelec",
+    "orderCode": "7040AP",
+    "sku": null,
+    "gtin": null,
+    "climateLoad": 70,
+    "weight": 11300,
+    "width": 350,
+    "height": 410,
+    "depth": 205,
+    "rackType": "NONE",
+    "rackHeight": 0,
+    "rackDepth": 0,
+    "portTypes": [
+        {
+            "name": "MAINS INPUT",
+            "connectorId": "C14_3p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AC_POWER_PE"
+                    ],
+                    "addInfo": {
+                        "AC_POWER_PE": {
+                            "minF": 50,
+                            "maxF": 60,
+                            "minV": 100,
+                            "maxV": 240,
+                            "maxP": 70
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "LEFT IN",
+            "connectorId": "XLR3p_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "RIGHT IN",
+            "connectorId": "XLR3p_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "LEFT OUT",
+            "connectorId": "XLR3p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "RIGHT OUT",
+            "connectorId": "XLR3p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}
