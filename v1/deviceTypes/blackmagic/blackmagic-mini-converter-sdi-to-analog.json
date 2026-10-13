@@ -1,0 +1,156 @@
+{
+  "id": "blackmagic-mini-converter-sdi-to-analog",
+  "version": "1.0",
+  "name": "Mini Converter SDI to Analog",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 9,
+  "weight": 228,
+  "width": 124,
+  "height": 23,
+  "depth": 93,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +12V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 12,
+              "maxV": 15,
+              "maxP": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[USB]",
+      "connectorId": "USB2.0B_MINI_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "ALT SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "Y or NTSC/PAL",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["Y", "CVBS"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "B-Y or S-VIDEO Y",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PB", "S_VIDEO_Y"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "R-Y or S-VIDEO C",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PR", "S_VIDEO_C"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "L - ANALOG or AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "R - ANALOG",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

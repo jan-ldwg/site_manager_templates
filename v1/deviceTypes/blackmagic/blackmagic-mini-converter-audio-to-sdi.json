@@ -1,0 +1,143 @@
+{
+  "id": "blackmagic-mini-converter-audio-to-sdi",
+  "version": "1.0",
+  "name": "Mini Converter Audio to SDI",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 9,
+  "weight": 215,
+  "width": 115,
+  "height": 23,
+  "depth": 93,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +12V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 12,
+              "maxV": 12,
+              "maxP": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[USB]",
+      "connectorId": "USB2.0B_MINI_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "ALT SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "CH 1 ANALOG or CH 1&2 AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "CH 2 ANALOG or CH 3&4 AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "CH 3 ANALOG or CH 5&6 AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "CH 4 ANALOG or CH 7&8 AES/EBU",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA", "AES3"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

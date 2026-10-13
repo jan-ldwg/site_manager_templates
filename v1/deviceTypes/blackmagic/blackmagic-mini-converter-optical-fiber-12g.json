@@ -1,0 +1,91 @@
+{
+  "id": "blackmagic-mini-converter-optical-fiber-12g",
+  "version": "1.0",
+  "name": "Mini Converter Optical Fiber 12G",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 2,
+  "weight": 210,
+  "width": 110,
+  "height": 23,
+  "depth": 59,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +6 to 36V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 6,
+              "maxV": 36,
+              "maxP": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_6G_CU",
+            "SDI_12G_CU",
+            "DVB_ASI"
+          ],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "OPTICAL OUT/IN",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "blackmagic-3g-sdi-sfp-optical-module",
+        "blackmagic-6g-sdi-sfp-optical-module",
+        "blackmagic-12g-sdi-sfp-optical-module"
+      ],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

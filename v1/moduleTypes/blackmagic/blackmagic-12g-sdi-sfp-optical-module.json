@@ -1,0 +1,50 @@
+{
+  "id": "blackmagic-12g-sdi-sfp-optical-module",
+  "version": "1.0",
+  "name": "12G-SDI SFP Optical Module",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": "PL-TG10-311C",
+  "gtin": null,
+  "moduleFormFactorId": "sfp",
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": null,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "subinterfaceTypes": [
+        {
+          "name": "TX",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_SM_1310",
+            "SDI_HD_SM_1310",
+            "SDI_3G_SM_1310",
+            "SDI_6G_SM_1310",
+            "SDI_12G_SM_1310",
+            "DVB_ASI_SM_1310"
+          ],
+          "addInfo": {}
+        },
+        {
+          "name": "RX",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_SM_1310",
+            "SDI_HD_SM_1310",
+            "SDI_3G_SM_1310",
+            "SDI_6G_SM_1310",
+            "SDI_12G_SM_1310",
+            "DVB_ASI_SM_1310"
+          ],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

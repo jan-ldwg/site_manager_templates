@@ -280,6 +280,11 @@
     "description": "EN 50083-9"
   },
   {
+    "id": "DVB_ASI_SM_1310",
+    "name": "DVB-ASI SM",
+    "description": "EN 50083-9"
+  },
+  {
     "id": "BLACK_BURST",
     "name": "Black burst",
     "description": ""
