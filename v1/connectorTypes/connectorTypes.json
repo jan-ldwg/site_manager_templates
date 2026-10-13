@@ -980,7 +980,7 @@
     "name": "C20",
     "gender": "MALE",
     "icon": "C20_3p_m",
-    "compatibleConnectors": ["C20_3p_f"]
+    "compatibleConnectors": ["C19_3p_f"]
   },
   {
     "id": "BARREL_XX_m",
