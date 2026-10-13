@@ -258,6 +258,7 @@
       "compatibleModuleTypes": ["lawo-98160-80", "lawo-98160-81"],
       "incompatibleModuleTypes": []
     },
+
     {
       "name": "Slot 1",
       "canSpan": false,
@@ -266,17 +267,14 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
-        "lawo-studio-io"
-      ],
-      "incompatibleModuleTypes": [
-        "lawo-mic-line-in",
-        "lawo-gpio",
         "lawo-madi-i-o",
         "lawo-madi-src-i-o",
-        "lawo-dante"
-      ]
+        "lawo-studio-io"
+      ],
+      "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
     },
     {
       "name": "Slot 2",
@@ -286,17 +284,15 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io",
         "lawo-mic-line-in"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-gpio",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-gpio"]
     },
     {
       "name": "Slot 3",
@@ -306,17 +302,14 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-mic-line-in",
-        "lawo-gpio",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
     },
     {
       "name": "Slot 4",
@@ -326,17 +319,15 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io",
         "lawo-mic-line-in"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-gpio",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-gpio"]
     },
     {
       "name": "Slot 5",
@@ -346,17 +337,14 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-mic-line-in",
-        "lawo-gpio",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
     },
     {
       "name": "Slot 6",
@@ -366,17 +354,15 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io",
         "lawo-mic-line-in"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-gpio",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-gpio"]
     },
     {
       "name": "Slot 7",
@@ -386,17 +372,15 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io",
         "lawo-gpio"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-mic-line-in",
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": ["lawo-mic-line-in"]
     },
     {
       "name": "Slot 8",
@@ -406,17 +390,16 @@
         "lawo-aes3-io-gen1",
         "lawo-aes3-io-gen2",
         "lawo-aes3id-i-o",
+        "lawo-dante",
         "lawo-line-in",
         "lawo-line-out",
+        "lawo-madi-i-o",
+        "lawo-madi-src-i-o",
         "lawo-studio-io",
         "lawo-mic-line-in",
         "lawo-gpio"
       ],
-      "incompatibleModuleTypes": [
-        "lawo-dante",
-        "lawo-madi-i-o",
-        "lawo-madi-src-i-o"
-      ]
+      "incompatibleModuleTypes": []
     }
   ]
 }
