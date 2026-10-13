@@ -990,10 +990,24 @@
     "compatibleConnectors": ["RING_TERMINAL_M4_f"]
   },
   {
+    "id": "SCREW_M5_m",
+    "name": "Screw, M5 thread",
+    "gender": "MALE",
+    "icon": "SCREW_f",
+    "compatibleConnectors": ["RING_TERMINAL_M5_f"]
+  },
+  {
     "id": "RING_TERMINAL_M4_f",
     "name": "Ring terminal, for M4 thread",
     "gender": "FEMALE",
     "icon": "RING_TERMINAL_f",
     "compatibleConnectors": ["SCREW_M4_m"]
+  },
+  {
+    "id": "RING_TERMINAL_M5_f",
+    "name": "Ring terminal, for M5 thread",
+    "gender": "FEMALE",
+    "icon": "RING_TERMINAL_f",
+    "compatibleConnectors": ["SCREW_M5_m"]
   }
 ]
