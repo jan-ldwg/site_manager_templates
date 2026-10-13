@@ -1,0 +1,90 @@
+{
+  "id": "lawo-studio-io",
+  "version": "1.0",
+  "name": "Studio-IO",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": "710/35",
+  "gtin": null,
+  "moduleFormFactorId": "lawo-powercore-io",
+  "spanWidth": 1,
+  "climateLoad": 5,
+  "weight": 132,
+  "portTypes": [
+    {
+      "name": "STUDIO I/O",
+      "connectorId": "DSUB25p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "Mic 1",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "12", "signal": "Cold" },
+            { "pin": "24", "signal": "Hot" },
+            { "pin": "25", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Mic 2",
+          "direction": "IN",
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "pinout": [
+            { "pin": "23", "signal": "Cold" },
+            { "pin": "10", "signal": "Hot" },
+            { "pin": "11", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Line 1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "6", "signal": "Cold" },
+            { "pin": "18", "signal": "Hot" },
+            { "pin": "19", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Line 2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "pinout": [
+            { "pin": "17", "signal": "Cold" },
+            { "pin": "4", "signal": "Hot" },
+            { "pin": "5", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Phones 1",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "pinout": [
+            { "pin": "3", "signal": "Right" },
+            { "pin": "15", "signal": "Left" },
+            { "pin": "16", "signal": "GND" }
+          ]
+        },
+        {
+          "name": "Phones 2",
+          "direction": "OUT",
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "pinout": [
+            { "pin": "14", "signal": "Right" },
+            { "pin": "1", "signal": "Left" },
+            { "pin": "2", "signal": "GND" }
+          ]
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

@@ -955,6 +955,34 @@
     "compatibleConnectors": ["BARREL_XX_m"]
   },
   {
+    "id": "KYCON_3p_f",
+    "name": "Kycon 3p DC power connector, female",
+    "gender": "FEMALE",
+    "icon": "KYCON_3p_f",
+    "compatibleConnectors": ["KYCON_3p_m"]
+  },
+  {
+    "id": "KYCON_3p_m",
+    "name": "Kycon 3p DC power connector, male",
+    "gender": "MALE",
+    "icon": "KYCON_3p_m",
+    "compatibleConnectors": ["KYCON_3p_f"]
+  },
+  {
+    "id": "KYCON_4p_f",
+    "name": "Kycon 4p DC power connector, female",
+    "gender": "FEMALE",
+    "icon": "KYCON_4p_f",
+    "compatibleConnectors": ["KYCON_4p_m"]
+  },
+  {
+    "id": "KYCON_4p_m",
+    "name": "Kycon 4p DC power connector, male",
+    "gender": "MALE",
+    "icon": "KYCON_4p_m",
+    "compatibleConnectors": ["KYCON_4p_f"]
+  },
+  {
     "id": "SCREW_M4_m",
     "name": "Screw, M4 thread",
     "gender": "MALE",

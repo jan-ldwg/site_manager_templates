@@ -1,0 +1,29 @@
+{
+    "id": "lawo-madi-src-i-o",
+    "version": "1.0",
+    "name": "MADI-SRC I/O",
+    "manufacturerId": "lawo",
+    "orderCode": null,
+    "sku": "710/60",
+    "gtin": null,
+    "moduleFormFactorId": "lawo-powercore-io",
+    "spanWidth": 1,
+    "climateLoad": 4,
+    "weight": 120,
+    "portTypes": [],
+    "moduleSlotTypes": [
+        {
+            "name": "MADI",
+            "canSpan": false,
+            "compatibleModuleSlotFormFactors": [
+                "sfp"
+            ],
+            "compatibleModuleTypes": [
+                "lawo-98160-80",
+                "lawo-98160-81",
+                "lawo-98160-82"
+            ],
+            "incompatibleModuleTypes": []
+        }
+    ]
+}

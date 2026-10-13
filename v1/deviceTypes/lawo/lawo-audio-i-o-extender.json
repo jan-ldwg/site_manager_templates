@@ -1,0 +1,257 @@
+{
+  "id": "lawo-audio-i-o-extender",
+  "version": "1.0",
+  "name": "Audio I/O Extender ",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": "710/12",
+  "gtin": null,
+  "climateLoad": 60,
+  "weight": 4200,
+  "width": 483,
+  "height": 44,
+  "depth": 385,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 361,
+  "portTypes": [
+    {
+      "name": "100-240V AC",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 47,
+              "maxF": 63,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "12V DC",
+      "connectorId": "KYCON_4p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "+12V DC"
+            },
+            {
+              "pin": "3",
+              "signal": "+12V DC"
+            },
+            {
+              "pin": "2",
+              "signal": "GND"
+            },
+            {
+              "pin": "4",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 10,
+              "maxV": 13,
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "⏚",
+      "connectorId": "SCREW_M4_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["GND"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "AIOX 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-98160-80",
+        "lawo-98160-81",
+        "lawo-98160-82"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "AIOX 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-98160-80",
+        "lawo-98160-81",
+        "lawo-98160-82"
+      ],
+      "incompatibleModuleTypes": [
+        {
+          "name": "Slot 1",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io"
+          ],
+          "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
+        },
+        {
+          "name": "Slot 2",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io",
+            "lawo-mic-line-in"
+          ],
+          "incompatibleModuleTypes": ["lawo-gpio"]
+        },
+        {
+          "name": "Slot 3",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io"
+          ],
+          "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
+        },
+        {
+          "name": "Slot 4",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io",
+            "lawo-mic-line-in"
+          ],
+          "incompatibleModuleTypes": ["lawo-gpio"]
+        },
+        {
+          "name": "Slot 5",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io"
+          ],
+          "incompatibleModuleTypes": ["lawo-mic-line-in", "lawo-gpio"]
+        },
+        {
+          "name": "Slot 6",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io",
+            "lawo-mic-line-in"
+          ],
+          "incompatibleModuleTypes": ["lawo-gpio"]
+        },
+        {
+          "name": "Slot 7",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io",
+
+            "lawo-gpio"
+          ],
+          "incompatibleModuleTypes": ["lawo-mic-line-in"]
+        },
+        {
+          "name": "Slot 8",
+          "canSpan": false,
+          "compatibleModuleSlotFormFactors": ["lawo-powercore-io"],
+          "compatibleModuleTypes": [
+            "lawo-aes3-io-gen1",
+            "lawo-aes3-io-gen2",
+            "lawo-aes3id-i-o",
+            "lawo-dante",
+            "lawo-line-in",
+            "lawo-line-out",
+            "lawo-madi-i-o",
+            "lawo-madi-src-i-o",
+            "lawo-studio-io",
+            "lawo-mic-line-in",
+            "lawo-gpio"
+          ],
+          "incompatibleModuleTypes": []
+        }
+      ]
+    }
+  ]
+}
