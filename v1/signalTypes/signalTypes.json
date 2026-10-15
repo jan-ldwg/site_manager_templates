@@ -71,7 +71,7 @@
   },
   {
     "id": "25GBASE_ER",
-    "name": "25GBASE-eR",
+    "name": "25GBASE-ER",
     "description": "IEEE 802.3cc-2017"
   },
   {
@@ -280,6 +280,11 @@
     "description": "EN 50083-9"
   },
   {
+    "id": "DVB_ASI_SM_1310",
+    "name": "DVB-ASI SM",
+    "description": "EN 50083-9"
+  },
+  {
     "id": "BLACK_BURST",
     "name": "Black burst",
     "description": ""
@@ -348,6 +353,11 @@
     "id": "AUDIO_MIC_48V",
     "name": "Balanced Microphone w/ +48V",
     "description": "Balanced mono audio signal with microphone level and 48V phantom power"
+  },
+  {
+    "id": "AUDIO_MIC_5V",
+    "name": "Balanced Microphone w/ +5V",
+    "description": "Balanced mono audio signal with microphone level and 5V bias power"
   },
   {
     "id": "PHONES_ANA",
@@ -493,6 +503,11 @@
     "id": "GPIO",
     "name": "GPIO",
     "description": ""
+  },
+  {
+    "id": "VCA",
+    "name": "Control Voltage",
+    "description": "Low voltage analog control signals. Max. voltage below 50V."
   },
   {
     "id": "MIDI",

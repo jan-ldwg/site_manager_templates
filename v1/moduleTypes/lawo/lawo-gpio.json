@@ -1,0 +1,334 @@
+{
+  "id": "lawo-gpio",
+  "version": "1.0",
+  "name": "GPIO",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": "710/80",
+  "gtin": null,
+  "moduleFormFactorId": "lawo-powercore-io",
+  "spanWidth": 1,
+  "climateLoad": 1,
+  "weight": 113,
+  "portTypes": [
+    {
+      "name": "GPIO",
+      "connectorId": "DSUB37p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "GPI 1",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "a"
+            },
+            {
+              "pin": "20",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 2",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "2",
+              "signal": "a"
+            },
+            {
+              "pin": "21",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 3",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "3",
+              "signal": "a"
+            },
+            {
+              "pin": "22",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 4",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "4",
+              "signal": "a"
+            },
+            {
+              "pin": "23",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 5",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "5",
+              "signal": "a"
+            },
+            {
+              "pin": "24",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 6",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "6",
+              "signal": "a"
+            },
+            {
+              "pin": "25",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 7",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "7",
+              "signal": "a"
+            },
+            {
+              "pin": "26",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 8",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "8",
+              "signal": "a"
+            },
+            {
+              "pin": "27",
+              "signal": "k"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 1",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "9",
+              "signal": "a"
+            },
+            {
+              "pin": "28",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 2",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "10",
+              "signal": "a"
+            },
+            {
+              "pin": "29",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 3",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "11",
+              "signal": "a"
+            },
+            {
+              "pin": "30",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 4",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "12",
+              "signal": "a"
+            },
+            {
+              "pin": "31",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 5",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "13",
+              "signal": "a"
+            },
+            {
+              "pin": "32",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 6",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "14",
+              "signal": "a"
+            },
+            {
+              "pin": "33",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 7",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "15",
+              "signal": "a"
+            },
+            {
+              "pin": "34",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 8",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "16",
+              "signal": "a"
+            },
+            {
+              "pin": "35",
+              "signal": "b"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "VCI Input 1",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "36",
+              "signal": "In"
+            },
+            {
+              "pin": "17",
+              "signal": "GND"
+            },
+            {
+              "pin": "18",
+              "signal": "VCI Ref +3V"
+            }
+          ],
+          "compatibleSignalTypes": ["VCA"],
+          "addInfo": {}
+        },
+        {
+          "name": "VCI Input 2",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "37",
+              "signal": "In"
+            },
+            {
+              "pin": "17",
+              "signal": "GND"
+            },
+            {
+              "pin": "18",
+              "signal": "VCI Ref +3V"
+            }
+          ],
+          "compatibleSignalTypes": ["VCA"],
+          "addInfo": {}
+        },
+        {
+          "name": "GND/GPIO Aux",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "17",
+              "signal": "GND"
+            },
+            {
+              "pin": "19",
+              "signal": "+12V"
+            }
+          ],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

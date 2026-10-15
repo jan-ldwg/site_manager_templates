@@ -1,0 +1,58 @@
+{
+    "id": "genelec-8020dwm",
+    "version": "1.0",
+    "name": "8020D",
+    "manufacturerId": "genelec",
+    "orderCode": "8020DWM",
+    "sku": null,
+    "gtin": null,
+    "climateLoad": 60,
+    "weight": 3200,
+    "width": 148,
+    "height": 230,
+    "depth": 142,
+    "rackType": "NONE",
+    "rackHeight": 0,
+    "rackDepth": 0,
+    "portTypes": [
+        {
+            "name": "MAINS INPUT",
+            "connectorId": "C14_3p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AC_POWER_PE"
+                    ],
+                    "addInfo": {
+                        "AC_POWER_PE": {
+                            "minF": 50,
+                            "maxF": 60,
+                            "minV": 100,
+                            "maxV": 240,
+                            "maxP": 60
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ANALOG IN",
+            "connectorId": "XLR3p_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}

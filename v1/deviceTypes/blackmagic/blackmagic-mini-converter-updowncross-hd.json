@@ -1,0 +1,143 @@
+{
+  "id": "blackmagic-mini-converter-updowncross-hd",
+  "version": "1.0",
+  "name": "Mini Converter UpDownCross HD",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 5,
+  "weight": 229,
+  "width": 135,
+  "height": 24,
+  "depth": 92,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "POWER +6 to 36V",
+      "connectorId": "BARREL_XX_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 6,
+              "maxV": 36,
+              "maxP": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "USB-C",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST", "TRI_SYNC"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI IN",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI OUT",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI LOOP",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

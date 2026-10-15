@@ -1,0 +1,85 @@
+{
+  "id": "blackmagic-micro-converter-bidi-sdi-hdmi-3g",
+  "version": "1.0",
+  "name": "Micro Converter BiDirectional SDI/HDMI 3G",
+  "manufacturerId": "blackmagic",
+  "orderCode": null,
+  "sku": null,
+  "gtin": null,
+  "climateLoad": 3,
+  "weight": 174,
+  "width": 81,
+  "height": 25,
+  "depth": 59,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "USB POWER",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI IN",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HDMI OUT",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "SDI OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

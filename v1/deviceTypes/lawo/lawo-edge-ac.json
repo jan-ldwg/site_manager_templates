@@ -1,0 +1,104 @@
+{
+  "id": "lawo-edge-ac",
+  "version": "1.0",
+  "name": ".edge (AC)",
+  "manufacturerId": "lawo",
+  "orderCode": ".edge_frame+ac",
+  "sku": "A00/10",
+  "gtin": null,
+  "climateLoad": 700,
+  "weight": 8000,
+  "width": 483,
+  "height": 89,
+  "depth": 412,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 412,
+  "portTypes": [
+    {
+      "name": "[PSU 1]",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 700
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[PSU 2]",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 700
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "[⏚]",
+      "connectorId": "SCREW_M5_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["GND"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "Slot 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lawo-edge-gateway"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lawo-edge-gateway"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 3",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lawo-edge-gateway"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "Slot 4",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": [],
+      "compatibleModuleTypes": ["lawo-edge-gateway"],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
