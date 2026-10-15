@@ -1,0 +1,88 @@
+{
+  "id": "riedel-esp-2324",
+  "version": "1.0",
+  "name": "ESP-2324",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "sku": "1220110",
+  "gtin": null,
+  "climateLoad": 30,
+  "weight": 1400,
+  "width": 483,
+  "height": 44,
+  "depth": 79,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 79,
+  "portTypes": [
+    {
+      "name": "INPUT",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 1470
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "OUTPUT",
+      "connectorId": "C13_3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 1440
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Exp. In",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_EXPANSION"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "Exp. Out",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_EXPANSION"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
