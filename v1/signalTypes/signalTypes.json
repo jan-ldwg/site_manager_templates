@@ -355,6 +355,11 @@
     "description": "Balanced mono audio signal with microphone level and 48V phantom power"
   },
   {
+    "id": "AUDIO_MIC_5V",
+    "name": "Balanced Microphone w/ +5V",
+    "description": "Balanced mono audio signal with microphone level and 5V bias power"
+  },
+  {
     "id": "PHONES_ANA",
     "name": "Analog Headphones",
     "description": ""
