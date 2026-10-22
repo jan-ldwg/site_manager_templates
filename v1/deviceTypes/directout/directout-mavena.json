@@ -124,6 +124,7 @@
     },
     {
       "name": "GPIO",
+      "connectorId": "DSUB9p_f",
       "subinterfaceTypes": [
         {
           "name": "GPI 1",
