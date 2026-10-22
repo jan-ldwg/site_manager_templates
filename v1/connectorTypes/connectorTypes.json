@@ -524,6 +524,34 @@
     "compatibleConnectors": ["USBC_f"]
   },
   {
+    "id": "USBC_SL_f",
+    "name": "USB Type C single screw female",
+    "gender": "FEMALE",
+    "icon": "USBC_f",
+    "compatibleConnectors": ["USBC_SL_m", "USBC_m"]
+  },
+  {
+    "id": "USBC_SL_m",
+    "name": "USB Type C single screw male",
+    "gender": "MALE",
+    "icon": "USBC_m",
+    "compatibleConnectors": ["USBC_SL_f"]
+  },
+  {
+    "id": "USBC_DL_f",
+    "name": "USB Type C double screw female",
+    "gender": "FEMALE",
+    "icon": "USBC_f",
+    "compatibleConnectors": ["USBC_DL_m", "USBC_m"]
+  },
+  {
+    "id": "USBC_DL_m",
+    "name": "USB Type C double screw male",
+    "gender": "MALE",
+    "icon": "USBC_m",
+    "compatibleConnectors": ["USBC_DL_f"]
+  },
+  {
     "id": "HDMI_A_m",
     "name": "HDMI Type A male",
     "gender": "MALE",

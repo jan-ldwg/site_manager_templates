@@ -1,0 +1,288 @@
+{
+  "id": "directout-prodigymc",
+  "version": "1.0",
+  "name": "PRODIGY.MC",
+  "manufacturerId": "directout",
+  "orderCode": null,
+  "sku": "DOPRDG003",
+  "gtin": null,
+  "climateLoad": 110,
+  "weight": 6000,
+  "width": 483,
+  "height": 89,
+  "depth": 293,
+  "rackType": "19INCH",
+  "rackHeight": 2,
+  "rackDepth": 255,
+  "portTypes": [
+    {
+      "name": "PSU 1",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 110
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "PSU 2",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 110
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "MGMT",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "WCK IN",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["WCLK"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "WCK OUT",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["WCLK"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "USB",
+      "connectorId": "USB2.0A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "GPIO",
+      "connectorId": "DSUB9p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "GPI 1",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "7",
+              "signal": "GPI 1"
+            },
+            {
+              "pin": "2",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 2",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "6",
+              "signal": "GPI 2"
+            },
+            {
+              "pin": "1",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 1",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "9",
+              "signal": "GPO 1"
+            },
+            {
+              "pin": "5",
+              "signal": "+12V"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 2",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "8",
+              "signal": "GPO 2"
+            },
+            {
+              "pin": "4",
+              "signal": "+12V"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "PHONES 1",
+      "connectorId": "TRS_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "PHONES 2",
+      "connectorId": "TRS_35_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "[SLOT A]",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-a-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": ["directout-madi4io", "directout-madi4srcio"]
+    },
+    {
+      "name": "MADI 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MADI 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-b-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 3",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 4",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 5",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 6",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 7",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SLOT 8",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["directout-c-slot"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}
