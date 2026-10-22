@@ -524,6 +524,34 @@
     "compatibleConnectors": ["USBC_f"]
   },
   {
+    "id": "USBC_SL_f",
+    "name": "USB Type C single screw female",
+    "gender": "FEMALE",
+    "icon": "USBC_f",
+    "compatibleConnectors": ["USBC_SL_m", "USBC_m"]
+  },
+  {
+    "id": "USBC_SL_m",
+    "name": "USB Type C single screw male",
+    "gender": "MALE",
+    "icon": "USBC_m",
+    "compatibleConnectors": ["USBC_SL_f"]
+  },
+  {
+    "id": "USBC_DL_f",
+    "name": "USB Type C double screw female",
+    "gender": "FEMALE",
+    "icon": "USBC_f",
+    "compatibleConnectors": ["USBC_DL_m", "USBC_m"]
+  },
+  {
+    "id": "USBC_DL_m",
+    "name": "USB Type C double screw male",
+    "gender": "MALE",
+    "icon": "USBC_m",
+    "compatibleConnectors": ["USBC_DL_f"]
+  },
+  {
     "id": "HDMI_A_m",
     "name": "HDMI Type A male",
     "gender": "MALE",
@@ -693,7 +721,7 @@
     "name": "XLR/6.35mm Combo",
     "gender": "FEMALE",
     "icon": "XLR_635_f",
-    "compatibleConnectors": ["TRS_635_m", "XLR3p_m"]
+    "compatibleConnectors": ["XLR3p_m", "TRS_635_m", "TS_635_f"]
   },
   {
     "id": "XLR4p_f",
@@ -766,18 +794,32 @@
     "compatibleConnectors": ["TRRS_35_f", "TRS_35_f"]
   },
   {
+    "id": "TS_635_f",
+    "name": "TS 6.35mm female",
+    "gender": "FEMALE",
+    "icon": "TS_635_f",
+    "compatibleConnectors": ["TS_635_m", "TRS_635_m"]
+  },
+  {
+    "id": "TS_635_m",
+    "name": "TS 6.35mm male",
+    "gender": "MALE",
+    "icon": "TS_635_m",
+    "compatibleConnectors": ["TS_635_f", "TRS_635_f"]
+  },
+  {
     "id": "TRS_635_f",
     "name": "TRS 6.35mm female",
     "gender": "FEMALE",
     "icon": "TRS_635_f",
-    "compatibleConnectors": ["TRS_635_m"]
+    "compatibleConnectors": ["TRS_635_m", "TS_635_m"]
   },
   {
     "id": "TRS_635_m",
     "name": "TRS 6.35mm male",
     "gender": "MALE",
     "icon": "TRS_635_m",
-    "compatibleConnectors": ["TRS_635_f"]
+    "compatibleConnectors": ["TRS_635_f", "TS_635_f"]
   },
   {
     "id": "RCA_f",
@@ -913,6 +955,34 @@
     "compatibleConnectors": ["SDR_50p_f"]
   },
   {
+    "id": "C5_3p_f",
+    "name": "C5",
+    "gender": "FEMALE",
+    "icon": "C5_3p_f",
+    "compatibleConnectors": ["C6_3p_m"]
+  },
+  {
+    "id": "C6_3p_m",
+    "name": "C6",
+    "gender": "MALE",
+    "icon": "C6_3p_m",
+    "compatibleConnectors": ["C5_3p_f"]
+  },
+  {
+    "id": "C7_2p_f",
+    "name": "C7",
+    "gender": "FEMALE",
+    "icon": "C7_2p_f",
+    "compatibleConnectors": ["C8_2p_m"]
+  },
+  {
+    "id": "C8_2p_m",
+    "name": "C8",
+    "gender": "MALE",
+    "icon": "C8_2p_m",
+    "compatibleConnectors": ["C7_2p_f"]
+  },
+  {
     "id": "C13_3p_f",
     "name": "C13",
     "gender": "FEMALE",
@@ -941,6 +1011,20 @@
     "compatibleConnectors": ["C15_3p_f"]
   },
   {
+    "id": "C19_3p_f",
+    "name": "C19",
+    "gender": "FEMALE",
+    "icon": "C19_3p_f",
+    "compatibleConnectors": ["C20_3p_m"]
+  },
+  {
+    "id": "C20_3p_m",
+    "name": "C20",
+    "gender": "MALE",
+    "icon": "C20_3p_m",
+    "compatibleConnectors": ["C19_3p_f"]
+  },
+  {
     "id": "BARREL_XX_m",
     "name": "Barrel connector, male, unknown size",
     "gender": "MALE",
@@ -955,6 +1039,34 @@
     "compatibleConnectors": ["BARREL_XX_m"]
   },
   {
+    "id": "KYCON_3p_f",
+    "name": "Kycon 3p DC power connector, female",
+    "gender": "FEMALE",
+    "icon": "KYCON_3p_f",
+    "compatibleConnectors": ["KYCON_3p_m"]
+  },
+  {
+    "id": "KYCON_3p_m",
+    "name": "Kycon 3p DC power connector, male",
+    "gender": "MALE",
+    "icon": "KYCON_3p_m",
+    "compatibleConnectors": ["KYCON_3p_f"]
+  },
+  {
+    "id": "KYCON_4p_f",
+    "name": "Kycon 4p DC power connector, female",
+    "gender": "FEMALE",
+    "icon": "KYCON_4p_f",
+    "compatibleConnectors": ["KYCON_4p_m"]
+  },
+  {
+    "id": "KYCON_4p_m",
+    "name": "Kycon 4p DC power connector, male",
+    "gender": "MALE",
+    "icon": "KYCON_4p_m",
+    "compatibleConnectors": ["KYCON_4p_f"]
+  },
+  {
     "id": "SCREW_M4_m",
     "name": "Screw, M4 thread",
     "gender": "MALE",
@@ -962,10 +1074,24 @@
     "compatibleConnectors": ["RING_TERMINAL_M4_f"]
   },
   {
+    "id": "SCREW_M5_m",
+    "name": "Screw, M5 thread",
+    "gender": "MALE",
+    "icon": "SCREW_f",
+    "compatibleConnectors": ["RING_TERMINAL_M5_f"]
+  },
+  {
     "id": "RING_TERMINAL_M4_f",
     "name": "Ring terminal, for M4 thread",
     "gender": "FEMALE",
     "icon": "RING_TERMINAL_f",
     "compatibleConnectors": ["SCREW_M4_m"]
+  },
+  {
+    "id": "RING_TERMINAL_M5_f",
+    "name": "Ring terminal, for M5 thread",
+    "gender": "FEMALE",
+    "icon": "RING_TERMINAL_f",
+    "compatibleConnectors": ["SCREW_M5_m"]
   }
 ]

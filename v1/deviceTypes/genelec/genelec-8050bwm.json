@@ -1,0 +1,58 @@
+{
+    "id": "genelec-8050bwm",
+    "version": "1.0",
+    "name": "8050B",
+    "manufacturerId": "genelec",
+    "orderCode": "8050BWM",
+    "sku": null,
+    "gtin": null,
+    "climateLoad": 170,
+    "weight": 14400,
+    "width": 286,
+    "height": 433,
+    "depth": 278,
+    "rackType": "NONE",
+    "rackHeight": 0,
+    "rackDepth": 0,
+    "portTypes": [
+        {
+            "name": "MAINS INPUT",
+            "connectorId": "C14_3p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AC_POWER_PE"
+                    ],
+                    "addInfo": {
+                        "AC_POWER_PE": {
+                            "minF": 50,
+                            "maxF": 60,
+                            "minV": 100,
+                            "maxV": 240,
+                            "maxP": 170
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[Analog In]",
+            "connectorId": "XLR3p_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}

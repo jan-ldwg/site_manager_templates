@@ -1,0 +1,29 @@
+{
+  "id": "lawo-edge-sfp28lr",
+  "version": "1.0",
+  "name": ".edge_sfp28lr",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": ".edge_sfp28lr",
+  "gtin": null,
+  "moduleFormFactorId": "sfp28",
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": null,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "LC_DPLX_PC_SM_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["25GBASE_LR"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

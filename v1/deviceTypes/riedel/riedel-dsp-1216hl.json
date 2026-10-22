@@ -1,0 +1,441 @@
+{
+  "id": "riedel-dsp-1216hl",
+  "version": "1.0",
+  "name": "DSP-1216HL",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "sku": "1220800",
+  "gtin": null,
+  "climateLoad": 15,
+  "weight": 2525,
+  "width": 282,
+  "height": 115,
+  "depth": 174,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "INPUT 100-240 V AC",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ETH 1",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "ETH 2",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "MGNT",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["100BASE_TX"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "MATRIX 1",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_ARTIST_G2_CAT"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "MATRIX",
+      "connectorId": "BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_ARTIST_G2_COAX"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "USB",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "DP",
+      "connectorId": "DISPLAYPORT_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HEADSET A",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HEADSET A",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "GPI-IN",
+      "connectorId": "DSUB9p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "GPI 1",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "P"
+            },
+            {
+              "pin": "6",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 2",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "2",
+              "signal": "P"
+            },
+            {
+              "pin": "7",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPI 3",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "3",
+              "signal": "P"
+            },
+            {
+              "pin": "8",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "+5V",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "4",
+              "signal": "+5V"
+            },
+            {
+              "pin": "9",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "GPI-OUT",
+      "connectorId": "DSUB9p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "GPO 1",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "P"
+            },
+            {
+              "pin": "6",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 2",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "2",
+              "signal": "P"
+            },
+            {
+              "pin": "7",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "GPO 3",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "3",
+              "signal": "P"
+            },
+            {
+              "pin": "8",
+              "signal": "N"
+            }
+          ],
+          "compatibleSignalTypes": ["GPIO"],
+          "addInfo": {}
+        },
+        {
+          "name": "+5V",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "4",
+              "signal": "+5V"
+            },
+            {
+              "pin": "9",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO A IN",
+      "connectorId": "XLR3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO A OUT",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO B IN",
+      "connectorId": "XLR3p_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO B OUT",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HEADSET A",
+      "connectorId": "XLR4p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Headset",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "4",
+              "signal": "HS Phones A + (left)"
+            },
+            {
+              "pin": "3",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "addInfo": {}
+        },
+        {
+          "name": "Mic",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "HS MIC A - , (GND)"
+            },
+            {
+              "pin": "2",
+              "signal": "HS MIC A + , (+5 VDC)"
+            }
+          ],
+          "compatibleSignalTypes": ["AUDIO_MIC_5V"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "HEADSET B",
+      "connectorId": "XLR4p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "Headset",
+          "direction": "OUT",
+          "pinout": [
+            {
+              "pin": "4",
+              "signal": "HS Phones A + (left)"
+            },
+            {
+              "pin": "3",
+              "signal": "GND"
+            }
+          ],
+          "compatibleSignalTypes": ["PHONES_ANA"],
+          "addInfo": {}
+        },
+        {
+          "name": "Mic",
+          "direction": "IN",
+          "pinout": [
+            {
+              "pin": "1",
+              "signal": "HS MIC A - , (GND)"
+            },
+            {
+              "pin": "2",
+              "signal": "HS MIC A + , (+5 VDC)"
+            }
+          ],
+          "compatibleSignalTypes": ["AUDIO_MIC_5V"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "[ETH 3]",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "[ETH 4]",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

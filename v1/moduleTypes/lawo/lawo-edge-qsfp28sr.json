@@ -1,0 +1,29 @@
+{
+  "id": "lawo-edge-qsfp28sr",
+  "version": "1.0",
+  "name": ".edge_qsfp28sr",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": ".edge_qsfp28sr",
+  "gtin": null,
+  "moduleFormFactorId": "qsfp28",
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": null,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "LC_DPLX_PC_MM_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["100GBASE_SR1"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

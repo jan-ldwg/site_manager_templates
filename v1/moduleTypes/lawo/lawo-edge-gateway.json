@@ -1,0 +1,843 @@
+{
+  "id": "lawo-edge-gateway",
+  "version": "1.0",
+  "name": ".edge_gateway",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": ".edge_gateway",
+  "gtin": null,
+  "moduleFormFactorId": null,
+  "spanWidth": 1,
+  "climateLoad": null,
+  "weight": 2300,
+  "portTypes": [
+    {
+      "name": "USB-C",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["USB_2"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF 1 IN",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF 2 IN",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF 1 THRU",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF 2 THRU",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "REF 3 OUT",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["BLACK_BURST"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "9",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "10",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "11",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "12",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "13",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "14",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "15",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "16",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "17",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "18",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "19",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "20",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "21",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "22",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "23",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "24",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "25",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "26",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "27",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "28",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "29",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "30",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "31",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "32",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "33",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "34",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "35",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "36",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "37",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "38",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "39",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "40",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "41",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "42",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "43",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "44",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "45",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "SDI_SD_CU",
+            "SDI_HD_CU",
+            "SDI_3G_CU",
+            "SDI_12G_CU"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "46",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "47",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "48",
+      "connectorId": "HD_BNC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["SDI_SD_CU", "SDI_HD_CU", "SDI_3G_CU"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": [
+    {
+      "name": "MGMT 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-edge-rj45",
+        "lawo-edge-sfplr",
+        "lawo-edge-sfpsr"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "MGMT 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp"],
+      "compatibleModuleTypes": [
+        "lawo-edge-rj45",
+        "lawo-edge-sfplr",
+        "lawo-edge-sfpsr"
+      ],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SFP 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp28"],
+      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SFP 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp28"],
+      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SFP 3",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp28"],
+      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "SFP 4",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["sfp28"],
+      "compatibleModuleTypes": ["lawo-edge-sfp28lr", "lawo-edge-sfp28sr"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "QSFP 1",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["qsfp28"],
+      "compatibleModuleTypes": ["lawo-edge-qsfp28lr", "lawo-edge-qsfp28sr"],
+      "incompatibleModuleTypes": []
+    },
+    {
+      "name": "QSFP 2",
+      "canSpan": false,
+      "compatibleModuleSlotFormFactors": ["qsfp28"],
+      "compatibleModuleTypes": ["lawo-edge-qsfp28lr", "lawo-edge-qsfp28sr"],
+      "incompatibleModuleTypes": []
+    }
+  ]
+}

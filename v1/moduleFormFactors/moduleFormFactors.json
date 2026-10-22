@@ -81,12 +81,12 @@
   },
   {
     "id": "directout-b-slot",
-    "name": "DirectOut - Slot",
+    "name": "DirectOut - B Slot",
     "description": "MADI modules used by DirectOut"
   },
   {
     "id": "directout-c-slot",
-    "name": "DirectOut - Slot",
+    "name": "DirectOut - C Slot",
     "description": "Base band modules used by DirectOut"
   },
   {

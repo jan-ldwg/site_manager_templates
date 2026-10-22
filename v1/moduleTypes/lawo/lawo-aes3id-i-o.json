@@ -1,0 +1,136 @@
+{
+    "id": "lawo-aes3id-i-o",
+    "version": "1.0",
+    "name": "AES3id I/O",
+    "manufacturerId": "lawo",
+    "orderCode": null,
+    "sku": "710/42",
+    "gtin": null,
+    "moduleFormFactorId": "lawo-powercore-io",
+    "spanWidth": 1,
+    "climateLoad": 1,
+    "weight": 100,
+    "portTypes": [
+        {
+            "name": "INPUT 1",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "INPUT 2",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "INPUT 3",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "INPUT 4",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "OUTPUT 1",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "OUTPUT 2",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "OUTPUT 3",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        },
+        {
+            "name": "OUTPUT 4",
+            "connectorId": "HD_BNC_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "OUT",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AES3ID"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}

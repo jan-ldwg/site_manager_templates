@@ -1,0 +1,67 @@
+{
+  "id": "riedel-esp-1216hl",
+  "version": "1.0",
+  "name": "ESP-1216HL",
+  "manufacturerId": "riedel",
+  "orderCode": null,
+  "sku": "1220700",
+  "gtin": null,
+  "climateLoad": 15,
+  "weight": 2100,
+  "width": 483,
+  "height": 44,
+  "depth": 131,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 102,
+  "portTypes": [
+    {
+      "name": "INPUT",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "EXP I/O",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_EXPANSION"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "EXP I/O",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["riedel_EXPANSION"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

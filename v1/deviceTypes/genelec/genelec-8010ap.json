@@ -1,0 +1,58 @@
+{
+    "id": "genelec-8010ap",
+    "version": "1.0",
+    "name": "8010A",
+    "manufacturerId": "genelec",
+    "orderCode": "8010AP",
+    "sku": null,
+    "gtin": null,
+    "climateLoad": 30,
+    "weight": 1500,
+    "width": 121,
+    "height": 181,
+    "depth": 115,
+    "rackType": "NONE",
+    "rackHeight": 0,
+    "rackDepth": 0,
+    "portTypes": [
+        {
+            "name": "MAINS INPUT",
+            "connectorId": "C8_2p_m",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AC_POWER"
+                    ],
+                    "addInfo": {
+                        "AC_POWER": {
+                            "minF": 50,
+                            "maxF": 60,
+                            "minV": 100,
+                            "maxV": 200,
+                            "maxP": 30
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[Analog In]",
+            "connectorId": "XLR3p_f",
+            "subinterfaceTypes": [
+                {
+                    "name": "",
+                    "direction": "IN",
+                    "pinout": [],
+                    "compatibleSignalTypes": [
+                        "AUDIO_BAL_ANA"
+                    ],
+                    "addInfo": {}
+                }
+            ]
+        }
+    ],
+    "moduleSlotTypes": []
+}
