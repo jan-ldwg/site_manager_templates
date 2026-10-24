@@ -15,7 +15,8 @@
           "name": null,
           "direction": "UP",
           "pinout": [],
-          "compatibleSignalTypes": ["1000BASE_T"]
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -27,7 +28,8 @@
           "name": null,
           "direction": "UP",
           "pinout": [],
-          "compatibleSignalTypes": ["1000BASE_T"]
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -39,7 +41,8 @@
           "name": null,
           "direction": "UP",
           "pinout": [],
-          "compatibleSignalTypes": ["1000BASE_T"]
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -51,7 +54,8 @@
           "name": null,
           "direction": "UP",
           "pinout": [],
-          "compatibleSignalTypes": ["1000BASE_T"]
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     }

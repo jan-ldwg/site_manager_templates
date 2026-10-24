@@ -82,7 +82,7 @@
             "1000BASE_T",
             "10GBASE_T"
           ],
-          "addInfo": {}
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },

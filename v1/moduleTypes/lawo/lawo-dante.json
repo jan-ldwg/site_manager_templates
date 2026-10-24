@@ -1,48 +1,42 @@
 {
-    "id": "lawo-dante",
-    "version": "1.0",
-    "name": "DANTE",
-    "manufacturerId": "lawo",
-    "orderCode": null,
-    "sku": "710/55",
-    "gtin": null,
-    "moduleFormFactorId": "lawo-powercore-io",
-    "spanWidth": 1,
-    "climateLoad": 4,
-    "weight": 120,
-    "portTypes": [
+  "id": "lawo-dante",
+  "version": "1.0",
+  "name": "DANTE",
+  "manufacturerId": "lawo",
+  "orderCode": null,
+  "sku": "710/55",
+  "gtin": null,
+  "moduleFormFactorId": "lawo-powercore-io",
+  "spanWidth": 1,
+  "climateLoad": 4,
+  "weight": 120,
+  "portTypes": [
+    {
+      "name": "PRIMARY",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
         {
-            "name": "PRIMARY",
-            "connectorId": "RJ45_f",
-            "subinterfaceTypes": [
-                {
-                    "name": "",
-                    "direction": "UP",
-                    "pinout": [],
-                    "compatibleSignalTypes": [
-                        "100BASE_TX",
-                        "1000BASE_T"
-                    ],
-                    "addInfo": {}
-                }
-            ]
-        },
-        {
-            "name": "SECONDARY",
-            "connectorId": "RJ45_f",
-            "subinterfaceTypes": [
-                {
-                    "name": "",
-                    "direction": "UP",
-                    "pinout": [],
-                    "compatibleSignalTypes": [
-                        "100BASE_TX",
-                        "1000BASE_T"
-                    ],
-                    "addInfo": {}
-                }
-            ]
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
-    ],
-    "moduleSlotTypes": []
+      ]
+    },
+    {
+      "name": "SECONDARY",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"],
+          "addInfo": { "POE": { "role": "NONE" } }
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
 }

@@ -78,7 +78,8 @@
           "name": null,
           "direction": "UP",
           "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
-          "pinout": null
+          "pinout": null,
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -90,7 +91,8 @@
           "name": null,
           "direction": "UP",
           "compatibleSignalTypes": ["1000BASE_T"],
-          "pinout": null
+          "pinout": null,
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -102,7 +104,8 @@
           "name": null,
           "direction": "UP",
           "compatibleSignalTypes": ["1000BASE_T"],
-          "pinout": null
+          "pinout": null,
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
