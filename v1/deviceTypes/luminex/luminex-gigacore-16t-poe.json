@@ -59,6 +59,7 @@
     },
     {
       "name": "SECOND PSU",
+      "connectorId": "MINIFIT_JR_12p_m",
       "subinterfaceTypes": [
         {
           "name": "",
