@@ -70,7 +70,7 @@
             "DC_POWER": {
               "minV": 57,
               "maxV": 57,
-              "maxP": 480
+              "maxP": 460
             }
           }
         }
