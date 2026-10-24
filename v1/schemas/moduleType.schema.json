@@ -131,141 +131,138 @@
                 "addInfo": {
                   "description": "An object that contains additional information, depending on the signalType",
                   "type": ["object", "null"],
-                  "additionalProperties": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                      "AC_POWER": {
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                          "minV": {
-                            "description": "Minimum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "maxV": {
-                            "description": "Maximum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "minF": {
-                            "description": "Minimum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxF": {
-                            "description": "Maximum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxP": {
-                            "description": "Maximum acceptable power of a power input or output",
-                            "type": "number"
-                          }
+                  "additionalProperties": false,
+                  "properties": {
+                    "AC_POWER": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "minV": {
+                          "description": "Minimum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "maxV": {
+                          "description": "Maximum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "minF": {
+                          "description": "Minimum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxF": {
+                          "description": "Maximum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxP": {
+                          "description": "Maximum acceptable power of a power input or output",
+                          "type": "number"
                         }
-                      },
-                      "AC_POWER_PE": {
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                          "minV": {
-                            "description": "Minimum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "maxV": {
-                            "description": "Maximum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "minF": {
-                            "description": "Minimum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxF": {
-                            "description": "Maximum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxP": {
-                            "description": "Maximum acceptable power of a power input or output",
-                            "type": "number"
-                          }
-                        }
-                      },
-                      "THREE_PHASE_POWER": {
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                          "minV": {
-                            "description": "Minimum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "maxV": {
-                            "description": "Maximum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "minF": {
-                            "description": "Minimum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxF": {
-                            "description": "Maximum acceptable frequency of a power input or output",
-                            "type": "number"
-                          },
-                          "maxP": {
-                            "description": "Maximum acceptable power of a power input or output",
-                            "type": "number"
-                          }
-                        }
-                      },
-                      "DC_POWER": {
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                          "minV": {
-                            "description": "Minimum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "maxV": {
-                            "description": "Maximum acceptable voltage of a power input or output",
-                            "type": "number"
-                          },
-                          "maxP": {
-                            "description": "Maximum acceptable power of a power input or output",
-                            "type": "number"
-                          }
-                        }
-                      },
-                      "POE": {
-                        "oneOf": [
-                          {
-                            "type": "object",
-                            "additionalProperties": false,
-                            "required": ["role"],
-                            "properties": { "role": { "const": "NONE" } }
-                          },
-                          {
-                            "type": "object",
-                            "additionalProperties": false,
-                            "required": ["role", "maxP"],
-                            "properties": {
-                              "role": { "const": "PSE" },
-                              "maxP": {
-                                "type": "number",
-                                "exclusiveMinimum": 0
-                              }
-                            }
-                          },
-                          {
-                            "type": "object",
-                            "additionalProperties": false,
-                            "required": ["role", "maxP", "required"],
-                            "properties": {
-                              "role": { "const": "PD" },
-                              "maxP": {
-                                "type": "number",
-                                "exclusiveMinimum": 0
-                              },
-                              "required": { "type": "boolean" }
-                            }
-                          }
-                        ]
                       }
+                    },
+                    "AC_POWER_PE": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "minV": {
+                          "description": "Minimum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "maxV": {
+                          "description": "Maximum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "minF": {
+                          "description": "Minimum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxF": {
+                          "description": "Maximum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxP": {
+                          "description": "Maximum acceptable power of a power input or output",
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "THREE_PHASE_POWER": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "minV": {
+                          "description": "Minimum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "maxV": {
+                          "description": "Maximum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "minF": {
+                          "description": "Minimum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxF": {
+                          "description": "Maximum acceptable frequency of a power input or output",
+                          "type": "number"
+                        },
+                        "maxP": {
+                          "description": "Maximum acceptable power of a power input or output",
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "DC_POWER": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "minV": {
+                          "description": "Minimum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "maxV": {
+                          "description": "Maximum acceptable voltage of a power input or output",
+                          "type": "number"
+                        },
+                        "maxP": {
+                          "description": "Maximum acceptable power of a power input or output",
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "POE": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": ["role"],
+                          "properties": { "role": { "const": "NONE" } }
+                        },
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": ["role", "maxP"],
+                          "properties": {
+                            "role": { "const": "PSE" },
+                            "maxP": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": ["role", "maxP", "required"],
+                          "properties": {
+                            "role": { "const": "PD" },
+                            "maxP": {
+                              "type": "number",
+                              "exclusiveMinimum": 0
+                            },
+                            "required": { "type": "boolean" }
+                          }
+                        }
+                      ]
                     }
                   }
                 }
