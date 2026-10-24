@@ -1,0 +1,151 @@
+{
+  "id": "ubiquiti-enterprise-audio-video-bridge",
+  "version": "1.0",
+  "name": "Enterprise Audio/Video Bridge",
+  "manufacturerId": "ubiquiti",
+  "orderCode": null,
+  "sku": "EAV-Bridge",
+  "gtin": null,
+  "climateLoad": 14,
+  "weight": 560,
+  "width": 135,
+  "height": 41,
+  "depth": 109,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "PoE IN",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "UP",
+          "pinout": [],
+          "compatibleSignalTypes": ["1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PD",
+              "maxP": 14,
+              "required": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "connectorId": "USBC_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "IR",
+      "connectorId": "TRS_35_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "INOUT",
+          "pinout": [],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "IN",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "OUT",
+      "connectorId": "HDMI_A_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["HDMI"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO IN 1",
+      "connectorId": "XLR_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO IN 2",
+      "connectorId": "XLR_635_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [
+            "AUDIO_BAL_ANA",
+            "AUDIO_MIC",
+            "AUDIO_MIC_48V"
+          ],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO OUT 1",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "AUDIO OUT 2",
+      "connectorId": "XLR3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AUDIO_BAL_ANA"],
+          "addInfo": {}
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

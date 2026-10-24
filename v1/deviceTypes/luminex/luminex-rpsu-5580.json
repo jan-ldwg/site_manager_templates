@@ -1,0 +1,60 @@
+{
+  "id": "luminex-rpsu-5580",
+  "version": "1.0",
+  "name": "RPSU 5580",
+  "manufacturerId": "luminex",
+  "orderCode": "RPSU 5580 - 550W PSU",
+  "sku": "LU 01 00088-550",
+  "gtin": null,
+  "climateLoad": 20,
+  "weight": 2800,
+  "width": 220,
+  "height": 44,
+  "depth": 296,
+  "rackType": "NONE",
+  "rackHeight": 0,
+  "rackDepth": 0,
+  "portTypes": [
+    {
+      "name": "",
+      "connectorId": "C14_3p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 460
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "DC OUTPUT",
+      "connectorId": "MINIFIT_JR_12p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 57,
+              "maxV": 57,
+              "maxP": 460
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}
