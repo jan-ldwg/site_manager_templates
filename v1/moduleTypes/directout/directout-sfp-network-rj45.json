@@ -15,7 +15,8 @@
           "name": null,
           "direction": "UP",
           "compatibleSignalTypes": ["100BASE_TX", "1000BASE_T"],
-          "pinout": []
+          "pinout": [],
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     }

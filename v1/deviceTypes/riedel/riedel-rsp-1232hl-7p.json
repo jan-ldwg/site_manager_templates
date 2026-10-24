@@ -45,7 +45,7 @@
           "direction": "UP",
           "pinout": [],
           "compatibleSignalTypes": ["1000BASE_T"],
-          "addInfo": {}
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -58,7 +58,7 @@
           "direction": "UP",
           "pinout": [],
           "compatibleSignalTypes": ["1000BASE_T"],
-          "addInfo": {}
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },
@@ -71,7 +71,7 @@
           "direction": "UP",
           "pinout": [],
           "compatibleSignalTypes": ["100BASE_TX"],
-          "addInfo": {}
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },

@@ -1,0 +1,382 @@
+{
+  "id": "luminex-gigacore-16t-poe",
+  "version": "1.0",
+  "name": "GigaCore 16t PoE++",
+  "manufacturerId": "luminex",
+  "orderCode": "GigaCore 16t – 1G – PoE++",
+  "sku": "LU 01 00097-1G-P500",
+  "gtin": null,
+  "climateLoad": 64,
+  "weight": 4000,
+  "width": 482,
+  "height": 44,
+  "depth": 217,
+  "rackType": "19INCH",
+  "rackHeight": 1,
+  "rackDepth": 217,
+  "portTypes": [
+    {
+      "name": "POWER IN",
+      "connectorId": "POWERCON_TRUE1_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 10,
+              "maxV": 240,
+              "maxP": 510
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "POWER OUT",
+      "connectorId": "POWERCON_TRUE1_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "OUT",
+          "pinout": [],
+          "compatibleSignalTypes": ["AC_POWER_PE"],
+          "addInfo": {
+            "AC_POWER_PE": {
+              "minF": 50,
+              "maxF": 60,
+              "minV": 100,
+              "maxV": 240,
+              "maxP": 1500
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SECOND PSU",
+      "connectorId": "MINIFIT_JR_12p_m",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": ["DC_POWER"],
+          "addInfo": {
+            "DC_POWER": {
+              "minV": 57,
+              "maxV": 57,
+              "maxP": 460
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "LED EXTENSION",
+      "connectorId": "USBC_SL_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "IN",
+          "pinout": [],
+          "compatibleSignalTypes": [],
+          "addInfo": {}
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "connectorId": "ETHERCON_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "9",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "10",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "11",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "12",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "13",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "14",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "15",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "16",
+      "connectorId": "RJ45_f",
+      "subinterfaceTypes": [
+        {
+          "name": "",
+          "direction": "DOWN",
+          "pinout": [],
+          "compatibleSignalTypes": ["10BASE_T", "100BASE_TX", "1000BASE_T"],
+          "addInfo": {
+            "POE": {
+              "role": "PSE",
+              "maxP": 90
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "moduleSlotTypes": []
+}

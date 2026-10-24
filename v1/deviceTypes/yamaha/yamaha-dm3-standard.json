@@ -52,7 +52,7 @@
           "direction": "UP",
           "pinout": [],
           "compatibleSignalTypes": ["10BASE_T", "100BASE_TX"],
-          "addInfo": {}
+          "addInfo": { "POE": { "role": "NONE" } }
         }
       ]
     },

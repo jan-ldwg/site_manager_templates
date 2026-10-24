@@ -766,6 +766,20 @@
     "compatibleConnectors": ["XLR7p_f"]
   },
   {
+    "id": "TS_35_f",
+    "name": "TS 3.5mm female",
+    "gender": "FEMALE",
+    "icon": "TS_35_f",
+    "compatibleConnectors": ["TS_35_m", "TRS_35_m", "TRRS_35_m"]
+  },
+  {
+    "id": "TS_35_m",
+    "name": "TS 3.5mm male",
+    "gender": "MALE",
+    "icon": "TS_35_m",
+    "compatibleConnectors": ["TS_35_f", "TRS_35_f", "TRRS_35_f"]
+  },
+  {
     "id": "TRS_35_f",
     "name": "TRS 3.5mm female",
     "gender": "FEMALE",
@@ -1025,6 +1039,20 @@
     "compatibleConnectors": ["C19_3p_f"]
   },
   {
+    "id": "POWERCON_TRUE1_m",
+    "name": "powerCON TRUE1 male",
+    "gender": "MALE",
+    "icon": "POWERCON_TRUE1_m",
+    "compatibleConnectors": ["POWERCON_TRUE1_f"]
+  },
+  {
+    "id": "POWERCON_TRUE1_f",
+    "name": "powerCON TRUE1 female",
+    "gender": "FEMALE",
+    "icon": "POWERCON_TRUE1_f",
+    "compatibleConnectors": ["POWERCON_TRUE1_m"]
+  },
+  {
     "id": "BARREL_XX_m",
     "name": "Barrel connector, male, unknown size",
     "gender": "MALE",
@@ -1065,6 +1093,20 @@
     "gender": "MALE",
     "icon": "KYCON_4p_m",
     "compatibleConnectors": ["KYCON_4p_f"]
+  },
+  {
+    "id": "MINIFIT_JR_12p_m",
+    "name": "Mini-Fit Jr., 12p, male",
+    "gender": "MALE",
+    "icon": "MINIFIT_JR_12p_m",
+    "compatibleConnectors": ["MINIFIT_JR_12p_f"]
+  },
+  {
+    "id": "MINIFIT_JR_12p_f",
+    "name": "Mini-Fit Jr., 12p, female",
+    "gender": "FEMALE",
+    "icon": "MINIFIT_JR_12p_f",
+    "compatibleConnectors": ["MINIFIT_JR_12p_m"]
   },
   {
     "id": "SCREW_M4_m",

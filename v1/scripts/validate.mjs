@@ -42,6 +42,29 @@ function validatePortTypes(portTypes, signaltypes, connectors, file) {
               }
             }
           }
+
+          //check PoE info exists for ethernet signal types
+
+          const ethernetSignalTypes = new Set([
+            "10BASE_T",
+            "100BASE_TX",
+            "1000BASE_T",
+            "2_5GBASE_T",
+            "5GBASE_T",
+            "10GBASE_T",
+          ]);
+
+          if (ethernetSignalTypes.has(cst)) {
+            if (sub.addInfo === undefined) {
+              throw new Error(`${file}: ${p.name} is missing addInfo.`);
+            }
+
+            if (sub.addInfo.POE === undefined) {
+              throw new Error(
+                `${file}: ${p.name} is missing POE key in addInfo.`,
+              );
+            }
+          }
         }
       }
     }
